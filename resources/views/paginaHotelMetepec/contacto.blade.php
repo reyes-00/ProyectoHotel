@@ -1,6 +1,25 @@
 @extends('paginaHotelMetepec.layout.app')
 
 @section('contenido')
+	<!-- Page Banner Start -->
+	<div class="page__banner" data-background="assets/img/banner/page-banner-9.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="page__banner-title">
+						<h1>Contactanos</h1>
+						<div class="page__banner-title-menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><span>-</span>Contactanos</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Page Banner End -->
 	<!-- Contact Area Start -->
 	<div class="contact__area pb-0">
 		<div class="container" style="padding: 60px;">
@@ -41,7 +60,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="contact__area-social">
+					<div class="contact__area-social">
 						<ul>
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a>
 							</li>
@@ -52,53 +71,9 @@
 							<li><a href="#"><i class="fab fa-youtube"></i></a>
 							</li>
 						</ul>
-					</div> -->
+					</div>
 				</div>
 				 <div class="col-xl-7 col-lg-7">
-				<!--	<div class="contact__area-form">
-						<h3 class="mb-35">Send Massage</h3>
-						<form id="contact-form" action="assets/form/mail.php" method="POST">
-							<div class="row">
-								<div class="col-sm-6 mb-30">
-									<div class="contact__area-form-item">
-										<i class="fal fa-user"></i>
-										<input type="text" name="name" placeholder="Full Name" required="required">
-									</div>
-								</div>
-								<div class="col-sm-6 sm-mb-30">
-									<div class="contact__area-form-item">
-										<i class="far fa-envelope-open"></i>
-										<input type="email" name="email" placeholder="Email Address"
-											required="required">
-									</div>
-								</div>
-								<div class="col-sm-6 mb-30">
-									<div class="contact__area-form-item">
-										<i class="far fa-phone-alt"></i>
-										<input type="text" name="phone" placeholder="Phone" required="required">
-									</div>
-								</div>
-								<div class="col-sm-6 sm-mb-30">
-									<div class="contact__area-form-item">
-										<i class="far fa-address-book"></i>
-										<input type="text" name="subject" placeholder="Subject" required="required">
-									</div>
-								</div>
-								<div class="col-sm-12 mb-30">
-									<div class="contact__area-form-item">
-										<i class="far fa-comments"></i>
-										<textarea name="message" placeholder="Type your comments...."></textarea>
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="contact__area-form-item">
-										<button class="theme-btn" type="submit">Submit Now<i
-												class="fal fa-long-arrow-right"></i></button>
-									</div>
-								</div>
-							</div>
-						</form>
-					</div> -->
 					<!-- <div class="col-xl-8"> -->
 						<div class="contact__area-map">
 							<iframe
