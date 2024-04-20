@@ -30,9 +30,7 @@ class PaginaController extends Controller
     public function contacto(){
         return view ('paginaHotelMetepec.contacto');
     }
-    public function servicesDetails(){
-        return view ('paginaHotelMetepec.services-details');
-    }
+
     public function blog(){
         return view ('paginaHotelMetepec.blog');
     }
