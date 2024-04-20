@@ -1,27 +1,7 @@
 @extends('paginaHotelMetepec.layout.app')
-	
-	
-	<!-- Page Banner Start -->
-    {{-- <div class="page__banner" data-background="assets/img/banner/page-banner-7.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page__banner-title">
-                        <h1>Blog Standard</h1>
-                        <div class="page__banner-title-menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><span>-</span>Blog Standard</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-	<!-- Page Banner End -->
-	<!-- Blog Standard Start -->
-    <div class="blog__standard section-padding">
+@section('contenido')
+			<!-- Blog Standard Start -->
+			<div class="blog__standard section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-9 col-xl-8 col-lg-8 lg-mb-30">
@@ -162,4 +142,6 @@
         </div>
     </div>
 	<!-- Blog Standard End -->
+
+@endsection
 

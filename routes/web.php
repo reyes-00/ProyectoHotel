@@ -10,8 +10,8 @@ Route::get('/habitacion_sencilla_plus', [PaginaController::class, 'habitacion_se
 Route::get('/habitacion_doble', [PaginaController::class, 'habitacion_doble'])->name('habitacion_doble');
 Route::get('/habitacion_doble_plus', [PaginaController::class, 'habitacion_doble_plus'])->name('habitacion_doble_plus');
 Route::get('/suit', [PaginaController::class, 'suit'])->name('suit');
-
-Route::get('/about', [PaginaController::class, 'about'])->name('about');
+Route::get('/habitaciones', [PaginaController::class, 'habitaciones'])->name('habitaciones');
+Route::get('/contacto', [PaginaController::class, 'contacto'])->name('contacto');
 Route::get('/services-details', [PaginaController::class, 'servicesDetails'])->name('services.details');
 Route::get('/coming-soon', [PaginaController::class, 'coming-soon'])->name('coming-soon');
 Route::get('/index2', [PaginaController::class, 'index2'])->name('index2');

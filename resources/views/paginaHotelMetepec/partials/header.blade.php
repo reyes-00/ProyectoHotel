@@ -12,7 +12,7 @@
 					<div class="header__area-menubar-right">
 						<div class="header__area-menubar-right-menu menu-responsive">						
 							<ul id="mobilemenu">
-								<li><a href="#index">Home</a></li>
+								<li><a href="{{ route('index') }}">Inicio</a></li>
 								<li class="menu-item-has-children"><a href="#">Habitaciones</a>
 									<ul class="sub-menu">
 										<li><a href="{{ route('habitacion_sencilla') }}">Habitacion Sencilla</a></li>
@@ -20,10 +20,11 @@
 										<li><a href="{{ route('habitacion_doble') }}">Habitacion Doble</a></li>
 										<li><a href="{{ route('habitacion_doble_plus') }}">Habitacion Doble Plus</a></li>
 										<li><a href="{{ route('suit') }}">Suite</a></li>
+										<li><a href="{{ route('habitaciones') }}">Ver Todas</a></li>
 									</ul>
 								</li>
 								<li><a href="blog.html">Instalaciones</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="{{ route('contacto') }}">Contacto</a></li>
 								<li><a href="{{ route('blog') }}">Blog</a></li>
 							</ul>
 						</div>

@@ -24,8 +24,11 @@ class PaginaController extends Controller
     public function suit(){
         return view ('paginaHotelMetepec.suit');
     }
-    public function about(){
-        return view ('paginaHotelMetepec.about');
+    public function habitaciones(){
+        return view ('paginaHotelMetepec.habitaciones');
+    }
+    public function contacto(){
+        return view ('paginaHotelMetepec.contacto');
     }
     public function servicesDetails(){
         return view ('paginaHotelMetepec.services-details');
