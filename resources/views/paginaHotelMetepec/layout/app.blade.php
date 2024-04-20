@@ -43,7 +43,7 @@
 	<!-- Preloader end -->
 	@include('paginaHotelMetepec.partials.header')
 	<!-- Banner Area Start -->	
-	@include('paginaHotelMetepec.partials.banner')
+	{{-- @include('paginaHotelMetepec.partials.banner') --}}
 	<!-- Banner Area End -->
 
 
