@@ -27,6 +27,9 @@ class PaginaController extends Controller
     public function habitaciones(){
         return view ('paginaHotelMetepec.habitaciones');
     }
+    public function galeria(){
+        return view ('paginaHotelMetepec.galeria');
+    }
     public function contacto(){
         return view ('paginaHotelMetepec.contacto');
     }

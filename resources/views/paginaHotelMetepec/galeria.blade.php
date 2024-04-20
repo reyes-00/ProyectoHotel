@@ -1,5 +1,7 @@
-@extends('paginaHotelMetepec')
-	<!-- Deluxe Area Start -->
+@extends('paginaHotelMetepec.layout.app')
+
+@section('contenido')
+			<!-- Deluxe Area Start -->
 	<div class="deluxe__area section-padding">
 		<div class="container">
 			<div class="row align-items-end mb-60">
@@ -12,8 +14,8 @@
 				<div class="col-xl-7">
 					<div class="deluxe__area-btn">
 						<ul>
-							<li class="active" data-filter="*">All Rooms</li>
-							<li data-filter=".luxury">Todo</li>
+							<li class="active" data-filter="*">Todo</li>
+							<li data-filter=".luxury">Habitaciones</li>
 							<li data-filter=".single">Cuartos</li>
 							<li data-filter=".suite">Jardin</li>
 							<li data-filter=".family">Restaurante</li>
@@ -93,3 +95,5 @@
     </div>
 	</div>
 	<!-- Deluxe Area End -->
+@endsection
+
