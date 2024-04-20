@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PaginaController extends Controller
 {
     public function index(){
-        return view ('paginaHotelMetepec.layout.index');
+        return view ('paginaHotelMetepec.index');
     }
     public function index2(){
         return view ('paginaHotelMetepec.index-2');
