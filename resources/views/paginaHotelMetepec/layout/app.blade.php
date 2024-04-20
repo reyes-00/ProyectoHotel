@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="{{ asset('assets/sass/style.css') }}"> 
+	<link rel="stylesheet" href="{{ asset('assets/css/modal.css') }}"> 
 </head>
 
 <body>
