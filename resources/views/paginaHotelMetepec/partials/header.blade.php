@@ -12,36 +12,19 @@
 					<div class="header__area-menubar-right">
 						<div class="header__area-menubar-right-menu menu-responsive">						
 							<ul id="mobilemenu">
-								<li class="menu-item-has-children"><a href="#">Home</a>
+								<li><a href="#index">Home</a></li>
+								<li class="menu-item-has-children"><a href="#">Habitaciones</a>
 									<ul class="sub-menu">
-										<li><a href="{{ route('index2') }}">Home 02</a></li>
-										<li><a href="index-3.html">Home 03</a></li>									
+										<li><a href="room-details.html">Habitacion Sencilla</a></li>
+										<li><a href="room-details.html">Habitacion Sencilla Plus</a></li>
+										<li><a href="room-details.html">Habitacion Doble</a></li>
+										<li><a href="room-details.html">Habitacion Doble Plus</a></li>
+										<li><a href="room-details.html">Suite</a></li>
 									</ul>
 								</li>
-								<li class="menu-item-has-children"><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="{{ route('about') }}">About</a></li>
-										<li><a href="{{ route('services.details') }}">Team</a></li>
-										<li><a href="services-details.html">Services Details</a></li>
-										<li><a href="coming-soon.html">Coming Soon</a></li>
-									</ul>
-								</li>
-								<li class="menu-item-has-children"><a href="#">Room</a>
-									<ul class="sub-menu">
-										<li><a href="room-style.html">Room Style</a></li>
-										<li><a href="room-modern.html">Room Modern</a></li>
-										<li><a href="room-list.html">Room List</a></li>
-										<li><a href="room-details.html">Room Details</a></li>
-									</ul>
-								</li>
-								<li class="menu-item-has-children"><a href="#">Blog</a>
-									<ul class="sub-menu">
-										<li><a href="blog-grid.html">Blog Grid</a></li>
-										<li><a href="blog-standard.html">Blog Standard</a></li>
-										<li><a href="blog-details.html">Blog Details</a></li>
-									</ul>
-								</li>
+								<li><a href="blog.html">Instalaciones</a></li>
 								<li><a href="contact.html">Contact</a></li>
+								<li><a href="blog.html">Blog</a></li>
 							</ul>
 						</div>
 					</div>
