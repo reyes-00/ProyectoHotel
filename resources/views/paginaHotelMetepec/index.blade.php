@@ -28,6 +28,7 @@
     	<!-- Services Area Start -->
 	<div class="services__area section-padding">
 		<div class="container">
+            <h2 style="text-align: center;padding-bottom: 50px;">Nuestros Servicios</h2>
 			<div class="row">
 				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 lg-mb-30">
 					<div class="services__area-item">
