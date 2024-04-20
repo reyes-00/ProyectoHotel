@@ -10,9 +10,9 @@
 	<meta name="author" content="ThemeOri">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Title of Site -->
-	<title>Hostily - Luxury Hotel Booking HTML5 Template</title>
+	<title>Hotel Metepec Plaza</title>
 	<!-- Favicons -->
-	<link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
+	<link rel="icon" type="image/png" href="{{ asset('assets/img/Logo/LogoP.png') }}">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 	<!-- Font Awesome CSS -->
