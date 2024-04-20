@@ -1,13 +1,33 @@
 @extends('paginaHotelMetepec.layout.app')
 
 @section('contenido')
+
+	<!-- Page Banner Start -->
+	<div class="page__banner" data-background="assets/img/banner/page-banner-9.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="page__banner-title">
+						<h1>Galeria</h1>
+						<div class="page__banner-title-menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><span>-</span>Galeria</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Page Banner End -->
 			<!-- Deluxe Area Start -->
 	<div class="deluxe__area section-padding">
 		<div class="container">
 			<div class="row align-items-end mb-60">
 				<div class="col-xl-5">
 					<div class="deluxe__area-title">
-						<span class="subtitle__one">Deluxe and Luxury</span>
+						{{-- <span class="subtitle__one">Deluxe and Luxury</span> --}}
 						<h2>Nuestra Galeria</h2>
 					</div>					
 				</div>

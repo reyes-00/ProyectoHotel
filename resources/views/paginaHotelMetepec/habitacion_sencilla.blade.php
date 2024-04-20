@@ -22,13 +22,13 @@
         <!-- Page Banner End -->
 
 		<!-- Room Details Start -->
-        <div class="room__details section-padding">
+        <div class="room__details" style="padding-top: 50px;font-size: 20px;">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12 col-lg-8">
                         <div class="room__details-right">
                             <div class="room__details-right-content">
-                                <h3 class="mb-25">Habitación Sencilla</h3>
+                                {{-- <h3 class="mb-25">Habitación Sencilla</h3> --}}
                                 <p class="mb-25">Sumérjase en la elegancia simple y la comodidad inigualable de nuestras habitaciones sencillas. Con una decoración acogedora y todas las comodidades necesarias, estas habitaciones son el refugio perfecto para el viajero moderno que busca una estancia relajante.</p>
 
                                 <div id="carouselExampleIndicators" class="carousel slide">
