@@ -2,38 +2,39 @@
 	<div class="footer__area">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 sm-mb-30">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sm-mb-30">
 					<div class="footer__area-widget">
 						<div class="footer__area-widget-about">
 							<div class="footer__area-widget-about-logo">
-								<a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+								<a href="index.html"><img src="assets/img/Logo/Logo.png" alt=""></a>
 							</div>
-							<p>Phasellus nisi sapien, rutrum placerat sapien eu, rhoncus tempus</p>
+							<p>descripcion breve</p>
 							<div class="footer__area-widget-about-social">
 								<ul>
 									<li><a href="#"><i class="fab fa-facebook-f"></i></a>
 									</li>
 									<li><a href="#"><i class="fab fa-twitter"></i></a>
 									</li>
-									<li><a href="#"><i class="fab fa-behance"></i></a>
+
+									{{-- <li><a href="#"><i class="fab fa-behance"></i></a>
 									</li>
 									<li><a href="#"><i class="fab fa-youtube"></i></a>
-									</li>
+									</li> --}}
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 lg-mb-30">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 lg-mb-30">
 					<div class="footer__area-widget">
-						<h5>Information</h5>
-						<div class="footer__area-widget-contact">
+						<h5>Contacto</h5>
+						<div class="footer__area-widget-contact" style="color:#cccccc">
 							<div class="footer__area-widget-contact-item">
 								<div class="footer__area-widget-contact-item-icon">
 									<i class="fal fa-map-marked-alt"></i>
 								</div>
 								<div class="footer__area-widget-contact-item-content">									
-									<span><a href="#">GXF4+8HQ Chippenham United Kingdom</a></span>
+									<a href="#">Vialidad Metepec #1 Sur, Col. La Michoacana CP 52166, Metepec, Méx.</a>
 								</div>
 							</div>
 							<div class="footer__area-widget-contact-item">
@@ -41,7 +42,7 @@
 									<i class="fal fa-envelope-open-text"></i>
 								</div>
 								<div class="footer__area-widget-contact-item-content">									
-									<span><a href="mailto:help.info@gamil.com">help.info@gamil.com</a></span>
+									<a href="mailto:help.info@gamil.com">support@gamil.com</a>
 								</div>
 							</div>
 							<div class="footer__area-widget-contact-item">
@@ -49,7 +50,8 @@
 									<i class="fal fa-phone-alt"></i>
 								</div>
 								<div class="footer__area-widget-contact-item-content">									
-									<span><a href="tel:+123(458)585568">+123 (458) 585 568</a></span>
+									<a href="tel:+123(458)585568">+52 722 232 42 95
+										+52 722 232 42 98</a>
 								</div>
 							</div>
 						</div>
@@ -60,25 +62,15 @@
 						<h5>Pages Links</h5>
 						<div class="footer__area-widget-menu">
 							<ul>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Room Cleaning</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Car Parking</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Swimming pool</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Fitness Gym</a></li>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Inicio</a></li>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Restaurante</a></li>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Habitaciones</a></li>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Instalaciones</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 col-md-7 col-sm-8">
-					<div class="footer__area-widget">
-						<h5>Subscribe</h5>
-						<div class="footer__area-widget-subscribe">
-							<form action="#">
-								<input type="text" name="email" placeholder="Email Address" required="">
-								<button type="submit"><i class="fal fa-hand-pointer"></i></button>
-							</form>
-						</div>
-					</div>
-				</div>
+
 			</div>
 		</div>
 		<div class="copyright__area">
@@ -86,7 +78,7 @@
 				<div class="row align-items-center">
 					<div class="col-xl-6 col-lg-6 col-md-7 md-mb-10">
 						<div class="copyright__area-left md-t-center">
-							<p>Copyright © 2022 <a href="https://themeforest.net/user/themeori/portfolio">ThemeOri</a> Website by <a href="index.html">Hostily</a></p>
+							<p>Copyright © 2024 <a href="https://themeforest.net/user/themeori/portfolio">HotelMEtepec</a> Website by <a href="index.html">Hostily</a></p>
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-5">
