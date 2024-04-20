@@ -16,10 +16,10 @@
 								<li class="menu-item-has-children"><a href="#">Habitaciones</a>
 									<ul class="sub-menu">
 										<li><a href="{{ route('habitacion_sencilla') }}">Habitacion Sencilla</a></li>
-										<li><a href="room-details.html">Habitacion Sencilla Plus</a></li>
-										<li><a href="room-details.html">Habitacion Doble</a></li>
-										<li><a href="room-details.html">Habitacion Doble Plus</a></li>
-										<li><a href="room-details.html">Suite</a></li>
+										<li><a href="{{ route('habitacion_sencilla_plus') }}">Habitacion Sencilla Plus</a></li>
+										<li><a href="{{ route('habitacion_doble') }}">Habitacion Doble</a></li>
+										<li><a href="{{ route('habitacion_doble_plus') }}">Habitacion Doble Plus</a></li>
+										<li><a href="{{ route('suit') }}">Suite</a></li>
 									</ul>
 								</li>
 								<li><a href="blog.html">Instalaciones</a></li>
