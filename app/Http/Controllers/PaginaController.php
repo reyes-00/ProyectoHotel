@@ -9,13 +9,16 @@ class PaginaController extends Controller
     public function index(){
         return view ('paginaHotelMetepec.index');
     }
-    public function index2(){
-        return view ('paginaHotelMetepec.index-2');
+    public function habitaciones(){
+        return view ('paginaHotelMetepec.habitacion_sencilla');
     }
     public function about(){
         return view ('paginaHotelMetepec.about');
     }
     public function servicesDetails(){
         return view ('paginaHotelMetepec.services-details');
+    }
+    public function blog(){
+        return view ('paginaHotelMetepec.blog');
     }
 }

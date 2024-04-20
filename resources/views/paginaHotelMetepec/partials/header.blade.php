@@ -15,7 +15,7 @@
 								<li><a href="#index">Home</a></li>
 								<li class="menu-item-has-children"><a href="#">Habitaciones</a>
 									<ul class="sub-menu">
-										<li><a href="room-details.html">Habitacion Sencilla</a></li>
+										<li><a href="{{ route('habitacion_sencilla') }}">Habitacion Sencilla</a></li>
 										<li><a href="room-details.html">Habitacion Sencilla Plus</a></li>
 										<li><a href="room-details.html">Habitacion Doble</a></li>
 										<li><a href="room-details.html">Habitacion Doble Plus</a></li>
@@ -24,7 +24,7 @@
 								</li>
 								<li><a href="blog.html">Instalaciones</a></li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="blog.html">Blog</a></li>
+								<li><a href="{{ route('blog') }}">Blog</a></li>
 							</ul>
 						</div>
 					</div>
