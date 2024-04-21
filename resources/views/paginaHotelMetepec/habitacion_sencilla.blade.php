@@ -82,95 +82,56 @@
                                 </div>
                             </div>
                             <div class="room__details-right-list">
-                                <h3>Amenidades</h3>
+                                <h3 class="d-flex justify-content-center">Amenidades</h3>
                                 <div class="row mt-35">
-                                    <div class="col-md-4 col-sm-6 mb-35">
+                                    <div class="col-md-4 col-sm-6 md-mb-35 my-2  d-flex justify-content-center">
                                         <div class="room__details-right-list-item">
                                             <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-1.png" alt="">
-                                            </div>
-                                            <div class="room__details-right-list-item-title">
-                                                <h6>Limpieza de la habitación</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 sm-mb-35">
-                                        <div class="room__details-right-list-item">
-                                            <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-2.png" alt="">
-                                            </div>
-                                            <div class="room__details-right-list-item-title">
-                                                <h6>Estacionamiento</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 sm-mb-35">
-                                        <div class="room__details-right-list-item">
-                                            <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-3.png" alt="">
-                                            </div>
-                                            <div class="room__details-right-list-item-title">
-                                                <h6>Piscina</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 mb-35">
-                                        <div class="room__details-right-list-item">
-                                            <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-4.png" alt="">
-                                            </div>
-                                            <div class="room__details-right-list-item-title">
-                                                <h6>Servicio de lavandería</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 md-mb-35">
-                                        <div class="room__details-right-list-item">
-                                            <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-5.png" alt="">
+                                                <img src="assets/img/icon/scuarto.png" alt="">
                                             </div>
                                             <div class="room__details-right-list-item-title">
                                                 <h6>Servicio al cuarto</h6>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 col-sm-6 sm-mb-35">
+                                    <div class="col-md-4 col-sm-6 sm-mb-35 my-2  d-flex justify-content-center">
                                         <div class="room__details-right-list-item">
                                             <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-6.png" alt="">
+                                                <img src="assets/img/icon/lavanderia.png" alt="">
                                             </div>
                                             <div class="room__details-right-list-item-title">
-                                                <h6>Smart Key</h6>
+                                                <h6>Servicio de lavandería</h6>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 col-sm-6 md-mb-35">
+                                    <div class="col-md-4 col-sm-6 sm-mb-35 my-2  d-flex justify-content-center">
                                         <div class="room__details-right-list-item">
                                             <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-7.png" alt="">
+                                                <img src="assets/img/icon/bed.png" alt="">
                                             </div>
                                             <div class="room__details-right-list-item-title">
-                                                <h6>Wifi</h6>
+                                                <h6>Cama Queen size</h6>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 col-sm-6 sm-mb-35">
+                                    <div class="col-md-4 col-sm-6 md-mb-35 my-2  d-flex justify-content-center">
                                         <div class="room__details-right-list-item">
                                             <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-8.png" alt="">
+                                                <img src="assets/img/icon/television.png" alt="">
                                             </div>
                                             <div class="room__details-right-list-item-title">
                                                 <h6>Pantalla de 32 "</h6>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 col-sm-6">
+                                    <div class="col-md-4 col-sm-6 my-2  d-flex justify-content-center">
                                         <div class="room__details-right-list-item">
+                                            
                                             <div class="room__details-right-list-item-icon">
-                                                <img src="assets/img/icon/list-9.png" alt="">
+                                                <img src="assets/img/icon/internet.png" alt="">
                                             </div>
                                             <div class="room__details-right-list-item-title">
-                                                <h6>Cama matrimonial</h6>
+                                                <h6>Internet inalambrico</h6>
                                             </div>
                                         </div>
                                     </div>

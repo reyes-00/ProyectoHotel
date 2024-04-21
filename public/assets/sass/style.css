@@ -4242,8 +4242,8 @@ Services
 ==========================================================================*/
 .services__area-item-icon {
   background: var(--color-4);
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   line-height: 90px;
   display: block;
   text-align: center;
@@ -4253,7 +4253,7 @@ Services
 }
 
 .services__area-item-icon img {
-  max-width: 40px;
+  max-width: 70px;
 }
 
 .services__area-item-content {
@@ -4365,27 +4365,27 @@ Services Two
 
 @media (max-width: 1199px) {
   .services__area-item-icon {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     line-height: 80px;
     margin-right: 20px;
   }
   .services__area-item-icon img {
-    max-width: 35px;
+    max-width: 65px;
   }
 }
 
 @media (max-width: 767px) {
   .services__area-item-icon {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     line-height: 90px;
     margin: 0;
     margin-bottom: 15px;
     float: initial;
   }
   .services__area-item-icon img {
-    max-width: 40px;
+    max-width: 70px;
   }
 }
 
@@ -5159,7 +5159,7 @@ Room Details
 }
 
 .room__details-right-list-item-icon img {
-  max-width: 30px;
+  max-width: 70px;
 }
 
 .room__details-right-faq-item {
