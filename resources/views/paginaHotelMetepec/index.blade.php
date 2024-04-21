@@ -108,9 +108,6 @@
 
         </div>
     </div>
-		
-    <!-- Services Area End -->
-    <!-- Services Area Start -->
 
     <!-- Accommodations Area Start -->
     <div class="accommodations__area section-padding">

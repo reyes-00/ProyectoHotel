@@ -2,8 +2,10 @@
 	<div class="footer__area">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 sm-mb-30">
+				
+				<div class="col-xl-4 col-lg-4 col-md-4 col-12 my-3">
 					<div class="footer__area-widget">
+						<h5>Links de Pagina</h5>
 						<div class="footer__area-widget-about">
 							<div class="footer__area-widget-about-logo">
 								<a href="index.html"><img src="assets/img/Logo/Logo.png" alt=""></a>
@@ -21,9 +23,24 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-6 col-lg-6 col-md-4 col-sm-6 lg-mb-30">
+
+				<div class="col-xl-4 col-lg-4 col-md-4 col-12 my-3">
 					<div class="footer__area-widget">
-						<h5>Contacto</h5>
+						<h5>Links de Pagina</h5>
+						<div class="footer__area-widget-menu">
+							<ul>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Inicio</a></li>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Restaurante</a></li>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Habitaciones</a></li>
+								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Instalaciones</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-4 col-md-4 col-12 my-3">
+					<div class="footer__area-widget">
+						<h5 class="">Contacto</h5>
 						<div class="footer__area-widget-contact" style="color:#cccccc">
 							<div class="footer__area-widget-contact-item">
 								<div class="footer__area-widget-contact-item-icon">
@@ -53,20 +70,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-2 col-lg-2 col-md-4 sm-mb-30">
-					<div class="footer__area-widget">
-						<h5>Links de Pagina</h5>
-						<div class="footer__area-widget-menu">
-							<ul>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Inicio</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Restaurante</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Habitaciones</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Instalaciones</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
 			</div>
 		</div>
 		<div class="copyright__area">

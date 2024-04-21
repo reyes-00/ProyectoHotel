@@ -40,17 +40,11 @@
 			<div class="double-bounce2"></div>
 		</div>
 	</div>
-	<!-- Preloader end -->
-	@include('paginaHotelMetepec.partials.header')
-	<!-- Banner Area Start -->	
-	{{-- @include('paginaHotelMetepec.partials.banner') --}}
-	<!-- Banner Area End -->
 
+	@include('paginaHotelMetepec.partials.header')
 
 	@yield('contenido')
 
-
-	
 	@include('paginaHotelMetepec.partials.footer')
 	<!-- Scroll Btn Start -->
 	<div class="scroll-up">

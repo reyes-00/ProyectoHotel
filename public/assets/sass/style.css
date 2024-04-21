@@ -272,8 +272,8 @@ Theme Btn CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 16px;
-  padding: 16px 43px;
+  font-size: 17px;
+  padding: 16px 30px;
   text-align: center;
   font-weight: 700;
   font-family: var(--heading-font);
@@ -282,7 +282,8 @@ Theme Btn CSS
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   text-transform: uppercase;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* border:1px solid yellow; */
 }
 
 .theme-btn::before,
@@ -2898,7 +2899,7 @@ Menu Bar
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   text-transform: capitalize;
-  padding: 46px 35px;
+  padding: 46px 23px;
   font-family: var(--heading-font);
 }
 
@@ -3082,9 +3083,10 @@ Menu Bar
   display: block;
 }
 
-.header__area-menubar-right-box-btn {
+/* .header__area-menubar-right-box-btn {
   margin-left: 30px;
-}
+} */
+
 
 .header__area-menubar-right-box-btn .theme-btn::before {
   background: var(--white);
