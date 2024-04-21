@@ -21,7 +21,7 @@
 		<div class="container-fluid mt-5">
 				<div class="video__area" data-background="assets/img/video.jpg">
 					<div class="row align-items-center">
-							<div class="col-xl-12 col-xl-12 col-lg-8">
+							<div class="col-xl-12 col-xl-12 col-lg-12">
 									<div class="video__area-title" style="text-align: center;">
 											<h2 style="padding: 18px;">NUESTRAS HABITACIONES</h2>
 											<span style="text-align: center;color:#FFFFFF;font-size:22px;padding-top:10px;">Nuestras

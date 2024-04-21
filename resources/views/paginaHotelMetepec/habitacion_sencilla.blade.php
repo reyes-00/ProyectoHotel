@@ -22,10 +22,10 @@
         <!-- Page Banner End -->
 
 		<!-- Room Details Start -->
-        <div class="room__details" style="padding-top: 50px;font-size: 20px;">
+        <div class="room__details pt-5" style="font-size: 20px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12 col-lg-8">
+                    <div class="col-xl-12 col-lg-12">
                         <div class="room__details-right">
                             <div class="room__details-right-content">
                                 {{-- <h3 class="mb-25">Habitación Sencilla</h3> --}}
