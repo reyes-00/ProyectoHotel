@@ -2,30 +2,26 @@
 	<div class="footer__area">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sm-mb-30">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 sm-mb-30">
 					<div class="footer__area-widget">
 						<div class="footer__area-widget-about">
 							<div class="footer__area-widget-about-logo">
 								<a href="index.html"><img src="assets/img/Logo/Logo.png" alt=""></a>
 							</div>
-							<p>descripcion breve</p>
+							<p>Aqui ira descripción breve</p>
+							
 							<div class="footer__area-widget-about-social">
 								<ul>
 									<li><a href="#"><i class="fab fa-facebook-f"></i></a>
 									</li>
 									<li><a href="#"><i class="fab fa-twitter"></i></a>
 									</li>
-
-									{{-- <li><a href="#"><i class="fab fa-behance"></i></a>
-									</li>
-									<li><a href="#"><i class="fab fa-youtube"></i></a>
-									</li> --}}
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 lg-mb-30">
+				<div class="col-xl-6 col-lg-6 col-md-4 col-sm-6 lg-mb-30">
 					<div class="footer__area-widget">
 						<h5>Contacto</h5>
 						<div class="footer__area-widget-contact" style="color:#cccccc">
@@ -57,9 +53,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-2 col-lg-2 col-md-5 col-sm-4 sm-mb-30">
+				<div class="col-xl-2 col-lg-2 col-md-4 sm-mb-30">
 					<div class="footer__area-widget">
-						<h5>Pages Links</h5>
+						<h5>Links de Pagina</h5>
 						<div class="footer__area-widget-menu">
 							<ul>
 								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Inicio</a></li>
@@ -78,15 +74,13 @@
 				<div class="row align-items-center">
 					<div class="col-xl-6 col-lg-6 col-md-7 md-mb-10">
 						<div class="copyright__area-left md-t-center">
-							<p>Copyright © 2024 <a href="https://themeforest.net/user/themeori/portfolio">HotelMEtepec</a> Website by <a href="index.html">Hostily</a></p>
+							<p>Copyright © {{ date('Y') }} <a href="#">Hotel Plaza Metepec</a> Sitio Web </p>
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-5">
 						<div class="copyright__area-right t-right md-t-center">
 							<ul>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Politicas de Privacidad</a></li>
 							</ul>
 						</div>
 					</div>
