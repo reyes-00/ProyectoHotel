@@ -176,16 +176,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="room__details-right-faq mt-50">
-                                <div class="room__details-right-faq-item">
+                            <div class="room__details-right-faq mt-50 pb-5 text-center" >
+                                <div class="room__details-right-faq-item p-5">
                                     <div class="room__details-right-faq-item-card">
-                                        <div class="room__details-right-faq-item-card-header">
-                                            <h5>Reserva habitación sencilla
-                                                $600</h5> 
-                                            <i class="far fa-long-arrow-up"></i> 
-                                        </div>
+                                        <p class="fw-bold h1">Reserva habitación sencilla</p>
+                                        <p class="fw-bold h1">$600</p>
                                         <div class="room__details-right-faq-item-card-header-content active">
                                             <p>Nuestro hotel tiene el alojamiento perfecto para satisfacer todas sus necesidades y garantizar una experiencia inolvidable.</p>
+                                        </div>
+                                        <div class="header__area-menubar-right-box-btn" >
+                                            <a class="theme-btn" href="contact.html">Reservar<i class="fal fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
