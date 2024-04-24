@@ -42,31 +42,14 @@
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                                                role="img" aria-label="Marcador de posición: Primera diapositiva" focusable="false"
-                                                preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-                                                <title>Marcador de posición</title>
-                                                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                                                    dy=".3em">Primera diapositiva</text>
-                                            </svg>
+                                            
+                                            <img class="img__full" src="{{ asset('assets/img/luxury/cuarto1.jpg') }}" alt="cuarto">
                                         </div>
                                         <div class="carousel-item">
-                                            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                                                role="img" aria-label="Marcador de posición: Segunda diapositiva" focusable="false"
-                                                preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-                                                <title>Marcador de posición</title>
-                                                <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
-                                                    dy=".3em">Segunda diapositiva</text>
-                                            </svg>
+                                            <img class="img__full" src="{{ asset('assets/img/luxury/cuarto2.jpg') }}" alt="cuarto">
                                         </div>
                                         <div class="carousel-item">
-                                            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                                                role="img" aria-label="Marcador de posición: Tercera diapositiva" focusable="false"
-                                                preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-                                                <title>Marcador de posición</title>
-                                                <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                                                    dy=".3em">Tercera diapositiva</text>
-                                            </svg>
+                                            <img class="img__full" src="{{ asset('assets/img/luxury/cuarto3.jpg') }}" alt="cuarto">
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"

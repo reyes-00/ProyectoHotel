@@ -47,7 +47,7 @@
 				<div class="col-xl-3 col-lg-4 mb-30 suite">
 					<div class="deluxe__area-item" style="cursor: pointer;"> 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full" src="assets/img/luxury/luxury-1.jpg" alt="" >
+							<img id="imagen-suite" class="img__full" src="{{ asset('assets/img/luxury/cuarto.jpg') }}" alt="imagen" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<h4><a href="#">Small Suite</a></h4>
