@@ -2,11 +2,13 @@
 @extends('paginaHotelMetepec.layout.app')
 @section('contenido')
         <!-- Page Banner Start -->
-        <div class="page__banner" data-background="assets/img/habitaciones/img_principal.png">
+        {{-- <div class="page__banner" data-background="assets/img/habitaciones/img_principal.png" style="background-image: url(assets/img/banner/page-banner-1.jpg);"> --}}
+        <div class="page__banner" data-background="assets/img/banner/banner_cuarto.jpg" style="background-image: url(assets/img/banner/banner_cuarto.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="page__banner-title">
+                            {{-- <img id="imagen-suite" class="img__full" src="{{ asset('assets/img/luxury/cuarto.jpg') }}" alt="imagen" > --}}
                             <h1>Habitación sencilla</h1>
                             <div class="page__banner-title-menu">
                                 <ul>
@@ -29,7 +31,7 @@
                         <div class="room__details-right">
                             <div class="room__details-right-content">
                                 {{-- <h3 class="mb-25">Habitación Sencilla</h3> --}}
-                                <p class="mb-25">Sumérjase en la elegancia simple y la comodidad inigualable de nuestras habitaciones sencillas. Con una decoración acogedora y todas las comodidades necesarias, estas habitaciones son el refugio perfecto para el viajero moderno que busca una estancia relajante.</p>
+                                <p class="mb-25">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius voluptatum accusantium cum totam recusandae doloremque libero excepturi officia reiciendis. Amet dolore quia facilis possimus provident culpa reiciendis cupiditate nemo quae!</p>
 
                                 <div id="carouselExampleIndicators" class="carousel slide">
                                     <div class="carousel-indicators">
