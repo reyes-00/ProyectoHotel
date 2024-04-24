@@ -41,7 +41,7 @@
 		</div>
 	</div>
 
-	@include('paginaHotelMetepec.partials.header')
+	@include('paginaHotelMetepec.partials.header_copia')
 
 	@yield('contenido')
 

@@ -1,7 +1,7 @@
 
 <!-- Header Area Start -->
 	<div class="header__sticky">
-		<div class="header__area p-0">
+		<div class="header__area">
 			<div class="container custom__container">
 				<div class="header__area-menubar">
 					<div class="header__area-menubar-left">
