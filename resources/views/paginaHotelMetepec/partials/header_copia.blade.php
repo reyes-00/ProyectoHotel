@@ -10,7 +10,7 @@
 							<div class="responsive-menu"></div>
 						</div>
 					</div>
-					<div class="header__area-menubar-right" style="width: 66rem">
+					<div class="header__area-menubar-right">
 						<div class="header__area-menubar-right-menu menu-responsive">						
 								<ul id="mobilemenu" >
 									<li><a href="{{ route('index') }}">Inicio</a></li>
