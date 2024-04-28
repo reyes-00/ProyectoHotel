@@ -5,7 +5,7 @@
 				<div class="header__area-menubar">
 					<div class="header__area-menubar-left">
 						<div class="header__area-menubar-left-logo">
-							<a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+							<a href="index.html"><img src="{{ asset('assets/img/logos/logoN.png') }}" alt="logo"></a>
 							<div class="responsive-menu"></div>
 						</div>
 					</div>

@@ -2898,13 +2898,13 @@ Menu Bar
 .header__area-menubar-right-menu ul li a {
   color: var(--white);
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   font-weight: 600;
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   text-transform: capitalize;
-  padding: 10px 35px;
+  padding: 10px 15px;
   font-family: var(--heading-font);
   /* border-radius: 5px; */
 }
@@ -3534,7 +3534,7 @@ Responsive Menu Css
 
 .mean-container .mean-nav {
   background: var(--white);
-  margin-top: 86px;
+  margin-top: 90px;
   -webkit-box-shadow: var(--box-shadow-3);
           box-shadow: var(--box-shadow-3);
 }

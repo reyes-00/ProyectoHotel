@@ -6,7 +6,7 @@
 				<div class="header__area-menubar">
 					<div class="header__area-menubar-left">
 						<div class="header__area-menubar-left-logo">
-							<a href="{{ route('index') }}"><img src="{{asset('assets/img/logos/logo.png') }}" alt="logo_hotel.png"></a>
+							<a href="{{ route('index') }}"><img src="{{asset('assets/img/logos/logoB.png') }}" alt="logo_hotel.png" class="img-fluid w-50"></a>
 							<div class="responsive-menu"></div>
 						</div>
 					</div>
