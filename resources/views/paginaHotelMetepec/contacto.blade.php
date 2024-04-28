@@ -7,7 +7,7 @@
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="page__banner-title">
-						<h1>Contactanos</h1>
+						<h1>Contactanosssss</h1>
 					</div>
 				</div>
 			</div>
