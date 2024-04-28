@@ -262,7 +262,7 @@
                                 <div class="deluxe__area-item-content"> 
                                     <h6><a href="#"><span>$199</span> / Night</a></h6>
                                     <h4><a href="room-details.html">Deluxe Room</a></h4>
-                                    <a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+                                    <a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking now</a> 
                                 </div>
                             </div>
                         </div>
