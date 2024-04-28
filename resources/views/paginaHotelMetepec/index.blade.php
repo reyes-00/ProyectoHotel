@@ -25,14 +25,16 @@
 
         </div>
     </div>
-    <div class="container-fluid mt-5">
-        <div class="video__area" data-background="{{ asset('assets/img/home/Habitaciones.jpg') }}">
-            <div class="row align-items-center">
-                <div class="col-xl-12 col-xl-12 col-lg-12 pl-30 pr-30 text-white">
-                    <div class="video__area-title text-center">
-                        <h2>NUESTRAS HABITACIONES</h2>
-                        <p>Nuestras habitaciones ofrecen una experiencia de confort y descanso, con un diseño moderno y
-                            elegante.<br>Contamos con habitaciones individuales, dobles y suites</p>
+		<div class="container-fluid mt-5">
+				<div class="video__area" data-background="{{ asset('assets/img/home/Habitaciones.jpg') }}">
+					<div class="row align-items-center">
+							<div class="col-xl-12 col-xl-12 col-lg-12 pl-30 pr-30 text-white">
+									<div class="video__area-title text-center" >
+											<h2 >NUESTRAS HABITACIONESSSSSSS</h2>
+											<p>Nuestras habitaciones ofrecen una experiencia de confort y descanso, con un diseño moderno y elegante.<br>Contamos con habitaciones individuales, dobles y suites</p>
+											
+									</div>
+							</div>
 
 					</div>
 			</div>
