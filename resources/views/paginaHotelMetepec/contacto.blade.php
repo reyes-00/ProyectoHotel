@@ -70,9 +70,9 @@
 						</ul>
 					</div>
 					<div class="contact__area-social" style="margin-top:25px ">
-						<p class="p-0 m-0"><a href="#">Politicas de Privacidad</a></p>
-						<p class="p-0 m-0"><a href="#">Politicas Generales del Hotel</a></p>
-						<p class="p-0 m-0"><a href="#">Políticas de cancelación</a></p>
+						<p class="p-0 m-0"><a href="#" class="fw-bold">Politicas de Privacidad</a></p>
+						<p class="p-0 m-0"><a href="#" class="fw-bold">Politicas Generales del Hotel</a></p>
+						<p class="p-0 m-0"><a href="#" class="fw-bold">Políticas de cancelación</a></p>
 					</div>
 				
 				</div>

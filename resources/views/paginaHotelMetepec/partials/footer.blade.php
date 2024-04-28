@@ -7,10 +7,8 @@
 					<h5>Links de Pagina</h5>
 					<div class="footer__area-widget-about my-3">
 						<div class="footer__area-widget-about-logo">
-							<a href="index.html"><img src="assets/img/logos/logo.png" alt=""></a>
+							<a href="{{ route('index') }}"><img src="{{asset('assets/img/logos/logoB.png') }}" alt="logo_hotel.png" class="img-fluid w-50"></a>
 						</div>
-						<p>Aqui ira descripción breve</p>
-						
 						<div class="footer__area-widget-about-social">
 							<ul>
 								<li><a href="#"><i class="fab fa-facebook-f"></i></a>
