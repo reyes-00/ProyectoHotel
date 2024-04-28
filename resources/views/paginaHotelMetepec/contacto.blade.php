@@ -66,12 +66,15 @@
 							</li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a>
 							</li>
-							<li><a href="#"><i class="fab fa-behance"></i></a>
-							</li>
-							<li><a href="#"><i class="fab fa-youtube"></i></a>
-							</li>
+		
 						</ul>
 					</div>
+					<div class="contact__area-social" style="margin-top:25px ">
+						<p class="p-0 m-0"><a href="#">Politicas de Privacidad</a></p>
+						<p class="p-0 m-0"><a href="#">Politicas Generales del Hotel</a></p>
+						<p class="p-0 m-0"><a href="#">Políticas de cancelación</a></p>
+					</div>
+				
 				</div>
 				 <div class="col-xl-7 col-lg-7">
 					<!-- <div class="col-xl-8"> -->
@@ -90,4 +93,3 @@
 	</div>
 	<!-- Contact Area End -->
 @endsection
-

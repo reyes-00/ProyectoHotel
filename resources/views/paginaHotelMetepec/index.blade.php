@@ -23,10 +23,11 @@
 					<div class="row align-items-center">
 							<div class="col-xl-12 col-xl-12 col-lg-12 pl-30 pr-30 text-white">
 									<div class="video__area-title text-center" >
-											<h2 >NUESTRAS HABITACIONESSSSSSS</h2>
+											<h2 >NUESTRAS HABITACIONES</h2>
 											<p>Nuestras habitaciones ofrecen una experiencia de confort y descanso, con un diseño moderno y elegante.<br>Contamos con habitaciones individuales, dobles y suites</p>
 											
-									</div>
+								
+                                        </div>
 							</div>
 
 					</div>
@@ -39,7 +40,7 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                             <div class="deluxe__three-item">
                                 <div class="deluxe__three-item-image">
-                                    <img src="{{'assets/img/todas_habitaciones/Sencilla.jpg'}}" alt="">
+                                    <img src="{{'assets/img/todas_habitaciones/Sencilla.jpg'}}" alt="" class="mw-100">
                                     <div class="deluxe__three-item-image-content">
                                         <h4><a href="room-details.html">Sencilla</a><span>$650/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
@@ -56,7 +57,7 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                             <div class="deluxe__three-item">
                                 <div class="deluxe__three-item-image">
-                                    <img src="{{'assets/img/todas_habitaciones/SencillaPlus.jpg'}}" alt="">
+                                    <img src="{{'assets/img/todas_habitaciones/SencillaPlus.jpg'}}" alt="" class="mw-100">
                                     <div class="deluxe__three-item-image-content">
                                         <h4><a href="room-details.html">Sencilla Plus</a><span>$700/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
@@ -73,7 +74,7 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                             <div class="deluxe__three-item">
                                 <div class="deluxe__three-item-image">
-                                    <img src="{{'assets/img/todas_habitaciones/Doble.jpg'}}" alt="">
+                                    <img src="{{'assets/img/todas_habitaciones/Doble.jpg'}}" alt="" class="mw-100">
                                     <div class="deluxe__three-item-image-content">
                                         <h4><a href="room-details.html">Doble</a><span>$850/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
@@ -90,7 +91,7 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                             <div class="deluxe__three-item">
                                 <div class="deluxe__three-item-image">
-                                    <img src="{{'assets/img/todas_habitaciones/DoblePlus.jpg'}}" alt="">
+                                    <img src="{{'assets/img/todas_habitaciones/DoblePlus.jpg'}}" alt="" class="mw-100">
                                     <div class="deluxe__three-item-image-content">
                                         <h4><a href="room-details.html">Doble Plus</a><span>$900/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
@@ -107,7 +108,7 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                             <div class="deluxe__three-item">
                                 <div class="deluxe__three-item-image">
-                                    <img src="{{'assets/img/todas_habitaciones/Suite.jpg'}}" alt="">
+                                    <img src="{{'assets/img/todas_habitaciones/Suite.jpg'}}" alt="" class="mw-100">
                                     <div class="deluxe__three-item-image-content">
                                         <h4><a href="room-details.html">Suite</a><span>$770/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
@@ -213,7 +214,7 @@
             <div class="row align-items-center bg-left mb-60">
                 <div class="col-xl-6 col-lg-6">
                     <div class="feature__area-image">
-                        <img class="img__full" src="{{'assets/img/home/Restaurante.jpg'}}" alt="">
+                        <img class="img__full" src="{{'assets/img/home/Restaurante.jpg'}}" alt="" class="mw-100">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
