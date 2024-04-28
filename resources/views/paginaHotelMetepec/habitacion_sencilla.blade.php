@@ -27,15 +27,18 @@
     </div>
     <!-- Page Banner End -->
 
-		<!-- Room Details Start -->
-        <div class="room__details pt-5" style="font-size: 20px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12">
-                        <div class="room__details-right">
-                            <div class="room__details-right-content">
-                                {{-- <h3 class="mb-25">Habitación Sencilla</h3> --}}
-                                <p class="mb-25">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius voluptatum accusantium cum totam recusandae doloremque libero excepturi officia reiciendis. Amet dolore quia facilis possimus provident culpa reiciendis cupiditate nemo quae!</p>
+    <!-- Room Details Start -->
+    <div class="room__details pt-5" style="font-size: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="room__details-right">
+                        <div class="room__details-right-content" style="border: none;">
+                          
+                            <p class="mb-25 text-center">Sumérjase en la elegancia simple y la comodidad inigualable de
+                                nuestras habitaciones sencillas. Con una decoración acogedora y todas las comodidades
+                                necesarias, estas habitaciones son el refugio perfecto para el viajero moderno que busca una
+                                estancia relajante.</p>
 
                            
                            
@@ -48,17 +51,8 @@
                                     <div class="room__details-right-list-item-icon m-0">
                                         <img src="assets/img/icon/scuarto.png" alt="" class="img_fluid">
                                     </div>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            
-                                            <img class="img__full" src="{{ asset('assets/img/luxury/cuarto1.jpg') }}" alt="cuarto">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="img__full" src="{{ asset('assets/img/luxury/cuarto2.jpg') }}" alt="cuarto">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="img__full" src="{{ asset('assets/img/luxury/cuarto3.jpg') }}" alt="cuarto">
-                                        </div>
+                                    <div class="room__details-right-list-item-title">
+                                        <h6>Servicio al cuarto</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-12 my-2  d-flex flex-column align-items-center">
@@ -187,7 +181,7 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item deluxe__area-item-hover"> 
+                            <div class="deluxe_area-item deluxe_area-item-hover"> 
                                 <div class="deluxe__area-item-image">
                                     <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
                                 </div>
@@ -221,7 +215,7 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item deluxe__area-item-hover"> 
+                            <div class="deluxe_area-item deluxe_area-item-hover"> 
                                 <div class="deluxe__area-item-image">
                                     <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
                                 </div>
@@ -255,14 +249,14 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item deluxe__area-item-hover"> 
+                            <div class="deluxe_area-item deluxe_area-item-hover"> 
                                 <div class="deluxe__area-item-image">
                                     <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
                                     <h6><a href="#"><span>$199</span> / Night</a></h6>
                                     <h4><a href="room-details.html">Deluxe Room</a></h4>
-                                    <a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking now</a> 
+                                    <a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
                                 </div>
                             </div>
                         </div>
