@@ -2,18 +2,12 @@
 
 @section('contenido')
 	<!-- Page Banner Start -->
-	<div class="page__banner" data-background="assets/img/banner/page-banner-9.jpg">
+	<div class="page__banner" data-background="{{'assets/img/banner_contacto.png'}}">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="page__banner-title">
 						<h1>Contactanos</h1>
-						<div class="page__banner-title-menu">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><span>-</span>Contactanos</li>
-							</ul>
-						</div>
 					</div>
 				</div>
 			</div>

@@ -8,18 +8,12 @@
 </style>
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="assets/img/habitaciones/img_principal.png">
+    <div class="page__banner" data-background="{{'assets/img/banner_hab_sencilla.jpg'}}">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="page__banner-title">
                         <h1>Habitación sencilla</h1>
-                        <div class="page__banner-title-menu">
-                            <ul>
-                                <li><a href="index.html">Inicio</a></li>
-                                <li><span>-</span>Detalles de la habitación</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
