@@ -17,3 +17,4 @@ Route::get('/services-details', [PaginaController::class, 'servicesDetails'])->n
 Route::get('/coming-soon', [PaginaController::class, 'coming-soon'])->name('coming-soon');
 Route::get('/index2', [PaginaController::class, 'index2'])->name('index2');
 Route::get('/blog', [PaginaController::class,'blog'])->name('blog');
+Route::get('/restaurante', [PaginaController::class,'restaurante'])->name('restaurante');
