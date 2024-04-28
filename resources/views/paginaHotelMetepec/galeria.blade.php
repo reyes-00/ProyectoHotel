@@ -51,7 +51,7 @@
 					</div>
 				</div>
 			</div>
-			{{-- <div class="row deluxe__area-active">
+			<div class="row deluxe__area-active">
 				<div class="col-xl-4 col-lg-4 mb-30 suite">
 					<div class="deluxe__area-item" style="cursor: pointer;"> 
 						<div class="deluxe__area-item-image">
@@ -112,7 +112,7 @@
 						</div>
 					</div>
 				</div>
-			</div> --}}
+			</div>
 		</div>
     <input type="checkbox" id="btn_modal">
     <div class="contenedor_modal">

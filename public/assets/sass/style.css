@@ -5701,7 +5701,7 @@ Deluxe Two
 
 .deluxe__three-item:hover .deluxe__three-item-image::after {
   height: 100%;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .deluxe__three-item:hover .deluxe__three-item-image-content {
@@ -5780,7 +5780,7 @@ Footer
 ==========================================================================*/
 .footer__area {
   background: var(--heading-color);
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 .footer__area-widget h5 {

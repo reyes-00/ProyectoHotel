@@ -2,11 +2,10 @@
 	<div class="footer__area">
 		<div class="container">
 			<div class="row">
-				
-				<div class="col-xl-4 col-lg-4 col-md-4 col-12 my-3">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-3">
 					<div class="footer__area-widget">
 						<h5>Links de Pagina</h5>
-						<div class="footer__area-widget-about">
+						<div class="footer__area-widget-about my-3">
 							<div class="footer__area-widget-about-logo">
 								<a href="index.html"><img src="assets/img/Logo/Logo.png" alt=""></a>
 							</div>
@@ -41,7 +40,7 @@
 				<div class="col-xl-4 col-lg-4 col-md-4 col-12 my-3">
 					<div class="footer__area-widget">
 						<h5 class="">Contacto</h5>
-						<div class="footer__area-widget-contact" style="color:#cccccc">
+						<div class="footer__area-widget-contact my-2" style="color:#cccccc">
 							<div class="footer__area-widget-contact-item">
 								<div class="footer__area-widget-contact-item-icon">
 									<i class="fal fa-map-marked-alt"></i>
@@ -67,24 +66,6 @@
 										+52 722 232 42 98</a>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="copyright__area">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-xl-6 col-lg-6 col-md-7 md-mb-10">
-						<div class="copyright__area-left md-t-center">
-							<p>Copyright © {{ date('Y') }} <a href="#">Hotel Plaza Metepec</a> Sitio Web </p>
-						</div>
-					</div>
-					<div class="col-xl-6 col-lg-6 col-md-5">
-						<div class="copyright__area-right t-right md-t-center">
-							<ul>
-								<li><a href="#">Politicas de Privacidad</a></li>
-							</ul>
 						</div>
 					</div>
 				</div>
