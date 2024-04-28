@@ -37,4 +37,8 @@ class PaginaController extends Controller
     public function blog(){
         return view ('paginaHotelMetepec.blog');
     }
+
+    public function restaurante(){
+        return view ('paginaHotelMetepec.restaurante_menu');
+    }
 }
