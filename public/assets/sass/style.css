@@ -17,7 +17,11 @@ img {
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
 }
-
+@media only screen and (max-width: 576px) {
+  img {
+    max-width: 80%;
+  }
+}
 a {
   outline: none;
   color: inherit;
@@ -2893,7 +2897,7 @@ Menu Bar
 .header__area-menubar-right-menu ul li a {
   color: var(--white);
   display: block;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -5160,9 +5164,9 @@ Room Details
   margin-right: 20px;
 }
 
-.room__details-right-list-item-icon img {
+/* .room__details-right-list-item-icon img {
   max-width: 70px;
-}
+} */
 
 .room__details-right-faq-item {
   margin-bottom: 3px;
@@ -5697,7 +5701,7 @@ Deluxe Two
 
 .deluxe__three-item:hover .deluxe__three-item-image::after {
   height: 100%;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .deluxe__three-item:hover .deluxe__three-item-image-content {
@@ -5776,7 +5780,7 @@ Footer
 ==========================================================================*/
 .footer__area {
   background: var(--heading-color);
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 .footer__area-widget h5 {

@@ -15,7 +15,7 @@
 								<ul id="mobilemenu" >
 									<li><a href="{{ route('index') }}">Inicio</a></li>
 									<li class="menu-item-has-children">
-											<a href="{{ route('galeria') }}">Habitaciones</a>
+											<a href="#">Habitaciones</a>
 											<ul class="sub-menu">
 													<li><a href="{{ route('habitacion_sencilla') }}">Habitacion Sencilla</a></li>
 													<li><a href="{{ route('habitacion_sencilla_plus') }}">Habitacion Sencilla Plus</a></li>

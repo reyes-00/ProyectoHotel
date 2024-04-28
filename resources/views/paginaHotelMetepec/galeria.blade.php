@@ -1,5 +1,13 @@
 @extends('paginaHotelMetepec.layout.app')
 
+<style>
+	.imagen_completa {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 450px; /* Establece una altura fija para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+}
+</style>
+
 @section('contenido')
 
 	<!-- Page Banner Start -->
@@ -44,10 +52,10 @@
 				</div>
 			</div>
 			<div class="row deluxe__area-active">
-				<div class="col-xl-3 col-lg-4 mb-30 suite">
+				<div class="col-xl-4 col-lg-4 mb-30 suite">
 					<div class="deluxe__area-item" style="cursor: pointer;"> 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full" src="assets/img/luxury/luxury-1.jpg" alt="" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<h4><a href="#">Small Suite</a></h4>
@@ -56,10 +64,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-6 col-lg-8 mb-30 suite">
+				<div class="col-xl-4 col-lg-4 mb-30 suite">
 					<div class="deluxe__area-item deluxe__area-item-hover"> 
 						<div class="deluxe__area-item-image">
-							<img class="img__full" src="assets/img/luxury/luxury-2.jpg" alt="">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$199</span> / Night</a></h6>
@@ -68,10 +76,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-4 mb-30 family">
+				<div class="col-xl-4 col-lg-4 mb-30 family">
 					<div class="deluxe__area-item"> 
 						<div class="deluxe__area-item-image">
-							<img class="img__full" src="assets/img/luxury/luxury-3.jpg" alt="">
+							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-3.jpg" alt="">
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$319</span> / Night</a></h6>
