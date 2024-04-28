@@ -181,7 +181,7 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item deluxe__area-item-hover"> 
+                            <div class="deluxe_area-item deluxe_area-item-hover"> 
                                 <div class="deluxe__area-item-image">
                                     <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
                                 </div>
@@ -215,7 +215,7 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item deluxe__area-item-hover"> 
+                            <div class="deluxe_area-item deluxe_area-item-hover"> 
                                 <div class="deluxe__area-item-image">
                                     <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
                                 </div>
@@ -249,7 +249,7 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item deluxe__area-item-hover"> 
+                            <div class="deluxe_area-item deluxe_area-item-hover"> 
                                 <div class="deluxe__area-item-image">
                                     <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
                                 </div>

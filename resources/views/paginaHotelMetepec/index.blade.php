@@ -136,69 +136,66 @@
         <div class="container">
             <h2 class="text-center pb-5">Nuestros Servicios</h2>
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-4">
-                    <div class="services__area-item">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-4 ">
+                    <div class="services__area-item d-flex flex-column align-items-center">
                         <div class="services__area-item-icon bg-white">
-                            <img src="assets/img/icon/restaurante.png" alt="">
+                            <img src="assets/img/icon/restaurante.png" class="img__full" alt="">
                         </div>
                         <div class="services__area-item-content">
                             <h5><a href="#">Restaurante a la carta</a></h5>
-                            {{-- <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-4">
-                    <div class="services__area-item">
+                    <div class="services__area-item d-flex flex-column align-items-center">
                         <div class="services__area-item-icon bg-white">
                             <img src="assets/img/icon/estacionamiento.png" alt="">
                         </div>
                         <div class="services__area-item-content">
                             <h5><a href="#">Estacionamiento</a></h5>
-                            {{-- <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-4">
-                    <div class="services__area-item">
+                    <div class="services__area-item d-flex flex-column align-items-center">
                         <div class="services__area-item-icon bg-white">
                             <img src="assets/img/icon/calefaccion1.png" alt="">
                         </div>
                         <div class="services__area-item-content">
                             <h5><a href="#">Calefacción Centralizada</a></h5>
-                            {{-- <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-4">
-                    <div class="services__area-item">
+                    <div class="services__area-item d-flex flex-column align-items-center">
                         <div class="services__area-item-icon bg-white">
                             <img src="assets/img/icon/internet.png" alt="">
                         </div>
                         <div class="services__area-item-content">
                             <h5><a href="#">Wifi Gratis</a></h5>
-                            {{-- <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p> --}}
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-4">
-                    <div class="services__area-item">
+                    <div class="services__area-item d-flex flex-column align-items-center">
                         <div class="services__area-item-icon bg-white">
                             <img src="assets/img/icon/limpieza.png" alt="">
                         </div>
                         <div class="services__area-item-content">
                             <h5><a href="#">Servicio de Limpieza</a></h5>
-                            {{-- <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p> --}}
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-4">
-                    <div class="services__area-item">
+                    <div class="services__area-item d-flex flex-column align-items-center">
                         <div class="services__area-item-icon bg-white">
                             <img src="assets/img/icon/scuarto.png" alt="">
                         </div>
                         <div class="services__area-item-content">
                             <h5><a href="#">Servicio al cuarto</a></h5>
-                            {{-- <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p> --}}
+                            
                         </div>
                     </div>
                 </div>
