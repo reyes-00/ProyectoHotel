@@ -333,6 +333,7 @@ Theme Btn CSS
 .theme-btn:hover,
 .theme-border-btn:hover {
   color: var(--white);
+  /* border-radius:5px ; */
 }
 
 .theme-btn:hover::before,
@@ -2903,13 +2904,14 @@ Menu Bar
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   text-transform: capitalize;
-  padding: 46px 23px;
+  padding: 10px 35px;
   font-family: var(--heading-font);
+  /* border-radius: 5px; */
 }
 
-.header__area-menubar-right-menu ul li:last-child a {
+/* .header__area-menubar-right-menu ul li:last-child a {
   padding-right: 0;
-}
+} */
 
 .header__area-menubar-right-menu ul li.menu-item-has-children > a {
   position: relative;
@@ -4261,7 +4263,11 @@ Services
 .services__area-item-icon img {
   max-width: 70px;
 }
-
+@media only screen and (max-width: 576px) {
+  .services__area-item-icon img {
+    max-width: 50px; /* Tamaño para dispositivos móviles */
+  }
+}
 .services__area-item-content {
   overflow: hidden;
 }
@@ -4392,6 +4398,12 @@ Services Two
   }
   .services__area-item-icon img {
     max-width: 70px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .services__area-item-icon img {
+    max-width: 50px; /* Tamaño para dispositivos móviles */
   }
 }
 
