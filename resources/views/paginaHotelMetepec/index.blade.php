@@ -34,6 +34,102 @@
                         <p>Nuestras habitaciones ofrecen una experiencia de confort y descanso, con un diseño moderno y
                             elegante.<br>Contamos con habitaciones individuales, dobles y suites</p>
 
+					</div>
+			</div>
+	</div>
+        <!-- Accommodations Area Start -->
+        <div class="accommodations__area my-5">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                            <div class="deluxe__three-item">
+                                <div class="deluxe__three-item-image">
+                                    <img src="{{'assets/img/todas_habitaciones/Sencilla.jpg'}}" alt="">
+                                    <div class="deluxe__three-item-image-content">
+                                        <h4><a href="room-details.html">Sencilla</a><span>$650/Noche</span></h4>
+                                        <div class="deluxe__three-item-image-content-meta">
+                                            <ul>
+                                                <li><i class="fal fa-bed-alt"></i>Queen size</li>
+                                                <li><i class="fal fa-users"></i>Max. 2 personas</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                            <div class="deluxe__three-item">
+                                <div class="deluxe__three-item-image">
+                                    <img src="{{'assets/img/todas_habitaciones/SencillaPlus.jpg'}}" alt="">
+                                    <div class="deluxe__three-item-image-content">
+                                        <h4><a href="room-details.html">Sencilla Plus</a><span>$700/Noche</span></h4>
+                                        <div class="deluxe__three-item-image-content-meta">
+                                            <ul>
+                                                <li><i class="fal fa-bed-alt"></i>Queen size</li>
+                                                <li><i class="fal fa-users"></i>Max. 2 personas</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                            <div class="deluxe__three-item">
+                                <div class="deluxe__three-item-image">
+                                    <img src="{{'assets/img/todas_habitaciones/Doble.jpg'}}" alt="">
+                                    <div class="deluxe__three-item-image-content">
+                                        <h4><a href="room-details.html">Doble</a><span>$850/Noche</span></h4>
+                                        <div class="deluxe__three-item-image-content-meta">
+                                            <ul>
+                                                <li><i class="fal fa-bed-alt"></i>Queen size</li>
+                                                <li><i class="fal fa-users"></i>Max. 5 personas</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                            <div class="deluxe__three-item">
+                                <div class="deluxe__three-item-image">
+                                    <img src="{{'assets/img/todas_habitaciones/DoblePlus.jpg'}}" alt="">
+                                    <div class="deluxe__three-item-image-content">
+                                        <h4><a href="room-details.html">Doble Plus</a><span>$900/Noche</span></h4>
+                                        <div class="deluxe__three-item-image-content-meta">
+                                            <ul>
+                                                <li><i class="fal fa-bed-alt"></i>Queen size</li>
+                                                <li><i class="fal fa-users"></i>Max. 4 personas</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                            <div class="deluxe__three-item">
+                                <div class="deluxe__three-item-image">
+                                    <img src="{{'assets/img/todas_habitaciones/Suite.jpg'}}" alt="">
+                                    <div class="deluxe__three-item-image-content">
+                                        <h4><a href="room-details.html">Suite</a><span>$770/Noche</span></h4>
+                                        <div class="deluxe__three-item-image-content-meta">
+                                            <ul>
+                                                <li><i class="fal fa-bed-alt"></i>Queen size</li>
+                                                <li><i class="fal fa-users"></i>Max. 2 personas</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                       
+                        
+                       
                     </div>
                 </div>
 
@@ -256,7 +352,7 @@
             <div class="row align-items-center bg-left mb-60">
                 <div class="col-xl-6 col-lg-6">
                     <div class="feature__area-image">
-                        <img class="img__full" src="assets/img/features/feature-1.jpg" alt="">
+                        <img class="img__full" src="{{'assets/img/home/Restaurante.jpg'}}" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-xl-6 col-lg-6">
