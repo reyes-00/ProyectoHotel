@@ -6,11 +6,11 @@
 				<div class="header__area-menubar">
 					<div class="header__area-menubar-left">
 						<div class="header__area-menubar-left-logo">
-							<a href="{{ route('index') }}"><img src="assets/img/Logo/LogoN.png" alt=""></a>
+							<a href="{{ route('index') }}"><img src="assets/img/Logo/LogoB.png" class="w-50" alt="logo"></a>
 							<div class="responsive-menu"></div>
 						</div>
 					</div>
-					<div class="header__area-menubar-right" style="width: 66rem">
+					<div class="header__area-menubar-right">
 						<div class="header__area-menubar-right-menu menu-responsive">						
 								<ul id="mobilemenu" >
 									<li><a href="{{ route('index') }}">Inicio</a></li>
