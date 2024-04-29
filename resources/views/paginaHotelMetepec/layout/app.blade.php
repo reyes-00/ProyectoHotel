@@ -44,7 +44,16 @@
 	@include('paginaHotelMetepec.partials.header_copia')
 
 	@yield('contenido')
-
+	
+	{{-- Modal para abrir Imagenes --}}
+		<div class="contenedor_modal">
+			<div class="contenido_modal">
+				<img id="imagen-suite" class="img__full" src="assets/img/luxury/luxury-1.jpg" alt="">
+			</div>
+			<label for="btn_modal" class="cerrar_modal"></label>
+		</div>
+	{{-- Cierre de Modal --}}
+	
 	@include('paginaHotelMetepec.partials.footer')
 	<!-- Scroll Btn Start -->
 	<div class="scroll-up">
@@ -73,6 +82,9 @@
 	<script src="{{ asset('assets/js/isotope.pkgd.min.js')}}"></script>
 	<!-- Custom JS -->
 	<script src="{{ asset('assets/js/custom.js')}}"></script>
+
+	{{-- Modal --}}
+	<script src="{{ asset('assets/js/modal/index.js') }}"></script>
 </body>
 
 </html>

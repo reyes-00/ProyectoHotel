@@ -1,13 +1,5 @@
 @extends('paginaHotelMetepec.layout.app')
 
-<style>
-	.imagen_completa {
-  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-  height: 450px; /* Establece una altura fija para todas las imágenes */
-  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
-}
-</style>
-
 @section('contenido')
 
 	<!-- Page Banner Start -->
@@ -114,14 +106,9 @@
 				</div>
 			</div>
 		</div>
-    <input type="checkbox" id="btn_modal">
-    <div class="contenedor_modal">
-      <div class="contenido_modal">
-        <img id="imagen-suite" class="img__full" src="assets/img/luxury/luxury-1.jpg" alt="">
-      </div>
-      <label for="btn_modal" class="cerrar_modal"></label>
-    </div>
 	</div>
+	{{-- Abrir Modal --}}
+	<input type="checkbox" id="btn_modal" style="border:10px solid red">
 	<!-- Deluxe Area End -->
 @endsection
 

@@ -8052,4 +8052,10 @@ Contact
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
 }
+
+.imagen_completa {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 450px; /* Establece una altura fija para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+}
 /*# sourceMappingURL=style.css.map */

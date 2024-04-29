@@ -1,11 +1,5 @@
 @extends('paginaHotelMetepec.layout.app')
-<style>
-	.imagen_completa {
-  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-  height: 450px; /* Establece una altura fija para todas las imágenes */
-  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
-}
-</style>
+
 @section('contenido')
     <!-- Page Banner Start -->
     <div class="page__banner" data-background="assets/img/habitaciones/img_principal.png">
@@ -266,6 +260,8 @@
                 </div>
             </div>
         </div>
+        {{-- Abrir Modal --}}
+        <input type="checkbox" id="btn_modal">
     </div>
     <!-- Room Details End -->
 @endsection
