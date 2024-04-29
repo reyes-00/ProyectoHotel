@@ -530,6 +530,7 @@ Preloader CSS
   height: 80px;
   position: relative;
   margin: 100px auto;
+  animation: spin 2s linear infinite; /* Agregamos la animación de rotación */
 }
 
 .double-bounce1,
@@ -542,8 +543,6 @@ Preloader CSS
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-          animation: sk-bounce 2.0s infinite ease-in-out;
 }
 
 .double-bounce2 {
@@ -551,25 +550,12 @@ Preloader CSS
           animation-delay: -1.0s;
 }
 
-@-webkit-keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0);
-    -webkit-transform: scale(0);
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Inicia la rotación desde 0 grados */
   }
-  50% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-  }
-}
-
-@keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0);
-    -webkit-transform: scale(0);
-  }
-  50% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
+  to {
+    transform: rotate(360deg); /* Termina la rotación en 360 grados */
   }
 }
 
