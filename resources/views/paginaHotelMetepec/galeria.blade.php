@@ -80,10 +80,22 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-6 col-lg-8 lg-mb-30 single">
+				<div class="col-xl-4 col-lg-4 mb-30 family">
 					<div class="deluxe__area-item"> 
 						<div class="deluxe__area-item-image">
-							<img class="img__full" src="assets/img/luxury/luxury-4.jpg" alt="">
+							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-3.jpg" alt="">
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<h6><a href="#"><span>$319</span> / Night</a></h6>
+							<h4><a href="room-details.html">Family Room</a></h4>
+							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-8 lg-mb-30 single">
+					<div class="deluxe__area-item"> 
+						<div class="deluxe__area-item-image">
+							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-4.jpg" alt="">
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$169</span> / Night</a></h6>
@@ -92,10 +104,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-6 luxury">
+				<div class="col-xl-4 luxury">
 					<div class="deluxe__area-item"> 
 						<div class="deluxe__area-item-image">
-							<img class="img__full" src="assets/img/luxury/luxury-5.jpg" alt="">
+							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-5.jpg" alt="">
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
@@ -108,7 +120,7 @@
 		</div>
 	</div>
 	{{-- Abrir Modal --}}
-	<input type="checkbox" id="btn_modal" style="border:10px solid red">
+	<input type="checkbox" id="btn_modal">
 	<!-- Deluxe Area End -->
-@endsection
+	@endsection
 
