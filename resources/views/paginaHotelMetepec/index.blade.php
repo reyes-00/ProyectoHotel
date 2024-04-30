@@ -1,38 +1,20 @@
 @extends('paginaHotelMetepec.layout.app')
 
 @section('contenido')
-    <div class="banner__area" data-background="{{ asset('assets/img/banner-1.jpg') }}">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="banner__area-title">
-                        <h1>Hotel Metepec Plaza</h1>
-                        <div class="banner__area-title-video">
-                            <div class="video__play">
-                                <a class="video-popup" href="#"><i class="fas fa-play"></i></a>
-                            </div>
+    @include('paginaHotelMetepec.partials.banner')
+		<div class="container-fluid mt-5">
+            <div class="video__area" data-background="{{ asset('assets/img/home/Habitaciones.jpg') }}">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-xl-12 col-lg-12 pl-30 pr-30 text-white">
+                        <div class="video__area-title text-center" >
+                            <h2 >NUESTRAS HABITACIONES</h2>
+                            <p>Nuestras habitaciones ofrecen una experiencia de confort y descanso, con un diseño moderno y elegante.
+                            <br>Contamos con habitaciones individuales, dobles y suites</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </div>
-		<div class="container-fluid mt-5">
-				<div class="video__area" data-background="{{ asset('assets/img/home/Habitaciones.jpg') }}">
-					<div class="row align-items-center">
-							<div class="col-xl-12 col-xl-12 col-lg-12 pl-30 pr-30 text-white">
-									<div class="video__area-title text-center" >
-											<h2 >NUESTRAS HABITACIONES</h2>
-											<p>Nuestras habitaciones ofrecen una experiencia de confort y descanso, con un diseño moderno y elegante.<br>Contamos con habitaciones individuales, dobles y suites</p>
-											
-								
-                                        </div>
-							</div>
-
-					</div>
-			</div>
-	</div>
+	    </div>
         <!-- Accommodations Area Start -->
         <div class="accommodations__area my-5">
             <div class="container">

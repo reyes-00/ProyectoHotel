@@ -110,7 +110,7 @@
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                                     aria-label="Diapositiva 3"></button>
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner my-4">
                                 <div class="carousel-item active">
                                     <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
                                         role="img" aria-label="Marcador de posición: Primera diapositiva" focusable="false"
