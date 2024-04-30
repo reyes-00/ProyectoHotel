@@ -45,7 +45,7 @@
 	@yield('contenido')
   <div class="contenedor_modal">
 		<div class="contenido_modal">
-			<img id="imagen-suite" class="img__full" src="assets/img/luxury/luxury-1.jpg" alt="">
+			<img id="imagen-suite" class="img__full"src="assets/img/luxury/luxury-1.jpg" alt="">
 		</div>
 		<label for="btn_modal" class="cerrar_modal"></label>
 	</div>
