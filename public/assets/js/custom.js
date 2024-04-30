@@ -87,9 +87,9 @@ $(window).on('load', function() {
 		delay: 100
 	});
 	/*==========  video-popup  ==========*/
-	$('.video-popup').magnificPopup({
-		type: 'iframe'
-	});
+	// $('.video-popup').magnificPopup({
+	// 	type: 'iframe'
+	// });
 	/*==========  img-popup  ==========*/
 	$('.img-popup').magnificPopup({
 		type: 'image',

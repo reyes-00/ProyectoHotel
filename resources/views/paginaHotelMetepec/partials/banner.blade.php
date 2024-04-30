@@ -18,19 +18,38 @@
     opacity: 0.5;
     mix-blend-mode: overlay;
   }
+  .video-container {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: black;
+  z-index: 9999;
+}
+
+#close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
 </style>
 
 <div class="banner__area" >
-  <div class="container-fluid"  style="border:1px solid blue">
-    <div class="row" >
-      <div class="col-xl-12">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-12" style="display: flex; justify-content:center;">
         <div class="banner__area-title">
           <h1 style="position: relative; z-index:2;">Hotel Metepec Plaza</h1>
-          <div class="banner__area-title-video">
-            {{-- <div class="video__play">
-              <a class="video-popup" href="#"><i class="fas fa-play"></i></a>
-            </div> --}}
-          </div>
+          {{-- <div class="banner__area-title-video"> --}}
+            <div class="video__play" style="position: relative; z-index:2;">
+              <a class="video-popup d-block mx-auto" href="#"><i class="fas fa-play "></i></a>
+            </div>
+          {{-- </div> --}}
           <video muted autoplay loop>
             <source src="{{ asset('assets/video/videoBannerHome.mp4') }}" type="video/mp4">
           </video>
@@ -40,4 +59,24 @@
     </div>
 
   </div>
+
 </div>
+
+<script>
+  document.querySelector('.video-popup').addEventListener('click', function(e) {
+  e.preventDefault();
+  var video = document.querySelector('video');
+  
+  if (video.requestFullscreen) {
+    video.requestFullscreen();
+  } else if (video.mozRequestFullScreen) {
+    video.mozRequestFullScreen();
+  } else if (video.webkitRequestFullscreen) {
+    video.webkitRequestFullscreen();
+  } else if (video.msRequestFullscreen) {
+    video.msRequestFullscreen();
+  }
+});
+
+
+</script>
