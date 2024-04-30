@@ -1,11 +1,5 @@
 @extends('paginaHotelMetepec.layout.app')
-<style>
-	.imagen_completa {
-  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-  height: 450px; /* Establece una altura fija para todas las imágenes */
-  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
-}
-</style>
+
 @section('contenido')
     <!-- Page Banner Start -->
     <div class="page__banner" data-background="{{'assets/img/banner_hab_sencilla.jpg'}}">
@@ -110,7 +104,7 @@
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                                     aria-label="Diapositiva 3"></button>
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner my-4">
                                 <div class="carousel-item active">
                                     <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
                                         role="img" aria-label="Marcador de posición: Primera diapositiva" focusable="false"
@@ -260,6 +254,8 @@
                 </div>
             </div>
         </div>
+        {{-- Abrir Modal --}}
+        <input type="checkbox" id="btn_modal">
     </div>
     <!-- Room Details End -->
 @endsection

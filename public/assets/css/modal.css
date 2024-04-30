@@ -9,7 +9,17 @@
 #btn_modal{
   display: none;
 }
+#btn_modal:checked ~ .contenedor_modal{
+  display: flex;
+}
 
+.contenedor_modal.visible {
+  display: flex;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
 .contenedor_modal{
   position: fixed;
   width: 100%;
@@ -38,6 +48,8 @@
     max-width: 90%; /* En pantallas pequeñas, usa el 100% del ancho disponible */
   }
 }
+
+
 
 .contenedor_modal .cerrar{
   width: 100%;

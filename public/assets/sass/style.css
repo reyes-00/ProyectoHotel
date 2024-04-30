@@ -530,6 +530,7 @@ Preloader CSS
   height: 80px;
   position: relative;
   margin: 100px auto;
+  animation: spin 2s linear infinite; /* Agregamos la animación de rotación */
 }
 
 .double-bounce1,
@@ -542,8 +543,6 @@ Preloader CSS
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-          animation: sk-bounce 2.0s infinite ease-in-out;
 }
 
 .double-bounce2 {
@@ -551,25 +550,12 @@ Preloader CSS
           animation-delay: -1.0s;
 }
 
-@-webkit-keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0);
-    -webkit-transform: scale(0);
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Inicia la rotación desde 0 grados */
   }
-  50% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-  }
-}
-
-@keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0);
-    -webkit-transform: scale(0);
-  }
-  50% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
+  to {
+    transform: rotate(360deg); /* Termina la rotación en 360 grados */
   }
 }
 
@@ -3541,7 +3527,7 @@ Responsive Menu Css
 
 .mean-container .mean-nav {
   background: var(--white);
-  margin-top: 90px;
+  margin-top: 95px;
   -webkit-box-shadow: var(--box-shadow-3);
           box-shadow: var(--box-shadow-3);
 }
@@ -8051,5 +8037,11 @@ Contact
   display: block;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
+}
+
+.imagen_completa {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 450px; /* Establece una altura fija para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
 }
 /*# sourceMappingURL=style.css.map */
