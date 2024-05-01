@@ -7,7 +7,7 @@
 					<h5>Links de Pagina</h5>
 					<div class="footer__area-widget-about my-3">
 						<div class="footer__area-widget-about-logo">
-							<a href="{{ route('index') }}"><img src="{{asset('assets/img/logos/logo_B.png') }}" alt="logo_hotel.png" class="img-fluid w-50"></a>
+							<a href="{{ route('index',['locale' => app()->getLocale()]) }}"><img src="{{asset('assets/img/logos/logo_B.png') }}" alt="logo_hotel.png" class="img-fluid w-50"></a>
 						</div>
 						<div class="footer__area-widget-about-social">
 							<ul>
