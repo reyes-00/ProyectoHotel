@@ -5800,7 +5800,7 @@ Footer
 ==========================================================================*/
 .footer__area {
   background: var(--heading-color);
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .footer__area-widget h5 {
