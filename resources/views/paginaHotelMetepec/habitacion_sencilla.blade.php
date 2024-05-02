@@ -192,7 +192,7 @@
         {{-- Abrir Modal --}}
         <input type="checkbox" id="btn_modal">
     </div>
-    <!-- Room Details End -->
+    <!-- Room Details Enddd -->
     <script>
             function activacionmodal(elemento){
                 $("#img_"+$(elemento).attr("data-elemento")).addClass("active")

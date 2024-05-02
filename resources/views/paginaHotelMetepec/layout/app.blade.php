@@ -45,7 +45,7 @@
 	@yield('contenido')
   <div class="contenedor_modal">
 		<div class="contenido_modal">
-			<!--modal--->
+			<!--modalv--->
 			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
 				  <div class="carousel-item" id="img_1">
