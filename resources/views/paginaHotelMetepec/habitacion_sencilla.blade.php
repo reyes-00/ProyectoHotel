@@ -82,7 +82,7 @@
                             <div class="room__details-right-faq-item p-5">
                                 <div class="room__details-right-faq-item-card">
                                     <p class="fw-bold h1">Reserva habitación sencilla</p>
-                                    <p class="fw-bold h1">$600</p>
+                                    <p class="fw-bold h1">$650</p>
                                     <div class="room__details-right-faq-item-card-header-content active">
                                         <p>Nuestro hotel tiene el alojamiento perfecto para satisfacer todas sus necesidades y garantizar una experiencia inolvidable.</p>
                                     </div>
@@ -95,159 +95,94 @@
                             
                         </div>
                         
-                        <div id="carouselExampleIndicators" class="carousel slide d-sm-block  d-md-none">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                                    aria-current="true" aria-label="Diapositiva 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Diapositiva 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Diapositiva 3"></button>
-                            </div>
-                            <div class="carousel-inner my-4">
-                                <div class="carousel-item active">
-                                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                                        role="img" aria-label="Marcador de posición: Primera diapositiva" focusable="false"
-                                        preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-                                        <title>Marcador de posición</title>
-                                        <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                                            dy=".3em">Primera diapositiva</text>
-                                    </svg>
-                                </div>
-                                <div class="carousel-item">
-                                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                                        role="img" aria-label="Marcador de posición: Segunda diapositiva" focusable="false"
-                                        preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-                                        <title>Marcador de posición</title>
-                                        <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
-                                            dy=".3em">Segunda diapositiva</text>
-                                    </svg>
-                                </div>
-                                <div class="carousel-item">
-                                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                                        role="img" aria-label="Marcador de posición: Tercera diapositiva" focusable="false"
-                                        preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-                                        <title>Marcador de posición</title>
-                                        <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                                            dy=".3em">Tercera diapositiva</text>
-                                    </svg>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Anterior</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Siguiente</span>
-                            </button>
-                    </div> 
+                       
 
-                    <div class="row deluxe__area-active d-none d-sm-none d-md-block">
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item" style="cursor: pointer;"> 
+                    <div class="row deluxe__area-active">
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla1.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h4><a href="#">Small Suite</a></h4>
-                                    <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="1" onclick="activacionmodal(this)"><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item" style="cursor: pointer;"> 
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla2.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h4><a href="#">Small Suite</a></h4>
-                                    <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="2" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe_area-item deluxe_area-item-hover"> 
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla3.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h6><a href="#"><span>$199</span> / Night</a></h6>
-                                    <h4><a href="room-details.html">Deluxe Room</a></h4>
-                                    <a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="3" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item" style="cursor: pointer;"> 
+
+
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla4.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h4><a href="#">Small Suite</a></h4>
-                                    <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="4" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item" style="cursor: pointer;"> 
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla5.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h4><a href="#">Small Suite</a></h4>
-                                    <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="5" onclick="activacionmodal(this)"><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe_area-item deluxe_area-item-hover"> 
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla6.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h6><a href="#"><span>$199</span> / Night</a></h6>
-                                    <h4><a href="room-details.html">Deluxe Room</a></h4>
-                                    <a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="6" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item" style="cursor: pointer;"> 
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla7.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h4><a href="#">Small Suite</a></h4>
-                                    <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="7" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe__area-item" style="cursor: pointer;"> 
+
+
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla8.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <h4><a href="#">Small Suite</a></h4>
-                                    <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="8" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 mb-30 suite">
-                            <div class="deluxe_area-item deluxe_area-item-hover"> 
-                                <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
-                                </div>
-                                <div class="deluxe__area-item-content"> 
-                                    <h6><a href="#"><span>$199</span> / Night</a></h6>
-                                    <h4><a href="room-details.html">Deluxe Room</a></h4>
-                                    <a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                     </div>
@@ -258,4 +193,10 @@
         <input type="checkbox" id="btn_modal">
     </div>
     <!-- Room Details End -->
+    <script>
+            function activacionmodal(elemento){
+                $("#img_"+$(elemento).attr("data-elemento")).addClass("active")
+            }
+    </script>
+
 @endsection
