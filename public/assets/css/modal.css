@@ -37,7 +37,8 @@ body.modal-open {
   display: flex;
 }
 .contenido_modal {
-  width: auto;
+  width: 90%;
+  /* width: auto; */
   max-width: 90%; /* Establece un tamaño máximo */
   background-color: white;
   border-radius: 10px;

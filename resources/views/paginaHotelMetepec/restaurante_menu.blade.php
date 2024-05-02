@@ -38,11 +38,11 @@
                                                 <li data-filter="*" class="filter-active">Todos</li>
                                                 <li data-filter="desayuno" onclick="seleccionMenu(this)">Desayunos</li>
                                                 <li data-filter="comida" onclick="seleccionMenu(this)">Comida y Cena</li>
-                                                <li data-filter=".filter-specialty">Postres</li>
-                                                <li data-filter=".filter-specialty">Bebidas</li>
-                                                <li data-filter=".filter-specialty">Vinos</li>
-                                                <li data-filter=".filter-specialty">Bar y Cocktelería</li>
-                                                <li data-filter=".filter-specialty">Bar por botella</li>
+                                                <li data-filter="postre" onclick="seleccionMenu(this)">Postres</li>
+                                                <li data-filter="bebida" onclick="seleccionMenu(this)">Bebidas</li>
+                                                <li data-filter="vino" onclick="seleccionMenu(this)">Vinos</li>
+                                                <li data-filter="cocktail" onclick="seleccionMenu(this)">Bar y Cocktelería</li>
+                                                <li data-filter="bar" onclick="seleccionMenu(this)">Bar por botella</li>
                                             </ul>
                                             </div>
                                         </div>
