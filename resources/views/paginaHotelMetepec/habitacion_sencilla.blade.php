@@ -197,6 +197,9 @@
             function activacionmodal(elemento){
                 $("#img_"+$(elemento).attr("data-elemento")).addClass("active")
             }
+            function cerrarmodal(){
+                $(".carousel-item").removeClass("active")
+            }
     </script>
 
 @endsection
