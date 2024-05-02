@@ -33,8 +33,8 @@
                                 <a class="theme-btn" href="#">Reservar<i class="fal fa-long-arrow-right"></i>
                                 </a>
                             </li>
-                            <li><a href="/locale/es">Español</a></li>
-                            <li><a href="/locale/en">Ingles</a></li>
+<!--                             <li><a href="/locale/es">Español</a></li>
+                            <li><a href="/locale/en">Ingles</a></li> -->
                         </ul>
                     </div>
                 </div>
