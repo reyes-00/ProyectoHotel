@@ -11,7 +11,7 @@
                             <p>Nuestras habitaciones ofrecen una experiencia de confort y descanso, con un diseño moderno y elegante.
                             <br>Contamos con habitaciones individuales, dobles y suites.</p>
                             <div class="header__area-menubar-right-box-btn" >
-                                <a class="theme-btn" href="contact.html">Ver Habitaciones<i class="fal fa-long-arrow-right"></i></a>
+                                <a class="theme-btn" href="{{ route('habitaciones') }}">Ver Habitaciones<i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
 
@@ -108,7 +108,7 @@
                         <div class="feature__area-left-title">
                             {{-- <span class="subtitle__one"></span> --}}
                             <h2>RESTAURANTE LOS CANDILES</h2>
-                            <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p>
+                            <p>RESTAURANTE & BAR </p>
                             <a class="theme-border-btn" href="{{ route('restaurante') }}">Leer mas<i
                                     class="fal fa-long-arrow-right"></i></a>
                         </div>

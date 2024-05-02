@@ -38,6 +38,7 @@ body.modal-open {
 }
 .contenido_modal {
   width: 90%;
+  /*ejemplo*/
   /* width: auto; */
   max-width: 90%; /* Establece un tamaño máximo */
   background-color: white;

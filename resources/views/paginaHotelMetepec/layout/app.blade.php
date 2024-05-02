@@ -45,7 +45,7 @@
 	@yield('contenido')
   <div class="contenedor_modal">
 		<div class="contenido_modal">
-			
+			<!--modalv--->
 			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
 				  <div class="carousel-item" id="img_1">
@@ -85,7 +85,7 @@
 			  </div>
 			{{-- <img id="imagen-suite" class="img__full" src="assets/img/luxury/luxury-1.jpg" alt=""> --}}
 		</div>
-		<label for="btn_modal" class="cerrar_modal"></label>
+		<label for="btn_modal" class="cerrar_modal" onclick="cerrarmodal()"></label>
 	</div>
 	@include('paginaHotelMetepec.partials.footer')
 	<!-- Scroll Btn Start -->
