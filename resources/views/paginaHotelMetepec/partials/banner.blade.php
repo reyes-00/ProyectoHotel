@@ -44,12 +44,10 @@
     <div class="row">
       <div class="col-xl-12" style="display: flex; justify-content:center;">
         <div class="banner__area-title">
-          <h1 style="position: relative; z-index:2;">Hotel Metepec Plaza</h1>
-          {{-- <div class="banner__area-title-video"> --}}
+          <h1 style="position: relative; z-index:2;">{{ __('Hotel Metepec Plaza') }}</h1>
             <div class="video__play" style="position: relative; z-index:2;">
               <a class="video-popup d-block mx-auto" href="#"><i class="fas fa-play "></i></a>
             </div>
-          {{-- </div> --}}
           <video muted autoplay loop>
             <source src="{{ asset('assets/video/videoBannerHome.mp4') }}" type="video/mp4">
           </video>
