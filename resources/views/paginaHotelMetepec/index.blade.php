@@ -108,7 +108,7 @@
                         <div class="feature__area-left-title">
                             {{-- <span class="subtitle__one"></span> --}}
                             <h2>RESTAURANTE LOS CANDILES</h2>
-                            <p>Breve descripcion sdfks sdfsidof sdfjsuidf jsdfusd jsdfhns uisbnfij</p>
+                            <p>RESTAURANTE & BAR </p>
                             <a class="theme-border-btn" href="{{ route('restaurante') }}">Leer mas<i
                                     class="fal fa-long-arrow-right"></i></a>
                         </div>

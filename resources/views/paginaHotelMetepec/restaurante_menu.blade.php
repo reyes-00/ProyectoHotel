@@ -42,7 +42,7 @@
                                                 <li data-filter="bebida" onclick="seleccionMenu(this)">Bebidas</li>
                                                 <li data-filter="vino" onclick="seleccionMenu(this)">Vinos</li>
                                                 <li data-filter="cocktail" onclick="seleccionMenu(this)">Bar y Cocktelería</li>
-                                                <li data-filter="bar" onclick="seleccionMenu(this)">Bar por botella</li>
+                                                <li data-filter="botella" onclick="seleccionMenu(this)">Bar por botella</li>
                                             </ul>
                                             </div>
                                         </div>
