@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="page__banner-title">
-                        <h1>Habitación sencilla</h1>
+                       
                     </div>
                 </div>
             </div>
@@ -21,8 +21,11 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
                     <div class="room__details-right">
-                        <div class="room__details-right-content" style="border: none;">
-                          
+                        <div class="room__details-right-content">
+                            <div class="page__banner-title pb-4">
+                                <h3>Habitación sencilla</h3>
+                            </div>
+                           
                             <p class="mb-25 text-center">Sumérjase en la elegancia simple y la comodidad inigualable de
                                 nuestras habitaciones sencillas. Con una decoración acogedora y todas las comodidades
                                 necesarias, estas habitaciones son el refugio perfecto para el viajero moderno que busca una

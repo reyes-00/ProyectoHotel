@@ -2,6 +2,16 @@
 
 @section('contenido')
     @include('paginaHotelMetepec.partials.banner')
+
+    <div class="services__area section-padding ">
+        <div class="container">
+            <h3 class="text-center ">SOBRE NOSOTROS</h3>
+            <div class="row text-center ">
+                <p>¡Bienvenido a nuestro Hotel Metepec Plaza donde la comodidad y el estilo se fusionan para brindarle una experiencia inolvidable!</p>
+            </div>
+
+        </div>
+    </div>
 		<div class="container-fluid mt-5">
             <div class="video__area" data-background="{{ asset('assets/img/home/Habitaciones.jpg') }}">
                 <div class="row align-items-center">
@@ -104,11 +114,11 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
-                    <div class="feature__area-left">
-                        <div class="feature__area-left-title">
+                    <div class="feature__area-center">
+                        <div class="feature__area-center-title text-center">
                             {{-- <span class="subtitle__one"></span> --}}
-                            <h2>RESTAURANTE LOS CANDILES</h2>
-                            <p>RESTAURANTE & BAR </p>
+                            <h2>RESTAURANTE<br> LOS CANDILES</h2>
+                            <p class="text-align-justify p-2">Ya sea que estés buscando una cena, una comida de negocios o simplemente quieras disfrutar de un rapido desayuno, en el Restaurante los Candiles encontrarás el lugar perfecto. Además, nuestra carta de vinos cuidadosamente seleccionada complementará a la perfección cada bocado. </p>
                             <a class="theme-border-btn" href="{{ route('restaurante') }}">Leer mas<i
                                     class="fal fa-long-arrow-right"></i></a>
                         </div>
