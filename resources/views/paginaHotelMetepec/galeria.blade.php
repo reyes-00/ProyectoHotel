@@ -91,7 +91,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$319</span> / Night</a></h6>
 							<h4><a href="room-details.html">Servicio de Cuarto</a></h4>
-							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Booking Now</label> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
