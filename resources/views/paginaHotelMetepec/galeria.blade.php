@@ -380,13 +380,14 @@
     <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Cambié modal-xl por modal-lg para que se adapte mejor en pantallas pequeñas -->
         <div class="modal-content">
             <div class="modal-body d-flex justify-content-between align-items-center">
-                <button type="button" class="btn btn-secondary btn-anterior" aria-label="Anterior">
-                    &lt;
-                </button>
+							<button type="button" class="btn btn-secondary btn-anterior" aria-label="Anterior">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						</button>
+					
                 <img id="imagenModalSrc" class="img-fluid modal-imagen loaded" src="" alt="">
-                <button type="button" class="btn btn-secondary btn-siguiente" aria-label="Siguiente">
-                    &gt;
-                </button>
+								<button type="button" class="btn btn-secondary btn-siguiente" aria-label="Siguiente">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							</button>
             </div>
         </div>
     </div>
