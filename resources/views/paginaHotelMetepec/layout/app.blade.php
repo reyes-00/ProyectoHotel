@@ -30,6 +30,7 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="{{ asset('assets/sass/style.css') }}"> 
 	<link rel="stylesheet" href="{{ asset('assets/css/modal.css') }}"> 
+	@stack('styles')
 </head>
 
 <body>
@@ -116,6 +117,7 @@
 	<!-- Custom JS -->
 	<script src="{{ asset('assets/js/custom.js')}}"></script>
 	<script src="{{ asset('assets/js/modal/index.js')}}"></script>
+	@stack('scripts')
 </body>
 
 </html>

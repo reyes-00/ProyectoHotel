@@ -1,5 +1,7 @@
 @extends('paginaHotelMetepec.layout.app')
-
+@push('styles')
+		<link rel="stylesheet" href="{{ asset('assets/css/modalgaleria.css') }}">
+@endpush
 @section('contenido')
 
 	<!-- Page Banner Start -->
@@ -21,7 +23,8 @@
 		</div>
 	</div>
 	<!-- Page Banner End -->
-			<!-- Deluxe Area Start -->
+	
+	<!-- Deluxe Area Start -->
 	<div class="deluxe__area section-padding">
 		<div class="container">
 			<div class="row align-items-end mb-60">
@@ -52,8 +55,7 @@
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<h4><a href="#">Baño de Habitación</a></h4>
-              <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
-							<!-- <a class="simple-btn" for="btn_modal" href="#"><i class="far fa-chevron-right"></i>Ver Foto</a>  -->
+							<label class="simple-btn ver-foto-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
 						</div>
 					</div>
 				</div>
@@ -65,7 +67,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$199</span> / Night</a></h6>
 							<h4><a href="room-details.html">Habitaciones</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver Foto</a> 
+							<label class="simple-btn ver-foto-btn"><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
@@ -77,7 +79,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$319</span> / Night</a></h6>
 							<h4><a href="room-details.html">Servicio de Baño</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver Foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
@@ -89,7 +91,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$319</span> / Night</a></h6>
 							<h4><a href="room-details.html">Servicio de Cuarto</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
@@ -101,7 +103,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$169</span> / Night</a></h6>
 							<h4><a href="room-details.html">Escaleras 1 </a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver Foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
@@ -113,7 +115,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Escaleras	 2</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver Foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
@@ -125,7 +127,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Escaleras 3</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -137,7 +139,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Escaleras 4 </a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -149,7 +151,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Escaleras 5</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -161,7 +163,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Estancia 1</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -173,7 +175,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Estancia 2</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -185,7 +187,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Estancia 3</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -197,7 +199,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Estancia 4</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -209,7 +211,7 @@
 						<div class="deluxe__area-item-content"> 
 							{{-- <h6><a href="#"><span>$249</span> / Night</a></h6> --}}
 							<h4><a href="room-details.html">Jardin 1</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -221,7 +223,7 @@
 						<div class="deluxe__area-item-content"> 
 							{{-- <h6><a href="#"><span>$249</span> / Night</a></h6> --}}
 							<h4><a href="room-details.html">Jardin 2</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -233,7 +235,7 @@
 						<div class="deluxe__area-item-content"> 
 							{{-- <h6><a href="#"><span>$249</span> / Night</a></h6> --}}
 							<h4><a href="room-details.html">Jardin 3</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -245,7 +247,7 @@
 						<div class="deluxe__area-item-content"> 
 							{{-- <h6><a href="#"><span>$249</span> / Night</a></h6> --}}
 							<h4><a href="room-details.html">Pasillo 1</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -257,7 +259,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -269,7 +271,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -281,7 +283,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -293,7 +295,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -305,7 +307,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -317,7 +319,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -329,7 +331,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -341,7 +343,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -353,7 +355,7 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
@@ -365,12 +367,32 @@
 						<div class="deluxe__area-item-content"> 
 							<h6><a href="#"><span>$249</span> / Night</a></h6>
 							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Ver foto</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	@endsection
 
+	<!-- Modal -->
+	<div class="modal fade" id="imagenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Cambié modal-xl por modal-lg para que se adapte mejor en pantallas pequeñas -->
+        <div class="modal-content">
+            <div class="modal-body d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-secondary btn-anterior" aria-label="Anterior">
+                    &lt;
+                </button>
+                <img id="imagenModalSrc" class="img-fluid modal-imagen loaded" src="" alt="">
+                <button type="button" class="btn btn-secondary btn-siguiente" aria-label="Siguiente">
+                    &gt;
+                </button>
+            </div>
+        </div>
+    </div>
+	</div>
+@endsection
+
+@push('scripts')
+	<script src="{{ asset('assets/js/modalgaleria.js') }}"></script>
+@endpush
