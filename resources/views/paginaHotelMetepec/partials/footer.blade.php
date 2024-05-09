@@ -38,7 +38,7 @@
 					<div class="footer__area-widget-contact my-2" style="color:#cccccc">
 								<div class="row justify-content-center ">
 									<div class="col-12 col-lg-4 ">
-										<div class="footer__area-widget-contact-item-icon">
+										<div class="footer__area-widget-contact-item-icon m-auto">
 											<i class="fal fa-map-marked-alt"></i>
 										</div>
 										<div class="footer__area-widget-contact-item-content">									
@@ -46,16 +46,16 @@
 										</div>
 									</div>
 									<div class="col-12 col-lg-3">
-											<div class="footer__area-widget-contact-item-icon">
+											<div class="footer__area-widget-contact-item-icon m-auto">
 												<i class="fal fa-envelope-open-text"></i>
 											</div>
-											<div class="footer__area-widget-contact-item-content">									
-												<a href="#">correo@correo.com</a>
+											<div class="footer__area-widget-contact-item-content m-auto">									
+												<a href="#" class="text-center d-block">correo@correo.com</a>
 											</div>
 									</div>
 									<div class="col-12 col-lg-4">
 								
-										<div class="footer__area-widget-contact-item-icon">
+										<div class="footer__area-widget-contact-item-icon m-auto">
 											<i class="fal fa-phone-alt"></i>
 										</div>
 										<div class="footer__area-widget-contact-item-content">									
