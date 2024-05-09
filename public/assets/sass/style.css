@@ -548,15 +548,15 @@ Preloader CSS
 
 .double-bounce2 {
   -webkit-animation-delay: -1.0s;
-          animation-delay: -1.0s;
+  animation-delay: -1.0s;
 }
 
 @keyframes spin {
   from {
-    transform: rotate(0deg); /* Inicia la rotación desde 0 grados */
+    transform: rotateY(0deg); /* Inicia la rotación desde 0 grados en el eje Y */
   }
   to {
-    transform: rotate(360deg); /* Termina la rotación en 360 grados */
+    transform: rotateY(360deg); /* Termina la rotación en 360 grados en el eje Y */
   }
 }
 
