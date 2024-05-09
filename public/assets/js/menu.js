@@ -360,7 +360,7 @@ $( document ).ready(function() {
         }
         ,{
             nomGeneral: 'MÉXICO', 
-            nomClass: 'vino', 
+            nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['PEDRO DOMEQ XA','$ 160.00','VALLE DE CALAFIA B.C./Tipo de uva: Cabernet Sauvignon y Grenache/Botella de 375 ml'],
                 ['PEDRO DOMEQ XA','$ 290.00','VALLE DE CALAFIA B.C./ Tipo de uva: Cabernet Sauvignon y Grenache/Botella de 750 ml'],
@@ -368,7 +368,7 @@ $( document ).ready(function() {
         }
         ,{
             nomGeneral: 'ESPAÑA', 
-            nomClass: 'vino', 
+            nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['SANGRE DE TORO','$ 240.00','RESERVA/D.O. CATALUÑA/Tipo de uva: Garnacha Tinta y Cariñena/Botella de 375 ml'],
                 ['GRAN SANGRE DE TORO','$ 500.00','RESERVA/D.O. CATALUÑA/Tipo de uva: Garnacha Tinta y Syrah/Botella de 750ml'],
@@ -378,7 +378,7 @@ $( document ).ready(function() {
         }
         ,{
             nomGeneral: 'CHILE', 
-            nomClass: 'vino', 
+            nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['RESERVADO CONCHA Y TORO','$ 160.00','VALLE CENTRAL/Tipo de uva: Cabernet Sauvignon y Carmenere/Botella de 375 ml'],
                 ['RESERVADO CONCHA Y TORO','$ 310.00','VALLE CENTRAL/Tipo de uva: Cabernet Sauvignon y Carmenere/Botella de 750 ml'],
@@ -388,7 +388,7 @@ $( document ).ready(function() {
         }
         ,{
             nomGeneral: 'ARGENTINA', 
-            nomClass: 'vino', 
+            nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['FINCA LAS MORAS','$ 300.00','CRIANZA/VALLE DEL PEDERNAL/Tipo de uva: Malbec Botella de 750 ml'],
                 ['LAS MORAS','$ 400.00','RESERVA/VALLE DEL PEDERNAL/Tipo de uva: Cabernet Sauvignon y Shyra/Botella de 750 ml'],
@@ -411,44 +411,288 @@ $( document ).ready(function() {
                 ['RIUNITE/ESPUMOSO','$ 250.00','LAMBRUSCO, VINO TINTO ITALIANO<br>Botella de 750 ml'],
             ]
         }
+        ,{
+            nomGeneral: 'TEQUILA COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['100 AÑOS REPOSADO','$ 60.00',''],
+                ['HORNITOS','$ 75.00',''],
+                ['EL JIMADOR','$ 70.00',''],
+                ['CORRALEJO','$ 75.00',''],
+                ['CAZADORES','$ 75.00',''],
+                ['DON JULIO BLANCO','$ 115.00',''],
+                ['DON JULIO REPOSADO','$ 140.00',''],
+                ['DON JULIO 70','$ 160.00',''],
+                ['HERRADURA REPOSADO','$ 140.00',''],
+                ['TRADICIONAL REPOSADO','$ 75.00',''],
+                ['CENTENARIO REPOSADO','$ 75.00',''],
+                ['1800 REPOSADO','$ 100.00',''],
+            ]
+        }
+        ,{
+            nomGeneral: 'MEZCAL COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['400 CONEJOS ESPADIN','$ 125.00',''],
 
+            ]
+        }
+        ,{
+            nomGeneral: 'RON COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['BACARDÍ BLANCO','$ 60.00',''],
+                ['BACARDÍ AÑEJO','$ 60.00',''],
+                ['BACARDÍ SOLERA','$ 65.00',''],
+                ['APPLETON BLANCO','$ 60.00',''],
+                ['APPLETON SPECIAL','$ 65.00',''],
+                ['APPLETON STATE','$ 75.00',''],
+                ['HABANA CLUB 7 AÑOS','$ 95.00',''],
+                ['FLOR DE CAÑA 7 AÑOS','$ 85.00',''],
+                ['FLOR DE CAÑA 12 AÑOS','$ 140.00',''],
+            ]
+        }
+        ,{
+            nomGeneral: 'BRANDY COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['PRESIDENTE','$ 60.00',''],
+                ['DON PEDRO','$ 60.00',''],
+                ['AZTECA DE ORO','$ 60.00',''],
+                ['FUNDADOR','$ 65.00',''],
+                ['TORRES 5','$ 60.00',''],
+                ['TORRES 10','$ 70.00',''],
+                ['TORRES 15','$ 115.00',''],
+                ['TORRES 20','$ 160.00',''],
+                ['TERRY','$ 75.00',''],
+                ['MAGNO','$ 75.00',''],
+                ['CARLOS I','$ 190.00',''],
+                ['GRAN DUQUE DE ALBA','$ 190.00',''],
+                ['CARDENAL DE MENDOZA','$ 190.00',''],
+                ['LEPANTO','$ 190.00',''],
+            ]
+        }
+        ,{
+            nomGeneral: 'GINEBRA COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['BEEFEATER','$ 90.00',''],
+                ['TANQUERAY','$ 90.00',''],
+            ]
+        }
+        ,{
+            nomGeneral: 'VODKA COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['SMIRNOFF TONIC','$ 60.00',''],
+                ['SMIRNOFF C/JUGO','$ 65.00',''],
+                ['STOLICHNAYA TONIC','$ 70.00',''],
+                ['ABSOLUT TONIC','$ 70.00',''],
+                ['ABSOLUT C/JUGO','$ 75.00','']
+            ]
+        }
+        ,{
+            nomGeneral: 'VODKA COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['SMIRNOFF TONIC','$ 60.00',''],
+                ['SMIRNOFF C/JUGO','$ 65.00',''],
+                ['STOLICHNAYA TONIC','$ 70.00',''],
+                ['ABSOLUT TONIC','$ 70.00',''],
+                ['ABSOLUT C/JUGO','$ 75.00','']
+            ]
+        }
+        ,{
+            nomGeneral: 'WHISKY COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['JOHNNIE WALKER RED LABEL','$ 85.00',''],
+                ['JOHNNIE WALKER BLACK LABEL','$ 160.00',''],
+                ['CHIVAS REGAL','$ 160.00',''],
+                ['BUCHANAN´S','$ 160.00',''],
+                ['BUCHANAN´S 18 AÑOS','$ 280.00',''],
+                ['J.B.','$ 80.00',''],
+                ['BALLANTINE´S','$ 80.00',''],
+            ]
+        }
+
+        ,{
+            nomGeneral: 'LICORES COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['AGAVERO','$ 70.00',''],
+                ['ANÍS DOMEQ','$ 70.00',''],
+                ['ANÍS CHINCHÓN','$ 70.00',''],
+                ['ANÍS CADENAS','$ 80.00',''],
+                ['AMARETTO','$ 100.00',''],
+                ['LICOR 43','$ 100.00',''],
+                ['GALLIANO','$ 100.00',''],
+                ['BAILEY´S','$ 90.00',''],
+                ['SAMBUCA VACCARI NEGRO','$ 75.00',''],
+                ['SAMBUCA VACCARI BLANCO','$ 75.00',''],
+                ['MALIBÚ','$ 75.00',''],
+            ]
+        }
+
+        
+        
+        ,{
+            nomGeneral: 'COGNAC COPA CON 2 ONZAS', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['MARTEL V.S.','$ 150.00',''],
+                ['COURVOISIER','$ 170.00',''],
+                ['MARTEL V.S.O.P.','$ 170.00',''],
+                ['RÉMY MARTIN','$ 190.00',''],
+                ['HENNESSY','$ 190.00',''],
+            ]
+        }
+        ,{
+            nomGeneral: 'COCKTELERÍA', 
+            nomClass: 'cocktail', 
+            descripPlatillo:[
+                ['ALFONSO XIII','$ 70.00',''],
+                ['BESO DE ÁNGEL','$ 70.00',''],
+                ['BLOODY MARY','$ 70.00',''],
+                ['CONGA','$ 70.00',''],
+                ['DESARMADOR','$ 70.00',''],
+                ['MARGARITA','$ 75.00',''],
+                ['MEDIAS DE SEDA','$ 70.00',''],
+                ['PIÑA COLADA','$ 80.00',''],
+                ['RUSO BLANCO','$ 70.00',''],
+                ['RUSO NEGRO','$ 70.00',''],
+                ['SANGRÍA','$ 80.00',''],
+                ['CLAMATO','$ 75.00',''],
+                ['VAMPIRO','$ 80.00',''],
+                ['PIEDRA','$ 80.00',''],
+                ['BULL','$ 90.00',''],
+                ['SPLASH','$ 100.00',''],
+                ['CARAJILLO','$ 120.00',''],
+                ['JARRA DE CLERICOT','$ 240.00','2 lt/375 ml de vino tinto'],
+            ]
+        }
+
+        ,{
+            nomGeneral: 'TEQUILA POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+                ['100 AÑOS REPOSADO','$ 600.00','700 ml'],
+                ['HORNITOS','$ 750.00','700 ml'],
+                ['EL JIMADOR','$ 650.00','700 ml'],
+                ['CORRALEJO','$ 750.00','700 ml'],
+                ['CAZADORES','$ 750.00','750 ml'],
+                ['DON JULIO REPOSADO','$ 1,400.00','750 ml'],
+                ['DON JULIO 70','$ 1,900.00','750 ml'],
+                ['HERRADURA REPOSADO','$ 1,400.00','700 ml'],
+                ['TRADICIONAL REPOSADO','$ 750.00','695 ml'],
+                ['CENTENARIO REPOSADO','$ 750.00','700 ml'],
+            ]
+        }
+        ,{
+            nomGeneral: 'MEZCAL POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+                ['400 CONEJOS','750 ml','$ 1300.00'],
+      
+            ]
+        }
+        
+        ,{
+            nomGeneral: 'RON POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+                ['BACARDÍ BLANCO','750 ml','$ 650.00'],
+                ['APPLETON STATE','750 ml','$ 750.00'],
+                ['HABANA CLUB 7 AÑOS','750 ml','$ 900.00'],
+      
+            ]
+        }
+        
+        ,{
+            nomGeneral: 'BRANDY POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+
+                ['FUNDADOR','$ 650.00','700 ml'],
+                ['TORRES 5','$ 650.00','700 ml'],
+                ['TORRES 10','$ 750.00','700 ml'],
+                ['TERRY','$ 750.00','700 ml'],
+            ]
+        }
+
+        ,{
+            nomGeneral: 'WHISKY POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+                ['JOHNNIE WALKER RED LABEL','$ 800.00','700 ml'],
+                ['JOHNNIE WALKER BLACK LABEL','$ 1,900.00','750 ml'],
+                ['CHIVAS REGAL','$ 1,900.00','750 ml'],
+                ['BUCHANAN´S','$ 1,900.00','750 ml'],
+                ['J.B.','$ 700.00','750 ml'],
+                ['BALLANTINE´S','$ 700.00','750 ml'],
+
+            ]
+        }
+        ,{
+            nomGeneral: 'COGNAC POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+                ['MARTEL V.S.','$ 1,500.00','700 ml'],
+                ['COURVOISIER','$ 1,900.00','700 ml'],
+                ['MARTEL V.S.O.P.','$ 1,900.00','700 ml'],
+                ['RÉMY MARTIN','$ 2,100.00','700 ml'],
+                ['HENNESSY','$ 2,100.00','700 ml']
+
+            ]
+        }
+        ,{
+            nomGeneral: 'GINEBRA POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+                ['BEEFEATER','$ 900.00','750 ml'],
+                ['TANQUERAY','$ 900.00','750 ml']
+            ]
+        }
+        ,{
+            nomGeneral: 'VODKA POR BOTELLA', 
+            nomClass: 'botella', 
+            descripPlatillo:[
+                ['SMIRNOFF','$ 700.00','750 ml'],
+                ['ABSOLUT','$ 750.00','750 ml']
+            ]
+        }
+        
+        // ,{
+        //     nomGeneral: 'EL SERVICIO POR BOTELLA INCLUYE:', 
+        //     nomClass: 'botella', 
+        //     descripPlatillo:[
+        //         ['5 REFRESCOS DE 235 ML','',''],
+        //         ['1 HIELERA','',''],
+        //     ]
+        // }
+             
+        			
+        
+       
+        
+        
+        
+
+        
+        
+
+
+        
+
+
+
+ 
         ];
 
-    //coo
-
-
-
-
-        
-
-        
-
-
-
-
-
         
         
 
-
-
-
-
-
-
-        
-        
-
-        
-
-        
-
-
-        
-        
-
-
-
+        	 
         
 
 
@@ -457,40 +701,16 @@ $( document ).ready(function() {
 
 
         
-        
-
-        
-        
-
-
-
-
-
-       
-
-        
-
-
-
-        // console.log(menuDesayunos[0].nomGeneral);
-        // console.log(menuDesayunos[0].descripPlatillo);
-        // console.log(menuDesayunos[0].descripPlatillo[0]);
 
        var htmlMenu="";
        contador=0;
        menuDesayunos.forEach((element, index, array) => {
-        // console.log("entra"); // 100, 200, 300
-        htmlMenu="";
-        htmlMenu+="<div class='accordion accordion-flush "+element.nomClass+"' data-f="+element.nomClass+" id='accordionFlushExample"+index+"'><div class='accordion-item'><h6 class='accordion-header' id='flush-headingOne"+index+"'><button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#flush-collapseOne"+index+"' aria-expanded='false' aria-controls='flush-collapseOne"+index+"'>"+element.nomGeneral+"</button></h6>";
-        htmlMenu+="<div id='flush-collapseOne"+index+"' class='accordion-collapse collapse' aria-labelledby='flush-headingOne"+index+"' data-bs-parent='#accordionFlushExample"+index+"'><div class='accordion-body '><div class='row'>";
-
-
-        element.descripPlatillo.forEach((element1, index1, array1) => {
-            // console.log(element1); // 0, 1, 2
-            // // console.log(array); // same myArray object 3 times
-
+            // console.log("entra"); // 100, 200, 300
+            htmlMenu="";
+            htmlMenu+="<div class='accordion accordion-flush "+element.nomClass+"' data-f="+element.nomClass+" id='accordionFlushExample"+index+"'><div class='accordion-item'><h6 class='accordion-header' id='flush-headingOne"+index+"'><button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#flush-collapseOne"+index+"' aria-expanded='false' aria-controls='flush-collapseOne"+index+"'>"+element.nomGeneral+"</button></h6>";
+            htmlMenu+="<div id='flush-collapseOne"+index+"' class='accordion-collapse collapse' aria-labelledby='flush-headingOne"+index+"' data-bs-parent='#accordionFlushExample"+index+"'><div class='accordion-body '><div class='row'>";
+            element.descripPlatillo.forEach((element1, index1, array1) => {
                 htmlMenu+="<div class='col-lg-6 menu-item'><div class='menu-content'><a href='#'>"+element1[0]+"</a><span>"+element1[1]+"</span></div><div class='menu-ingredients'>"+element1[2]+"</div></div>";
-
             });
             htmlMenu+="</div></div></div></div></div>";
             $("#p_row").append(htmlMenu);
@@ -511,18 +731,20 @@ $( document ).ready(function() {
 //  DESAYUNOS LIGEROS
 
 function seleccionMenu(elementoid){
-    
-    // ;
+    if($(elementoid).attr("data-filter") == "botella"){
+        $("#notas").html("EL SERVICIO POR BOTELLA INCLUYE:<br>5 REFRESCOS DE 235 ML<br>1 HIELERA");
+    }else{
+        $("#notas").html("");
+
+    }
 
     $("#p_row").find(".accordion-flush").each(function( index ) {
-        console.log($(this).attr("data-f"));
-        console.log($(elementoid).attr("data-filter"));
         if($(this).attr("data-f") == $(elementoid).attr("data-filter")){
             $(this).show();
         }else{
             $(this).hide();
         }
-      });
+    });
 
 }
                 
