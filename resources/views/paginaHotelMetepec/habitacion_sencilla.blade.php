@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="page__banner-title">
-                        <h1>Habitación sencilla</h1>
+                       
                     </div>
                 </div>
             </div>
@@ -21,8 +21,11 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
                     <div class="room__details-right">
-                        <div class="room__details-right-content" style="border: none;">
-                          
+                        <div class="room__details-right-content">
+                            <div class="page__banner-title pb-4">
+                                <h3>Habitación sencilla</h3>
+                            </div>
+                           
                             <p class="mb-25 text-center">Sumérjase en la elegancia simple y la comodidad inigualable de
                                 nuestras habitaciones sencillas. Con una decoración acogedora y todas las comodidades
                                 necesarias, estas habitaciones son el refugio perfecto para el viajero moderno que busca una
@@ -97,7 +100,7 @@
                         
                        
 
-                    <div class="row deluxe__area-active">
+                    <div class="row deluxe__area-active" id="conteInicioImg">
                         <div class="col-xl-6 col-lg-6 mb-30 suite">
                             <div class="deluxe__area-item" > 
                                 <div class="deluxe__area-item-image">
@@ -193,13 +196,23 @@
         <input type="checkbox" id="btn_modal">
     </div>
     <!-- Room Details Enddd -->
-    <script>
-            function activacionmodal(elemento){
-                $("#img_"+$(elemento).attr("data-elemento")).addClass("active")
-            }
-            function cerrarmodal(){
-                $(".carousel-item").removeClass("active")
-            }
-    </script>
+    	<!-- Main JS -->
+
 
 @endsection
+<script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+
+<script>
+    $(document).ready(function(){
+        let arrayImg=[1,2,3,4,5,6,7,8];
+        let htmlImgModal="";
+        for(let i=1;i<=arrayImg.length;i++){
+            htmlImgModal+="<div class='carousel-item' id='img_"+i+"'>";
+            htmlImgModal+="<img src='assets/img/habitaciones/hab_sencilla/hab_sencilla"+i+".jpg' class='d-block w-100' alt='assets/img/habitaciones/hab_sencilla/hab_sencilla"+i+".jpg'>";
+            htmlImgModal+="</div>";
+        }
+        $("#conteImg").append(htmlImgModal);
+    });
+
+     
+</script>

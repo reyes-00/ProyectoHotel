@@ -1,226 +1,243 @@
-
 @extends('paginaHotelMetepec.layout.app')
-@section('contenido')
-		
 
-	<!-- Room Details Start -->
-    <div class="room__details section-padding">
+@section('contenido')
+    <!-- Page Banner Start -->
+    <div class="page__banner" data-background="{{'assets/img/banner_hab_doble_plus.jpg'}}">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-4 lg-mb-30">
-                    <div class="all__sidebar">
-                        <div class="all__sidebar-item">
-                            <h5>Your Price</h5>
-                            <div class="all__sidebar-item-price">
-                                <ul>
-                                    <li><i class="fal fa-bed-alt"></i>(3) bed's</li>
-                                    <li><i class="fal fa-users"></i>(6) Guest's</li>
-                                </ul>
-                                <h4>$219<span>/Night</span></h4>
-                                <a class="theme-btn" href="contact.html">Book Now<i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="all__sidebar-item">
-                            <h5>Category</h5>
-                            <div class="all__sidebar-item-category">
-                                <ul>                                    
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Luxury Room<span>(08)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Small Suite<span>(06)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Single<span>(05)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Family<span>(09)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Double Room<span>(03)</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="all__sidebar-item">
-                            <h5>Booking Now</h5>
-                            <div class="all__sidebar-item-booking">
-								<div class="all__sidebar-item-booking-item mb-10">
-									<select name="select">
-										<option value="1">Check In</option>
-										<option value="2">Check In</option>
-										<option value="3">Check In</option>
-										<option value="4">Check In</option>
-										<option value="5">Check In</option>
-									</select>
-								</div>
-								<div class="all__sidebar-item-booking-item mb-10">
-									<select name="select">
-										<option value="1">Check Out</option>
-										<option value="2">Check Out</option>
-										<option value="3">Check Out</option>
-										<option value="4">Check Out</option>
-										<option value="5">Check Out</option>
-									</select>
-								</div>
-								<div class="all__sidebar-item-booking-item mb-30">
-									<select name="select">
-										<option value="1">Room</option>
-										<option value="2">1 Room</option>
-										<option value="3">2 Room</option>
-										<option value="4">3 Room</option>
-										<option value="5">4 Room</option>
-									</select>
-								</div>
-								<a class="theme-btn" href="#">Check<i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-9 col-lg-8">
-                    <div class="room__details-right">
-                        <div class="room__details-right-content">
-                            <h3 class="mb-25">Luxury Room is the best online room for luxury hotels</h3>
-                            <p class="mb-25">Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in. Aliquam egestas metus at nunc aliquam</p>
-                            <p class="m-0">id molestie ex ornare. Aliquam id arcu vel sem pretium porttitor non maximus diam. Quisque urna turpis, euismod sed elementum vel, pellentesque eu eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus musc.</p>
-                            <div class="row mt-35 mb-35">
-                                <div class="col-sm-6 sm-mb-30">
-                                    <img class="img__full" src="assets/img/hotel/hotel-24.jpg" alt="">
-                                </div>
-                                <div class="col-sm-6">
-                                    <img class="img__full" src="assets/img/hotel/hotel-25.jpg" alt="">
-                                </div>
-                            </div>
-                            <h3 class="mb-25">Special check-in instructions</h3>
-                            <p class="mb-25">Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in. Aliquam egestas metus at nunc aliquam</p>
-                            <p class="m-0">id molestie ex ornare. Aliquam id arcu vel sem pretium porttitor non maximus diam. Quisque urna turpis, euismod sed elementum vel, pellentesque eu eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus musc.</p>
-                        </div>
-                        <div class="room__details-right-list">
-                            <h3>Amenities</h3>
-                            <div class="row mt-35">
-                                <div class="col-md-4 col-sm-6 mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-1.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Room Cleanig</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 sm-mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-2.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Car Parking</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 sm-mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-3.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Swimming pool</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-4.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Pick Up & Drop</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 md-mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-5.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Spa Center</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 sm-mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-6.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Smart Key</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 md-mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-7.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Home Wifi</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 sm-mb-35">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-8.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Beakfist</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="room__details-right-list-item">
-                                        <div class="room__details-right-list-item-icon">
-                                            <img src="assets/img/icon/list-9.png" alt="">
-                                        </div>
-                                        <div class="room__details-right-list-item-title">
-                                            <h6>Fitness Gym</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="room__details-right-faq mt-50">
-                            <div class="room__details-right-faq-item">
-                                <div class="room__details-right-faq-item-card">
-                                    <div class="room__details-right-faq-item-card-header">
-                                        <h5>Do you pay before or after booking a hotel?</h5> 
-                                        <i class="far fa-long-arrow-up"></i> 
-                                    </div>
-                                    <div class="room__details-right-faq-item-card-header-content active">
-                                        <p>Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="room__details-right-faq-item">
-                                <div class="room__details-right-faq-item-card">
-                                    <div class="room__details-right-faq-item-card-header">
-                                        <h5>What documents are needed for hotel booking?</h5> 
-                                        <i class="far fa-long-arrow-down"></i> 
-                                    </div>
-                                    <div class="room__details-right-faq-item-card-header-content display-none">
-                                        <p>Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="room__details-right-faq-item">
-                                <div class="room__details-right-faq-item-card">
-                                    <div class="room__details-right-faq-item-card-header">
-                                        <h5>Do hotels charge your card before you check in?</h5> 
-                                        <i class="far fa-long-arrow-down"></i> 
-                                    </div>
-                                    <div class="room__details-right-faq-item-card-header-content display-none">
-                                        <p>Praesent non ullamcorper ligula. Proin a mi vitae massa lacinia sollicitudin eget eu ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur rhoncus lobortis. Curabitur sit amet velit sagittis, pellentesque diam euismod, faucibus quam. Cras non rhoncus ipsum. Quisque mattis arcu metus, a fermentum justo semper in.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-xl-12">
+                    <div class="page__banner-title">
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	<!-- Room Details End -->
+    <!-- Page Banner End -->
 
-	@endsection
+    <!-- Room Details Start -->
+    <div class="room__details pt-5" style="font-size: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="room__details-right">
+                        <div class="room__details-right-content">
+                            <div class="page__banner-title pb-4">
+                                <h3>Habitación doble plus</h3>
+                            </div>
+                            <p class="mb-25 text-center">Experimente el lujo contemporáneo en nuestras habitaciones dobles plus. Con una decoración moderna y elegante, junto con comodidades de primera clase, estas habitaciones ofrecen un ambiente exclusivo para una estancia verdaderamente memorable.</p>
+                        </div>
+                  
+                        <div class="room__details-right-list">
+                            <h3 class="text-center">Amenidades</h3>
+                            <div class="row mt-35">
+                                <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                                    <div class="room__details-right-list-item-icon m-0">
+                                        <img src="assets/img/icon/scuarto.png" alt="" class="img_fluid">
+                                    </div>
+                                    <div class="room__details-right-list-item-title">
+                                        <h6>Servicio al cuarto</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 my-2  d-flex flex-column align-items-center">
+                                    <div class="room__details-right-list-item-icon">
+                                        <img src="assets/img/icon/lavanderia.png" alt="">
+                                    </div>
+                                    <div class="room__details-right-list-item-title">
+                                        <h6>Servicio de lavandería</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 my-2  d-flex flex-column align-items-center">
+                                    <div class="room__details-right-list-item-icon">
+                                        <img src="assets/img/icon/bed.png" alt="">
+                                    </div>
+                                    <div class="room__details-right-list-item-title">
+                                        <h6>2 Camas matrimoniales</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 my-2 d-flex flex-column align-items-center">
+                                    <div class="room__details-right-list-item-icon">
+                                        <img src="assets/img/icon/television.png" alt="">
+                                    </div>
+                                    <div class="room__details-right-list-item-title">
+                                        <h6>Smart TV 43"</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 my-2 d-flex flex-column align-items-center">
+                                    <div class="room__details-right-list-item-icon">
+                                        <img src="assets/img/icon/internet.png" alt="">
+                                    </div>
+                                    <div class="room__details-right-list-item-title">
+                                        <h6>Internet inalambrico</h6>
+                                    </div>
+                                   
+                                </div>
+                                <div class="col-md-4 col-sm-12 my-2 d-flex flex-column align-items-center">
+                                    <div class="room__details-right-list-item-icon">
+                                        <img src="assets/img/icon/homeOffice.png" alt="">
+                                    </div>
+                                    <div class="room__details-right-list-item-title">
+                                        <h6>Estación de trabajo</h6>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room__details-right-faq mt-50 pb-5 text-center" >
+                            <div class="room__details-right-faq-item p-5">
+                                <div class="room__details-right-faq-item-card">
+                                    <p class="fw-bold h1">Reserva habitación doble plus</p>
+                                    <p class="fw-bold h1">$900</p>
+                                    <div class="room__details-right-faq-item-card-header-content active">
+                                        <p>Nuestro hotel tiene el alojamiento perfecto para satisfacer todas sus necesidades y garantizar una experiencia inolvidable.</p>
+                                    </div>
+                                    <div class="header__area-menubar-right-box-btn" >
+                                        <a class="theme-btn" href="contact.html">Reservar<i class="fal fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            
+                        </div>
+                        
+                       
 
+                    <div class="row deluxe__area-active" id="conteInicioImg">
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus1.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="1" onclick="activacionmodal(this)"><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus2.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="2" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus3.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="3" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus4.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="4" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus5.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="5" onclick="activacionmodal(this)"><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus6.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="6" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus7.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="7" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus8.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="8" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus9.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="9" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble_plus/hab_doble_plus10.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="10" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- Abrir Modal --}}
+        <input type="checkbox" id="btn_modal">
+    </div>
+    <!-- Room Details Enddd -->
+    	<!-- Main JS -->
+
+
+@endsection
+<script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+
+<script>
+    $(document).ready(function(){
+        let arrayImg=[1,2,3,4,5,6,7,8,9,10];
+        let htmlImgModal="";
+        for(let i=1;i<=arrayImg.length;i++){
+            htmlImgModal+="<div class='carousel-item' id='img_"+i+"'>";
+            htmlImgModal+="<img src='assets/img/habitaciones/hab_doble_plus/hab_doble_plus"+i+".jpg' class='d-block w-100' alt='assets/img/habitaciones/hab_doble_plus/hab_doble_plus"+i+".jpg'>";
+            htmlImgModal+="</div>";
+        }
+        $("#conteImg").append(htmlImgModal);
+    });
+
+     
+</script>

@@ -36,15 +36,21 @@
                                             <div class="col-lg-12 d-flex justify-content-center">
                                             <ul id="menu-flters">
                                                 <li data-filter="*" class="filter-active">Todos</li>
-                                                <li data-filter="desayuno" onclick="seleccionMenu(this)">Desayunos</li>
-                                                <li data-filter="comida" onclick="seleccionMenu(this)">Comida y Cena</li>
-                                                <li data-filter="postre" onclick="seleccionMenu(this)">Postres</li>
-                                                <li data-filter="bebida" onclick="seleccionMenu(this)">Bebidas</li>
-                                                <li data-filter="vino" onclick="seleccionMenu(this)">Vinos</li>
-                                                <li data-filter="cocktail" onclick="seleccionMenu(this)">Bar y Cocktelería</li>
-                                                <li data-filter="botella" onclick="seleccionMenu(this)">Bar por botella</li>
+                                                <li data-filter="desayuno" onclick="seleccionMenu(this)">DESATUNOS</li>
+                                                <li data-filter="comida" onclick="seleccionMenu(this)">COMIDA Y CENA</li>
+                                                <li data-filter="postre" onclick="seleccionMenu(this)">POSTRES</li>
+                                                <li data-filter="bebida" onclick="seleccionMenu(this)">BEBIDAS</li>
+                                                <li data-filter="vinotinto" onclick="seleccionMenu(this)">VINOS TINTOS</li>
+                                                <li data-filter="vino" onclick="seleccionMenu(this)">VINOS DULCES, SEMIDULCES Y ESPUMOSOS</li>
+                                                <li data-filter="cocktail" onclick="seleccionMenu(this)">BAR Y COCKTELERÍA</li>
+                                                <li data-filter="botella" onclick="seleccionMenu(this)">BAR POR BOTELLA</li>
                                             </ul>
+                                            
                                             </div>
+                                            <div class="col-lg-12 accordion-header pt-4" style="font-size:12px" id="notas">
+                                                
+                                            </div>
+
                                         </div>
                                     </div>
                                 </section><!-- End Menu Section -->

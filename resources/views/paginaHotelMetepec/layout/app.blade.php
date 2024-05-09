@@ -48,8 +48,8 @@
 		<div class="contenido_modal">
 			<!--modalv--->
 			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-inner">
-				  <div class="carousel-item" id="img_1">
+				<div class="carousel-inner" id="conteImg">
+				  {{-- <div class="carousel-item" id="img_1">
 					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla1.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla1.jpg'}}">
 				  </div>
 				  <div class="carousel-item" id="img_2">
@@ -59,20 +59,20 @@
 					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla3.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla3.jpg'}}">
 				  </div>
 				  <div class="carousel-item" id="img_4">
-					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla4.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla1.jpg'}}">
+					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla4.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla4.jpg'}}">
 				  </div>
 				  <div class="carousel-item" id="img_5">
-					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla5.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla2.jpg'}}">
+					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla5.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla5.jpg'}}">
 				  </div>
 				  <div class="carousel-item" id="img_6">
-					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla6.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla3.jpg'}}">
+					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla6.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla6.jpg'}}">
 				  </div>
 				  <div class="carousel-item" id="img_7">
-					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla7.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla1.jpg'}}">
+					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla7.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla7.jpg'}}">
 				  </div>
 				  <div class="carousel-item" id="img_8">
-					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla8.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla2.jpg'}}">
-				  </div>
+					<img src="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla8.jpg'}}" class="d-block w-100" alt="{{'assets/img/habitaciones/hab_sencilla/hab_sencilla8.jpg'}}">
+				  </div> --}}
 				  
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -83,8 +83,8 @@
 				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 				  <span class="visually-hidden">Next</span>
 				</button>
-			  </div>
-			{{-- <img id="imagen-suite" class="img__full" src="assets/img/luxury/luxury-1.jpg" alt=""> --}}
+			</div>
+	
 		</div>
 		<label for="btn_modal" class="cerrar_modal" onclick="cerrarmodal()"></label>
 	</div>
@@ -119,5 +119,12 @@
 	<script src="{{ asset('assets/js/modal/index.js')}}"></script>
 	@stack('scripts')
 </body>
-
+<script>
+function activacionmodal(elemento){
+	$("#img_"+$(elemento).attr("data-elemento")).addClass("active")
+}
+function cerrarmodal(){
+	$(".carousel-item").removeClass("active")
+}
+</script>
 </html>
