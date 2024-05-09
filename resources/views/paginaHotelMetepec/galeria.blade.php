@@ -1,9 +1,11 @@
 @extends('paginaHotelMetepec.layout.app')
-
+@push('styles')
+		<link rel="stylesheet" href="{{ asset('assets/css/modalgaleria.css') }}">
+@endpush
 @section('contenido')
 
 	<!-- Page Banner Start -->
-	<div class="page__banner" data-background="assets/img/banner/page-banner-9.jpg">
+	<div class="page__banner" data-background="assets/img/galeria/pasillos/pasillo8.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -21,106 +23,326 @@
 		</div>
 	</div>
 	<!-- Page Banner End -->
-			<!-- Deluxe Area Start -->
+	
+	<!-- Deluxe Area Start -->
 	<div class="deluxe__area section-padding">
 		<div class="container">
 			<div class="row align-items-end mb-60">
-				<div class="col-xl-5">
-					<div class="deluxe__area-title">
-						{{-- <span class="subtitle__one">Deluxe and Luxury</span> --}}
+				<div class="col-xl-12">
+					<div class="deluxe__area-title text-center">
 						<h2>Nuestra Galeria</h2>
 					</div>					
 				</div>
-				<div class="col-xl-7">
+				{{-- <div class="col-xl-11">
 					<div class="deluxe__area-btn">
 						<ul>
 							<li class="active" data-filter="*">Todo</li>
-							<li data-filter=".luxury">Habitaciones</li>
-							<li data-filter=".single">Cuartos</li>
-							<li data-filter=".suite">Jardin</li>
-							<li data-filter=".family">Restaurante</li>
+							<li data-filter=".habitacion">Habitaciones</li>
+							<li data-filter=".escaleras">Escaleras</li>
+							<li data-filter=".estancia">Estancia</li>
+							<li data-filter=".jardin">Jardines</li>
+							<li data-filter=".pasillo">Pasillos</li>
+							<li data-filter=".restaurante">Restaurante</li>
 						</ul>
 					</div>
-				</div>
+				</div> --}}
 			</div>
 			<div class="row deluxe__area-active">
-				<div class="col-xl-4 col-lg-4 mb-30 suite">
+				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30">
 					<div class="deluxe__area-item" style="cursor: pointer;"> 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="{{asset('assets/img/galeria/cuartos/cuarto1.jpg')}}" alt="cuarto1" >
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h4><a href="#">Small Suite</a></h4>
-              <label class="simple-btn" for="btn_modal" ><i class="far fa-chevron-right"></i>Ver Foto</label>
-							<!-- <a class="simple-btn" for="btn_modal" href="#"><i class="far fa-chevron-right"></i>Ver Foto</a>  -->
+							<label class="simple-btn ver-foto-btn" for="btn_modal"><i class="far fa-chevron-right"></i>Ver Foto</label>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 mb-30 suite">
-					<div class="deluxe__area-item deluxe__area-item-hover"> 
+				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30">
+					<div class="deluxe__area-item" style="cursor: pointer;"> 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/imagen1.jpg" alt="" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="{{ asset('assets/img/galeria/cuartos/cuarto2.jpg')}}" alt="cuarto2" >
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h6><a href="#"><span>$199</span> / Night</a></h6>
-							<h4><a href="room-details.html">Deluxe Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+							<label class="simple-btn ver-foto-btn" for="btn_modal"><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 mb-30 family">
-					<div class="deluxe__area-item"> 
+				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 ">
+					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-3.jpg" alt="">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/cuartos/cuarto3.jpg" alt="cuarto3" >
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h6><a href="#"><span>$319</span> / Night</a></h6>
-							<h4><a href="room-details.html">Family Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 mb-30 family">
-					<div class="deluxe__area-item"> 
+				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30">
+					<div class="deluxe__area-item" style="cursor:pointer" > 
 						<div class="deluxe__area-item-image">
-							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-3.jpg" alt="">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/cuartos/cuarto4.jpg" alt="cuarto3" >
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h6><a href="#"><span>$319</span> / Night</a></h6>
-							<h4><a href="room-details.html">Family Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-8 lg-mb-30 single">
-					<div class="deluxe__area-item"> 
+				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 ">
+					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-4.jpg" alt="">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras1.jpg" alt="escaleras1" >
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h6><a href="#"><span>$169</span> / Night</a></h6>
-							<h4><a href="room-details.html">Single Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+							<label class="simple-btn ver-foto-btn"><i class="far fa-chevron-right"></i>Ver Foto</label> 
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 luxury">
-					<div class="deluxe__area-item"> 
+				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30">
+					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img class="img__full imagen_completa" src="assets/img/luxury/luxury-5.jpg" alt="">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras2.jpg" alt="escaleras2" >
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h6><a href="#"><span>$249</span> / Night</a></h6>
-							<h4><a href="room-details.html">Luxury Room</a></h4>
-							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+	
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras3.jpg" alt="escaleras3" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras4.jpg" alt="escaleras4" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 escaleras">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras5.jpg" alt="escaleras5" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 estancia">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia1.jpg" alt="estancia1" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 estancia">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia2.jpg" alt="escaleras5" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 estancia">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia3.jpg" alt="estancia3" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30 estancia">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia4.jpg" alt="estancia4" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 jardin">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/jardin/jardin1.jpg" alt="jardin1" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 jardin">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/jardin/jardin2.jpg" alt="jardin 2" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30 jardin">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/jardin/jardin3.jpg" alt="jardin3" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 pasillo">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo1.jpg" alt="escaleras5" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn"><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo2.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo ">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo3.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 pasillo">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo4.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30 pasillo">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo5.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo6.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo7.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-4  col-md-4 col-sm-6 mb-30 pasillo">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo8.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 restaurante">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/restaurante/restaurante1.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 restaurante">
+					<div class="deluxe__area-item" style="cursor:pointer">  
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/restaurante/restaurante2.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-9 col-lg-12 col-md-4 col-sm-6 mb-30 restaurante">
+					<div class="deluxe__area-item" style="cursor:pointer"> 
+						<div class="deluxe__area-item-image">
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/restaurante/restaurante3.jpg" alt="pasillo" >
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	{{-- Abrir Modal --}}
-	<input type="checkbox" id="btn_modal">
-	<!-- Deluxe Area End -->
-	@endsection
 
+	<!-- Modal -->
+	<div class="modal fade" id="imagenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-body d-flex justify-content-between align-items-center">
+							<button type="button" class="btn btn-secondary btn-anterior" aria-label="Anterior">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						</button>
+					
+                <img id="imagenModalSrc" class="img-fluid modal-imagen loaded" src="" alt="">
+								<button type="button" class="btn btn-secondary btn-siguiente" aria-label="Siguiente">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							</button>
+            </div>
+        </div>
+    </div>
+	</div>
+@endsection
+
+@push('scripts')
+	<script src="{{ asset('assets/js/modalgaleria.js') }}"></script>
+@endpush

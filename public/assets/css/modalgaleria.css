@@ -1,0 +1,107 @@
+/* Estilos para el modal */
+.modal-content {
+  background-color: transparent; /* Fondo transparente */
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Estilos para los botones anterior y siguiente */
+.btn-anterior,
+.btn-siguiente {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem; /* Tamaño del ícono */
+  color: #fff; /* Color de los íconos */
+  cursor: pointer;
+  transition: color 0.3s;
+  outline: none;
+  
+}
+.btn-secondary:active{
+  background-color: transparent;
+}
+.btn-light{
+  border: none !important;
+}
+
+
+/* Estilos para la imagen */
+.modal-imagen {
+  width: 100%; /* Cambié max-width por width para que la imagen sea responsiva */
+  height: auto; /* Altura automática */
+  max-height: 90vh; /* Altura máxima ajustada */
+  margin: auto;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+  transform: scale(0.9);
+  transition: transform 0.5s ease-in-out; /* Transición de escala */
+}
+@media (max-width: 576px) {
+  .modal-imagen{
+   
+    width: 80%;
+    max-height: 80vh;
+  }
+}
+/* Estilo de fondo para el modal */
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+}
+
+/* Estilos para el contenido del modal */
+.modal-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+/* Estilo para el botón de cerrar el modal */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.close:hover {
+  opacity: 1; /* Opacidad completa al pasar el mouse */
+}
+
+/* Efecto de entrada de la imagen */
+.modal-imagen.loaded {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Estilos para los botones anterior y siguiente */
+.btn-anterior,
+.btn-siguiente {
+    font-size: 1.25rem; /* Tamaño del ícono */
+    color: #495057; /* Color de los íconos */
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    transition: none; /* Quita cualquier transición */
+}
+
+/* Quita estilos de hover, active y focus */
+.btn-anterior:hover,
+.btn-siguiente:hover,
+.btn-anterior:active,
+.btn-siguiente:active,
+.btn-anterior:focus,
+.btn-siguiente:focus {
+    color: #495057; /* Mantiene el color original */
+    background-color: transparent; /* Quita cualquier cambio de fondo */
+    text-decoration: none; /* Quita subrayado en hover */
+    box-shadow: none; /* Quita cualquier sombra */
+}
+
+
