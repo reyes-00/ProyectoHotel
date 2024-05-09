@@ -6,12 +6,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var btnSiguiente = document.querySelector('.btn-siguiente');
     var imagenes = [];
 
-    deluxeAreaItems.forEach(function (item) {
+    
+    deluxeAreaItems.forEach(function (item, index) {
+        var imagenSrc = item.querySelector('.img__full').getAttribute('src');
+        imagenes.push(imagenSrc);
+
         item.addEventListener('click', function () {
-            var imagenSrc = item.querySelector('.img__full').getAttribute('src');
-            var indice = imagenes.indexOf(imagenSrc);
             imagenModalSrc.setAttribute('src', imagenSrc);
-            imagenModal.setAttribute('data-indice', indice);
+            imagenModal.setAttribute('data-indice', index); 
             $('#imagenModal').modal('show');
         });
     });
