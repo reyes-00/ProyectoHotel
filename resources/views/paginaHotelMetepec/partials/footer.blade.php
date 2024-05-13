@@ -32,7 +32,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-7 col-lg-3 col-md-6 col-12 my-4">
+			<div class="col-xl-7 col-lg-6 col-md-4 col-12 my-4">
 				<div class="footer__area-widget">
 					<h5 class="text-center">Contacto</h5>
 					<div class="footer__area-widget-contact my-2 text-center" style="color:#cccccc">
@@ -59,7 +59,8 @@
 											<i class="fal fa-phone-alt"></i>
 										</div>
 										<div class="footer__area-widget-contact-item-content">									
-											<a href="tel:+123(458)585568">+52 722 232 42 95
+											<a href="tel:+123(458)585568">
+												+52 722 232 42 95 <br>
 												+52 722 232 42 98</a>
 										</div>
 									
