@@ -531,7 +531,7 @@ Preloader CSS
   height: 80px;
   position: relative;
   margin: 100px auto;
-  animation: spin 2s linear infinite; /* Agregamos la animación de rotación */
+  animation: blink 1s linear infinite; /* Cambiamos la animación a un parpadeo */
 }
 
 .double-bounce1,
@@ -547,16 +547,19 @@ Preloader CSS
 }
 
 .double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
 }
 
-@keyframes spin {
-  from {
-    transform: rotateY(0deg); /* Inicia la rotación desde 0 grados en el eje Y */
+@keyframes blink {
+  0% {
+    opacity: 0; /* Empieza con opacidad 0, es decir, invisible */
   }
-  to {
-    transform: rotateY(360deg); /* Termina la rotación en 360 grados en el eje Y */
+  50% {
+    opacity: 1; /* Al 50% de la animación, está completamente visible */
+  }
+  100% {
+    opacity: 0; /* Al final de la animación, vuelve a ser invisible */
   }
 }
 
@@ -574,6 +577,7 @@ Preloader CSS
   margin-left: -40px;
   margin-top: -40px;
 }
+
 
 /*==========================================================================
 Video Animation CSS
