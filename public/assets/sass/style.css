@@ -531,6 +531,7 @@ Preloader CSS
   height: 80px;
   position: relative;
   margin: 100px auto;
+<<<<<<< Updated upstream
   animation: blink 1s linear infinite; /* Cambiamos la animación a un parpadeo */
 }
 
@@ -561,6 +562,14 @@ Preloader CSS
   100% {
     opacity: 0; /* Al final de la animación, vuelve a ser invisible */
   }
+=======
+  animation: spin 2s linear infinite; /* Agrega la animación de rotación */
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); } /* Inicia la rotación desde 0 grados */
+  to { transform: rotate(360deg); } /* Termina la rotación en 360 grados */
+>>>>>>> Stashed changes
 }
 
 .theme-loader {
@@ -574,11 +583,19 @@ Preloader CSS
 .theme-loader .spinner {
   left: 50%;
   top: 50%;
-  margin-left: -40px;
-  margin-top: -40px;
+  margin-left: -40px; /* Ajusta el margen izquierdo según el tamaño de tu imagen */
+  margin-top: -40px; /* Ajusta el margen superior según el tamaño de tu imagen */
 }
 
+<<<<<<< Updated upstream
 
+=======
+.theme-loader .spinner img {
+  width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+  height: 100%; /* La imagen ocupará todo el alto del contenedor */
+  object-fit: contain; /* La imagen se ajustará manteniendo su relación de aspecto */
+}
+>>>>>>> Stashed changes
 /*==========================================================================
 Video Animation CSS
 ==========================================================================*/
