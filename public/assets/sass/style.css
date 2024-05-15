@@ -2896,7 +2896,7 @@ Menu Bar
 .header__area-menubar-right-menu ul li a {
   color: var(--white);
   display: block;
-  font-size: 18px;
+  font-size: 16.5px;
   line-height: 28px;
   font-weight: 600;
   -webkit-transition: all 0.4s ease-out 0s;

@@ -17,19 +17,20 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Habitaciones</a>
                                 <ul class="sub-menu">
-                                    <li><a href="{{ route('habitacion_sencilla') }}">Habitacion Sencilla</a></li>
-                                    <li><a href="{{ route('habitacion_sencilla_plus') }}">Habitacion Sencilla Plus</a>
+                                    <li><a href="{{ route('habitacion_sencilla') }}">Sencilla</a></li>
+                                    <li><a href="{{ route('habitacion_sencilla_plus') }}">Sencilla Plus</a>
                                     </li>
-                                    <li><a href="{{ route('habitacion_doble') }}">Habitacion Doble</a></li>
-                                    <li><a href="{{ route('habitacion_doble_plus') }}">Habitacion Doble Plus</a></li>
+                                    <li><a href="{{ route('habitacion_doble') }}">Doble</a></li>
+                                    <li><a href="{{ route('habitacion_doble_plus') }}">Doble Plus</a></li>
                                     <li><a href="{{ route('suit') }}">Suite</a></li>
                                     <li><a href="{{ route('habitaciones') }}">Ver Todas</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{ route('galeria') }}">Instalaciones</a></li>
+                            <li><a href="{{ route('galeria') }}">Galeria</a></li>
                             <li><a href="{{ route('contacto') }}">Contacto</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
-                            <li class="header__area-menubar-right-box-btn">
+                            <li><a href="{{ route('restaurante') }}">Restaurante</a></li>
+                            <li class="header__area-menubar-right-box-btn d-none">
                                 <a class="theme-btn" href="#">Reservar<i class="fal fa-long-arrow-right"></i>
                                 </a>
                             </li>
