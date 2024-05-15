@@ -38,7 +38,7 @@
                         <div class="room__details-right-list">
                             <h3 class="text-center">Amenidades</h3>
                             <div class="row mt-35">
-                                <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                                <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center my-4">
                                     <div class="room__details-right-list-item-icon m-0">
                                         <img src="assets/img/icon/scuarto.png" alt="" class="img_fluid">
                                     </div>
@@ -46,7 +46,7 @@
                                         <h6>Servicio al cuarto</h6>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-12 my-2  d-flex flex-column align-items-center">
+                                <div class="col-md-4 col-sm-12 my-2  d-flex flex-column align-items-center my-4">
                                     <div class="room__details-right-list-item-icon">
                                         <img src="assets/img/icon/lavanderia.png" alt="">
                                     </div>
@@ -54,7 +54,7 @@
                                         <h6>Servicio de lavandería</h6>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-12 my-2  d-flex flex-column align-items-center">
+                                <div class="col-md-4 col-sm-12 my-2  d-flex flex-column align-items-center my-4">
                                     <div class="room__details-right-list-item-icon">
                                         <img src="assets/img/icon/bed.png" alt="">
                                     </div>
@@ -62,7 +62,7 @@
                                         <h6>Cama Queen size</h6>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center">
+                                <div class="col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center my-4">
                                     <div class="room__details-right-list-item-icon">
                                         <img src="assets/img/icon/television.png" alt="">
                                     </div>
@@ -70,7 +70,7 @@
                                         <h6>Pantalla de 32 "</h6>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center">
+                                <div class="col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center my-4">
                                     <div class="room__details-right-list-item-icon">
                                         <img src="assets/img/icon/internet.png" alt="">
                                     </div>
