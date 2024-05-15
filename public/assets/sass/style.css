@@ -7852,7 +7852,8 @@ Page
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-  padding-top: 235px;
+  /* padding-top: 235px; */
+  padding-top: 320px;
   padding-bottom: 125px;
 }
 

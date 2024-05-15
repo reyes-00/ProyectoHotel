@@ -662,15 +662,7 @@ $( document ).ready(function() {
             ]
         }
         
-        // ,{
-        //     nomGeneral: 'EL SERVICIO POR BOTELLA INCLUYE:', 
-        //     nomClass: 'botella', 
-        //     descripPlatillo:[
-        //         ['5 REFRESCOS DE 235 ML','',''],
-        //         ['1 HIELERA','',''],
-        //     ]
-        // }
-             
+  
         			
         
        
@@ -731,19 +723,26 @@ $( document ).ready(function() {
 //  DESAYUNOS LIGEROS
 
 function seleccionMenu(elementoid){
+    $(".botonMenu").removeClass("filter-active");
+    $(elementoid).addClass("filter-active");
+    $(elementoid).attr("data-filter")
     if($(elementoid).attr("data-filter") == "botella"){
         $("#notas").html("EL SERVICIO POR BOTELLA INCLUYE:<br>5 REFRESCOS DE 235 ML<br>1 HIELERA");
     }else{
         $("#notas").html("");
-
     }
 
     $("#p_row").find(".accordion-flush").each(function( index ) {
-        if($(this).attr("data-f") == $(elementoid).attr("data-filter")){
+        if($(elementoid).attr("data-filter") == "todos"){
             $(this).show();
         }else{
-            $(this).hide();
+            if($(this).attr("data-f") == $(elementoid).attr("data-filter")){
+                $(this).show();
+            }else{
+                $(this).hide();
+            }
         }
+
     });
 
 }

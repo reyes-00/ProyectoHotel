@@ -3,18 +3,7 @@
 
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="{{'assets/img/home/Restaurante.jpg'}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page__banner-title">
-                        <h1>Restaurante</h1>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="page__banner" data-background="{{'assets/img/home/Restaurante.jpg'}}"></div>
     <!-- Page Banner End -->
 
     <!-- Room Details Start -->
@@ -35,15 +24,16 @@
                                         <div class="row" id='p_row'>
                                             <div class="col-lg-12 d-flex justify-content-center">
                                             <ul id="menu-flters">
-                                                <li data-filter="*" class="filter-active">Todos</li>
-                                                <li data-filter="desayuno" onclick="seleccionMenu(this)">DESATUNOS</li>
-                                                <li data-filter="comida" onclick="seleccionMenu(this)">COMIDA Y CENA</li>
-                                                <li data-filter="postre" onclick="seleccionMenu(this)">POSTRES</li>
-                                                <li data-filter="bebida" onclick="seleccionMenu(this)">BEBIDAS</li>
-                                                <li data-filter="vinotinto" onclick="seleccionMenu(this)">VINOS TINTOS</li>
-                                                <li data-filter="vino" onclick="seleccionMenu(this)">VINOS DULCES, SEMIDULCES Y ESPUMOSOS</li>
-                                                <li data-filter="cocktail" onclick="seleccionMenu(this)">BAR Y COCKTELERÍA</li>
-                                                <li data-filter="botella" onclick="seleccionMenu(this)">BAR POR BOTELLA</li>
+                                                
+                                                <li class="botonMenu" data-filter="desayuno" onclick="seleccionMenu(this)">DESATUNOS</li>
+                                                <li class="botonMenu" data-filter="comida" onclick="seleccionMenu(this)">COMIDA Y CENA</li>
+                                                <li class="botonMenu" data-filter="postre" onclick="seleccionMenu(this)">POSTRES</li>
+                                                <li class="botonMenu" data-filter="bebida" onclick="seleccionMenu(this)">BEBIDAS</li>
+                                                <li class="botonMenu" data-filter="vinotinto" onclick="seleccionMenu(this)">VINOS TINTOS</li>
+                                                <li class="botonMenu" data-filter="vino" onclick="seleccionMenu(this)">VINOS DULCES, SEMIDULCES Y ESPUMOSOS</li>
+                                                <li class="botonMenu" data-filter="cocktail" onclick="seleccionMenu(this)">BAR Y COCKTELERÍA</li>
+                                                <li class="botonMenu" data-filter="botella" onclick="seleccionMenu(this)">BAR POR BOTELLA</li>
+                                                <li class="botonMenu" data-filter="todos"  onclick="seleccionMenu(this)">Todos</li>
                                             </ul>
                                             
                                             </div>

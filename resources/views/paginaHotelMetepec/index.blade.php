@@ -4,10 +4,12 @@
     @include('paginaHotelMetepec.partials.banner')
 
     <div class="services__area section-padding ">
-        <div class="container">
+        <div class="container" style="font-size:20px;">
             <h3 class="text-center ">SOBRE NOSOTROS</h3>
-            <div class="row text-center ">
-                <p>¡Bienvenido a nuestro Hotel Metepec Plaza donde la comodidad y el estilo se fusionan para brindarle una experiencia inolvidable!</p>
+            <div class="row text-center pt-2">
+                <p><b>¡Bienvenido a nuestro hotel en Metepec!</b></p>
+                <p>Nuestro hotel se enorgullece de su elegante diseño, fusionando la arquitectura contemporánea con toques tradicionales que reflejan la rica cultura e historia de Metepec. Cada detalle, desde nuestras amplias y confortables habitaciones hasta nuestras áreas comunes, está cuidadosamente diseñado para asegurar una estancia placentera y relajante para todos nuestros huéspedes.</p>
+                <p><b>Tu hogar lejos de casa.</b></p>
             </div>
 
         </div>
@@ -41,7 +43,7 @@
                             <img src="assets/img/icon/restaurante.png" class="img__full" alt="">
                         </div>
                         <div class="services__area-item-content">
-                            <h5><a href="#">Restaurante a la carta</a></h5>
+                            <h5>Restaurante a la carta</h5>
                         </div>
                     </div>
                 </div>
@@ -51,7 +53,7 @@
                             <img src="assets/img/icon/estacionamiento.png" alt="">
                         </div>
                         <div class="services__area-item-content">
-                            <h5><a href="#">Estacionamiento</a></h5>
+                            <h5>Estacionamiento</h5>
                         </div>
                     </div>
                 </div>
@@ -61,7 +63,7 @@
                             <img src="assets/img/icon/calefaccion1.png" alt="">
                         </div>
                         <div class="services__area-item-content">
-                            <h5><a href="#">Calefacción Centralizada</a></h5>
+                            <h5>Calefacción Centralizada</h5>
                         </div>
                     </div>
                 </div>
@@ -71,7 +73,7 @@
                             <img src="assets/img/icon/internet.png" alt="">
                         </div>
                         <div class="services__area-item-content">
-                            <h5><a href="#">Wifi Gratis</a></h5>
+                            <h5>Wifi Gratis</h5>
                             
                         </div>
                     </div>
@@ -82,7 +84,7 @@
                             <img src="assets/img/icon/limpieza.png" alt="">
                         </div>
                         <div class="services__area-item-content">
-                            <h5><a href="#">Servicio de Limpieza</a></h5>
+                            <h5>Servicio de Limpieza</h5>
                             
                         </div>
                     </div>
@@ -93,7 +95,7 @@
                             <img src="assets/img/icon/scuarto.png" alt="">
                         </div>
                         <div class="services__area-item-content">
-                            <h5><a href="#">Servicio al cuarto</a></h5>
+                            <h5>Servicio al cuarto</h5>
                             
                         </div>
                     </div>

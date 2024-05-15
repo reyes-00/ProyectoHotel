@@ -5,27 +5,11 @@
 @section('contenido')
 
 	<!-- Page Banner Start -->
-	<div class="page__banner" data-background="assets/img/galeria/pasillos/pasillo8.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-12">
-					<div class="page__banner-title">
-						<h1>Galeria</h1>
-						<div class="page__banner-title-menu">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><span>-</span>Galeria</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div class="page__banner" data-background="assets/img/galeria/pasillos/pasillo8.jpg"></div>
 	<!-- Page Banner End -->
 	
 	<!-- Deluxe Area Start -->
-	<div class="deluxe__area section-padding">
+	<div class="deluxe__area pt-5">
 		<div class="container">
 			<div class="row align-items-end mb-60">
 				<div class="col-xl-12">
@@ -33,19 +17,7 @@
 						<h2>Nuestra Galeria</h2>
 					</div>					
 				</div>
-				{{-- <div class="col-xl-11">
-					<div class="deluxe__area-btn">
-						<ul>
-							<li class="active" data-filter="*">Todo</li>
-							<li data-filter=".habitacion">Habitaciones</li>
-							<li data-filter=".escaleras">Escaleras</li>
-							<li data-filter=".estancia">Estancia</li>
-							<li data-filter=".jardin">Jardines</li>
-							<li data-filter=".pasillo">Pasillos</li>
-							<li data-filter=".restaurante">Restaurante</li>
-						</ul>
-					</div>
-				</div> --}}
+				
 			</div>
 			<div class="row deluxe__area-active">
 				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30">
