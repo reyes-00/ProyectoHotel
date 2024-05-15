@@ -15,7 +15,7 @@
                         <ul id="mobilemenu">
                             <li><a href="{{ route('index',['locale' => app()->getLocale()]) }}">{{ __('Home') }}</a></li>
                             <li class="menu-item-has-children">
-                                <a href="#">Habitaciones</a>
+                                <a href="{{ route('habitaciones') }}">Habitaciones</a>
                                 <ul class="sub-menu">
                                     <li><a href="{{ route('habitacion_sencilla') }}">Habitacion Sencilla</a></li>
                                     <li><a href="{{ route('habitacion_sencilla_plus') }}">Habitacion Sencilla Plus</a>

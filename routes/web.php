@@ -26,4 +26,7 @@ Route::middleware(LocaleCookieMiddleware::class)->group(function(){
   Route::get('/index2', [PaginaController::class, 'index2'])->name('index2');
   Route::get('/blog', [PaginaController::class,'blog'])->name('blog');
   Route::get('/restaurante', [PaginaController::class,'restaurante'])->name('restaurante');
+  Route::get('/politicashotel', [PaginaController::class,'politicashotel'])->name('politicashotel');
+  Route::get('/avisoprivacidad', [PaginaController::class,'avisoprivacidad'])->name('avisoprivacidad');
+
 });

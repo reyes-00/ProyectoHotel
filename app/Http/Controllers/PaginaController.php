@@ -41,6 +41,12 @@ class PaginaController extends Controller
     public function restaurante(){
         return view ('paginaHotelMetepec.restaurante_menu');
     }
+    public function politicashotel(){
+        return view ('paginaHotelMetepec.politicashotel');
+    }
+    public function avisoprivacidad(){
+        return view ('paginaHotelMetepec.avisoprivacidad');
+    }
     public function idioma($idioma){
         return redirect()->back();
     }
