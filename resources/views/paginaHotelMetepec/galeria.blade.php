@@ -1,19 +1,7 @@
 @extends('paginaHotelMetepec.layout.app')
-<<<<<<< Updated upstream
 @push('styles')
 		<link rel="stylesheet" href="{{ asset('assets/css/modalgaleria.css') }}">
 @endpush
-=======
-
-{{-- <style>
-	.imagen_completa {
-  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-  height: 450px; /* Establece una altura fija para todas las imágenes */
-  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
-}
-</style> --}}
-
->>>>>>> Stashed changes
 @section('contenido')
 
 	<!-- Page Banner Start -->

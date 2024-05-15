@@ -24,10 +24,10 @@
 					<h5 class="text-center">Links de Pagina</h5>
 					<div class="footer__area-widget-menu text-center">
 						<ul class="d-flex flex-column flex-lg-row gap-2 justify-content-center ">
-							<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Inicio</a></li>
-							<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Restaurante</a></li>
-							<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Habitaciones</a></li>
-							<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Instalaciones</a></li>
+							<li><a href="{{ route('index') }}"><i class="fal fa-angle-double-right"></i>Inicio</a></li>
+							<li><a href="{{ route('restaurante') }}"><i class="fal fa-angle-double-right"></i>Restaurante</a></li>
+							<li><a href="{{ route('habitaciones') }}"><i class="fal fa-angle-double-right"></i>Habitaciones</a></li>
+							<li><a href="{{ route('galeria') }}"><i class="fal fa-angle-double-right"></i>Galeria</a></li>
 						</ul>
 					</div>
 				</div>
@@ -42,7 +42,7 @@
 											<i class="fal fa-map-marked-alt"></i>
 										</div>
 										<div class="footer__area-widget-contact-item-content">									
-											<a href="#">Vialidad Metepec #1 Sur, Col. La Michoacana CP 52166, Metepec, Méx.</a>
+											<p>Vialidad Metepec #1 Sur, Col. La Michoacana CP 52166, Metepec, Méx.</p>
 										</div>
 									</div>
 									<div class="col-12 col-lg-3">
