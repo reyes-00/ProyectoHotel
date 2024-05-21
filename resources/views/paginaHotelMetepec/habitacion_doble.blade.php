@@ -136,48 +136,7 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-xl-6 col-lg-6 mb-30 suite">
-                            <div class="deluxe__area-item" > 
-                                <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble/hab_doble5.jpg'}}" alt="" >
-                                </div>
-                                <div class="deluxe__area-item-content"> 
-                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="5" onclick="activacionmodal(this)"><i class="far fa-chevron-right"></i>Ver Foto</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 mb-30 suite">
-                            <div class="deluxe__area-item" > 
-                                <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble/hab_doble6.jpg'}}" alt="" >
-                                </div>
-                                <div class="deluxe__area-item-content"> 
-                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="6" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 mb-30 suite">
-                            <div class="deluxe__area-item" > 
-                                <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble/hab_doble7.jpg'}}" alt="" >
-                                </div>
-                                <div class="deluxe__area-item-content"> 
-                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="7" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-xl-6 col-lg-6 mb-30 suite">
-                            <div class="deluxe__area-item" > 
-                                <div class="deluxe__area-item-image">
-                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_doble/hab_doble8.jpg'}}" alt="" >
-                                </div>
-                                <div class="deluxe__area-item-content"> 
-                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="8" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
-                                </div>
-                            </div>
-                        </div> --}}
+                        
                         
                     </div>
                 </div>

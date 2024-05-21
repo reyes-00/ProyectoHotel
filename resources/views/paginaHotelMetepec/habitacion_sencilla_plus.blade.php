@@ -198,7 +198,7 @@
                                     <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla_plus/hab_sencilla_plus9.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="8" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="9" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                                     <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla_plus/hab_sencilla_plus10.jpg'}}" alt="" >
                                 </div>
                                 <div class="deluxe__area-item-content"> 
-                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="8" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="10" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
                                 </div>
                             </div>
                         </div>
