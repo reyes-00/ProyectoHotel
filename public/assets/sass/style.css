@@ -5454,6 +5454,9 @@ Deluxe
 .deluxe__area-item-content .simple-btn i {
   color: var(--color-2);
   border-color: var(--color-2);
+  justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .deluxe__area-item-content .simple-btn:hover {
@@ -7850,7 +7853,7 @@ Page
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-  /* padding-top: 235px; */
+  /* padding-top: 235px; cambiobanner*/
   padding-top: 320px;
   padding-bottom: 125px;
 }

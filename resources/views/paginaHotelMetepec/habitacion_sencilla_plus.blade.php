@@ -192,6 +192,27 @@
                             </div>
                         </div>
                         
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla_plus/hab_sencilla_plus9.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="8" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 mb-30 suite">
+                            <div class="deluxe__area-item" > 
+                                <div class="deluxe__area-item-image">
+                                    <img id="imagen-suite" class="img__full imagen_completa" src="{{'assets/img/habitaciones/hab_sencilla_plus/hab_sencilla_plus10.jpg'}}" alt="" >
+                                </div>
+                                <div class="deluxe__area-item-content"> 
+                                    <label class="simple-btn" for="btn_modal" style="cursor:pointer;" data-elemento="8" onclick="activacionmodal(this)" ><i class="far fa-chevron-right"></i>Ver Foto</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                     </div>
@@ -210,7 +231,7 @@
 
 <script>
     $(document).ready(function(){
-        let arrayImg=[1,2,3,4,5,6,7,8];
+        let arrayImg=[1,2,3,4,5,6,7,8,9,10];
         let htmlImgModal="";
         for(let i=1;i<=arrayImg.length;i++){
             htmlImgModal+="<div class='carousel-item' id='img_"+i+"'>";
