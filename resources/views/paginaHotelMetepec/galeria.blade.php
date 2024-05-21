@@ -5,7 +5,7 @@
 @section('contenido')
 
 	<!-- Page Banner Start -->
-	<div class="page__banner" data-background="assets/img/galeria/pasillos/pasillo8.jpg"></div>
+	<div class="page__banner" data-background="assets/img/galeria/img_galeria.jpg"></div>
 	<!-- Page Banner End -->
 	
 	<!-- Deluxe Area Start -->
@@ -23,7 +23,7 @@
 				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30">
 					<div class="deluxe__area-item" style="cursor: pointer;"> 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="{{asset('assets/img/galeria/cuartos/cuarto1.jpg')}}" alt="cuarto1" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="{{asset('assets/img/galeria/img_galeria1.jpg')}}" alt="cuarto1" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" for="btn_modal"><i class="far fa-chevron-right"></i>Ver Foto</label>
@@ -33,7 +33,7 @@
 				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30">
 					<div class="deluxe__area-item" style="cursor: pointer;"> 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="{{ asset('assets/img/galeria/cuartos/cuarto2.jpg')}}" alt="cuarto2" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="{{ asset('assets/img/galeria/img_galeria2.jpg')}}" alt="cuarto2" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" for="btn_modal"><i class="far fa-chevron-right"></i>Ver Foto</label> 
@@ -43,7 +43,7 @@
 				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 ">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/cuartos/cuarto3.jpg" alt="cuarto3" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria3.jpg" alt="cuarto3" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
@@ -53,7 +53,7 @@
 				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30">
 					<div class="deluxe__area-item" style="cursor:pointer" > 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/cuartos/cuarto4.jpg" alt="cuarto3" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria4.jpg" alt="cuarto3" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver Foto</label> 
@@ -63,7 +63,7 @@
 				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 ">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras1.jpg" alt="escaleras1" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria5.jpg" alt="escaleras1" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn"><i class="far fa-chevron-right"></i>Ver Foto</label> 
@@ -73,7 +73,7 @@
 				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras2.jpg" alt="escaleras2" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria6.jpg" alt="escaleras2" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 	
@@ -84,7 +84,7 @@
 				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras3.jpg" alt="escaleras3" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria7.jpg" alt="escaleras3" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>ver foto</label> 
@@ -94,7 +94,7 @@
 				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras4.jpg" alt="escaleras4" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria8.jpg" alt="escaleras4" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -104,7 +104,7 @@
 				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 escaleras">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/escaleras/escaleras5.jpg" alt="escaleras5" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria9.jpg" alt="escaleras5" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -114,7 +114,7 @@
 				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 estancia">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia1.jpg" alt="estancia1" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria10.jpg" alt="estancia1" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -124,7 +124,7 @@
 				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 estancia">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia2.jpg" alt="escaleras5" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria11.jpg" alt="escaleras5" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -134,7 +134,7 @@
 				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 estancia">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia3.jpg" alt="estancia3" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria12.jpg" alt="estancia3" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -144,7 +144,7 @@
 				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30 estancia">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/estancia/estancia4.jpg" alt="estancia4" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria13.jpg" alt="estancia4" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -154,7 +154,7 @@
 				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 jardin">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/jardin/jardin1.jpg" alt="jardin1" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria14.jpg" alt="jardin1" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -164,7 +164,7 @@
 				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 jardin">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/jardin/jardin2.jpg" alt="jardin 2" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria15.jpg" alt="jardin 2" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -174,7 +174,7 @@
 				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30 jardin">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/jardin/jardin3.jpg" alt="jardin3" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria16.jpg" alt="jardin3" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -184,7 +184,7 @@
 				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 pasillo">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo1.jpg" alt="escaleras5" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria17.jpg" alt="escaleras5" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn"><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -194,7 +194,7 @@
 				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo2.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria18.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -204,7 +204,7 @@
 				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo ">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo3.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria19.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							
@@ -215,7 +215,7 @@
 				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 pasillo">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo4.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria20.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -225,7 +225,7 @@
 				<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-30 pasillo">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo5.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria21.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -235,7 +235,7 @@
 				<div class="col-xl-6 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo6.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria22.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -245,7 +245,7 @@
 				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 pasillo">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo7.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria23.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -255,7 +255,7 @@
 				<div class="col-xl-6 col-lg-4  col-md-4 col-sm-6 mb-30 pasillo">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/pasillos/pasillo8.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria24.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -265,7 +265,7 @@
 				<div class="col-xl-6 col-lg-4 col-md-4 col-sm-6 mb-30 restaurante">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/restaurante/restaurante1.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria25.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -275,7 +275,7 @@
 				<div class="col-xl-3 col-lg-8 col-md-4 col-sm-6 mb-30 restaurante">
 					<div class="deluxe__area-item" style="cursor:pointer">  
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/restaurante/restaurante2.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria26.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 
@@ -285,7 +285,7 @@
 				<div class="col-xl-9 col-lg-12 col-md-4 col-sm-6 mb-30 restaurante">
 					<div class="deluxe__area-item" style="cursor:pointer"> 
 						<div class="deluxe__area-item-image">
-							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/restaurante/restaurante3.jpg" alt="pasillo" >
+							<img id="imagen-suite" class="img__full imagen_completa" src="assets/img/galeria/img_galeria27.jpg" alt="pasillo" >
 						</div>
 						<div class="deluxe__area-item-content"> 
 							<label class="simple-btn ver-foto-btn" ><i class="far fa-chevron-right"></i>Ver foto</label> 

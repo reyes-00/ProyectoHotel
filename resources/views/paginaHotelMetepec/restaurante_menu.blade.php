@@ -25,7 +25,7 @@
                                             <div class="col-lg-12 d-flex justify-content-center">
                                             <ul id="menu-flters">
                                                 
-                                                <li class="botonMenu" data-filter="desayuno" onclick="seleccionMenu(this)">DESATUNOS</li>
+                                                <li class="botonMenu" data-filter="desayuno" onclick="seleccionMenu(this)">DESAYUNOS</li>
                                                 <li class="botonMenu" data-filter="comida" onclick="seleccionMenu(this)">COMIDA Y CENA</li>
                                                 <li class="botonMenu" data-filter="postre" onclick="seleccionMenu(this)">POSTRES</li>
                                                 <li class="botonMenu" data-filter="bebida" onclick="seleccionMenu(this)">BEBIDAS</li>

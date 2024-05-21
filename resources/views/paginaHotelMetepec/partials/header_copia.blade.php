@@ -22,7 +22,7 @@
                                     </li>
                                     <li><a href="{{ route('habitacion_doble') }}">Doble</a></li>
                                     <li><a href="{{ route('habitacion_doble_plus') }}">Doble Plus</a></li>
-                                    <li><a href="{{ route('suit') }}">Suite</a></li>
+                                    <li><a href="{{ route('habitacion_suite') }}">Suite</a></li>
                                     <li><a href="{{ route('habitaciones') }}">Ver Todas</a></li>
                                 </ul>
                             </li>
