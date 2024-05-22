@@ -5246,7 +5246,7 @@ Room Details
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     -webkit-column-gap: 20px;
             column-gap: 20px;
   }
@@ -5394,10 +5394,10 @@ Deluxe
   left: 0;
   bottom: 0;
   z-index: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 19, 23, 0)), to(#0E1317));
+ /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 19, 23, 0)), to(#0E1317));
   background-image: linear-gradient(180deg, rgba(14, 19, 23, 0) 0%, #0E1317 100%);
   -webkit-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;*/
 }
 
 .deluxe__area-item-content {
@@ -5454,6 +5454,9 @@ Deluxe
 .deluxe__area-item-content .simple-btn i {
   color: var(--color-2);
   border-color: var(--color-2);
+  justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .deluxe__area-item-content .simple-btn:hover {
@@ -5467,10 +5470,15 @@ Deluxe
 
 .deluxe__area-item-hover .deluxe__area-item-content {
   bottom: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 19, 23, 0)), to(#0E1317));
+  background-image: linear-gradient(180deg, rgba(14, 19, 23, 0) 0%, #0E1317 100%);
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
 }
 
 .deluxe__area-item-hover .deluxe__area-item-content .simple-btn {
   opacity: 1;
+
 }
 
 /*==========================================================================
@@ -7846,11 +7854,12 @@ Page
 ========================================================================== */
 .page__banner {
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-  /* padding-top: 235px; */
+  /* padding-top: 235px; cambiobanner*/
   padding-top: 320px;
   padding-bottom: 125px;
 }
@@ -7864,7 +7873,8 @@ Page
   height: 100%;
   z-index: -1;
   background: var(--heading-color);
-  opacity: 0.57;
+  /* opacity: 0.57; */
+  opacity: 0;
 }
 
 .page__banner-title {
