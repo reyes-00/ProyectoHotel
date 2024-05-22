@@ -2,17 +2,7 @@
 
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="{{'assets/img/banner_hab_sencilla_plus.jpg'}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page__banner-title">
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="page__banner" data-background="{{'assets/img/banner_hab_sencilla_plus.jpg'}}"></div>
     <!-- Page Banner End -->
 
     <!-- Room Details Start -->
