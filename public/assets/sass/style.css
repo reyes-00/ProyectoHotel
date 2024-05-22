@@ -7854,7 +7854,8 @@ Page
 ========================================================================== */
 .page__banner {
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
@@ -7872,7 +7873,8 @@ Page
   height: 100%;
   z-index: -1;
   background: var(--heading-color);
-  opacity: 0.57;
+  /* opacity: 0.57; */
+  opacity: 0;
 }
 
 .page__banner-title {
