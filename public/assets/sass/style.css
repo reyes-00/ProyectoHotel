@@ -5269,14 +5269,7 @@ Room Details
     margin-left: 0;
     display: -ms-grid;
     display: grid;
-<<<<<<< HEAD
-   /* -ms-grid-columns: (1fr)[2];
-=======
-    -ms-grid-columns: (1fr)[2];
->>>>>>> a7e69f0b1a0e3a223ee03ce6ffd488ebbd58d76f
-    grid-template-columns: repeat(2, 1fr);
-    -webkit-column-gap: 20px;
-            column-gap: 20px;*/
+
   }
   .room__list-item-right {
     width: 100%;
