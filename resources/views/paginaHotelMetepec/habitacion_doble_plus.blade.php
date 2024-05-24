@@ -2,17 +2,10 @@
 
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="{{'assets/img/banner_hab_doble_plus.jpg'}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page__banner-title">
-                       
-                    </div>
-                </div>
-            </div>
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_hab_doble_plus.jpg') }}" >
         </div>
-    </div>
     <!-- Page Banner End -->
 
     <!-- Room Details Start -->
@@ -22,9 +15,6 @@
                 <div class="col-xl-12 col-lg-12">
                     <div class="room__details-right">
                         <div class="room__details-right-content">
-                            <div class="page__banner-title pb-4">
-                                <h3>Habitación doble plus</h3>
-                            </div>
                             <p class="mb-25 text-center">Experimente el lujo contemporáneo en nuestras habitaciones dobles plus. Con una decoración moderna y elegante, junto con comodidades de primera clase, estas habitaciones ofrecen un ambiente exclusivo para una estancia verdaderamente memorable.</p>
                         </div>
                   

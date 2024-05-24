@@ -2,17 +2,10 @@
 
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="{{'assets/img/banner_hab_suite.jpg'}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page__banner-title">
-                       
-                    </div>
-                </div>
-            </div>
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_hab_suite.jpg') }}" >
         </div>
-    </div>
     <!-- Page Banner End -->
 
     <!-- Room Details Start -->
@@ -22,9 +15,6 @@
                 <div class="col-xl-12 col-lg-12">
                     <div class="room__details-right">
                         <div class="room__details-right-content">
-                            <div class="page__banner-title pb-4">
-                                <h3>Suite</h3>
-                            </div>
                             <p class="mb-25 text-center">Déjese envolver por nuestra suite con jacuzzi. Disfrute de la privacidad y el confort de un espacioso alojamiento, completo con un lujoso jacuzzi privado donde podrá relajarse y rejuvenecer después de un día de exploración. Con una decoración refinada y comodidades de primera calidad, esta suite es el epítome del lujo y la indulgencia.</p>
                         </div>
                   

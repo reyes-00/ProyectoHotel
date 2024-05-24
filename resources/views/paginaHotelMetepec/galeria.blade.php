@@ -5,7 +5,10 @@
 @section('contenido')
 
 	<!-- Page Banner Start -->
-	<div class="page__banner" data-background="assets/img/galeria/img_galeria.jpg"></div>
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_galeria.jpg') }}" >
+        </div>
 	<!-- Page Banner End -->
 	
 	<!-- Deluxe Area Start -->

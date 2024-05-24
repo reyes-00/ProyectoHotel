@@ -2,9 +2,11 @@
 
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="{{'assets/img/banner_hab_sencilla.jpg'}}"></div>
-    <!-- Page Banner End -->
 
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_hab_sencilla.jpg') }}" >
+        </div>
     <!-- Room Details Start -->
     <div class="room__details pt-5" style="font-size: 20px;">
         <div class="container">
@@ -12,9 +14,7 @@
                 <div class="col-xl-12 col-lg-12">
                     <div class="room__details-right">
                         <div class="room__details-right-content">
-                            <div class="page__banner-title pb-4">
-                                <h3>Habitación sencilla</h3>
-                            </div>
+
                            
                             <p class="mb-25 text-center">Sumérjase en la elegancia simple y la comodidad inigualable de
                                 nuestras habitaciones sencillas. Con una decoración acogedora y todas las comodidades

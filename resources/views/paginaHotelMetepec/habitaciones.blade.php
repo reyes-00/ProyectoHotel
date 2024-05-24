@@ -1,14 +1,16 @@
 @extends('paginaHotelMetepec.layout.app')
 @section('contenido')
 <!-- Page Banner Start -->
-<div class="page__banner" data-background="assets/img/banner_habitaciones.jpg"></div>
+<div class="room__details d_padding_banner" >
+    <img src="{{ asset('assets/img/banner/banner_habitaciones.jpg') }}" >
+</div>	<!-- Page Banner End -->
 <!-- Page Banner End -->
 			<!-- Modern Room Area Start -->
 <div class="modern__room section-padding">
         <div class="container">
-            <div class="page__banner-title pb-4">
+            {{-- <div class="page__banner-title pb-4">
                 <h3>Nuestras Habitaciones</h3>
-            </div>
+            </div> --}}
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                     <div class="deluxe__three-item">
