@@ -1,23 +1,10 @@
 @extends('paginaHotelMetepec.layout.app')
 @section('contenido')
 	<!-- Page Banner Start -->
-    <div class="page__banner" data-background="assets/img/banner/page-banner-7.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page__banner-title">
-                        <h1>Blog</h1>
-                        <div class="page__banner-title-menu">
-                            <ul>
-                                <li><a href="index.html">Inicio</a></li>
-                                <li><span>-</span>Blog</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_blog.jpg') }}" >
         </div>
-    </div>
 	<!-- Page Banner End -->
 			<!-- Blog Standard Start -->
 			<div class="blog__standard section-padding">

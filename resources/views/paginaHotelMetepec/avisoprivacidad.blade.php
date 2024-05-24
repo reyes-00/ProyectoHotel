@@ -6,10 +6,10 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="page__banner-title">
-                        {{-- <h1>Blog</h1>
+                       <h1></h1>
                         <div class="page__banner-title-menu">
                            
-                        </div> --}}
+                        </div> 
                     </div>
                 </div>
             </div>

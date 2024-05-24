@@ -2,8 +2,10 @@
 
 @section('contenido')
 	<!-- Page Banner Start -->
-	<div class="page__banner" data-background="{{'assets/img/banner_contacto.png'}}"></div>
-	<!-- Page Banner End -->
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_contacto.jpg') }}" >
+        </div>	<!-- Page Banner End -->
 	<!-- Contact Area Start -->
 	<div class="contact__area pt-5 pb-6">
 		<div class="container" >
@@ -59,10 +61,13 @@
 					</div>
 				
 				</div>
-				 <div class="col-xl-7 col-lg-7 pt-5">
-					<!-- <div class="col-xl-8"> -->
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.7147013055505!2d-99.61806652415936!3d19.251261746445827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8bc6eeca0c29%3A0x2bcb6a99a40ec3a7!2sHotel%20Metepec%20Plaza!5e0!3m2!1ses!2smx!4v1715804613479!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					<!-- </div> -->
+				 <div class="col-xl-5 col-lg-5 lg-mb-30 pt-5">
+					 {{-- <div class="col-xl-8">  --}}
+						<div class="contact__area-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.7147013055505!2d-99.61806652415936!3d19.251261746445827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8bc6eeca0c29%3A0x2bcb6a99a40ec3a7!2sHotel%20Metepec%20Plaza!5e0!3m2!1ses!2smx!4v1715804613479!5m2!1ses!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						{{--  --}}
+					 {{-- </div>  --}}
 				</div>
 			</div>
 			

@@ -2,8 +2,10 @@
 
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="{{'assets/img/banner_hab_sencilla_plus.jpg'}}"></div>
-    <!-- Page Banner End -->
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_hab_sencilla_plus.jpg') }}" >
+        </div>    <!-- Page Banner End -->
 
     <!-- Room Details Start -->
     <div class="room__details pt-5" style="font-size: 20px;">
@@ -12,9 +14,6 @@
                 <div class="col-xl-12 col-lg-12">
                     <div class="room__details-right">
                         <div class="room__details-right-content">
-                            <div class="page__banner-title pb-4">
-                                <h3>Habitación sencilla plus</h3>
-                            </div>
                            
                             <p class="mb-25 text-center">Disfrute de un toque adicional de modernidad y estilo en nuestras habitaciones sencillas plus. <br>Equipadas con comodidades contemporáneas y una decoración elegante, estas habitaciones son perfectas para aquellos que buscan una experiencia de hospedaje más sofisticada.</p>
 

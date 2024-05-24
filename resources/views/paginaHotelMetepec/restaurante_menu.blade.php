@@ -3,8 +3,10 @@
 
 @section('contenido')
     <!-- Page Banner Start -->
-    <div class="page__banner" data-background="{{'assets/img/home/Restaurante.jpg'}}"></div>
-    <!-- Page Banner End -->
+        <!-- Room Details Start -->
+        <div class="room__details d_padding_banner" >
+            <img src="{{ asset('assets/img/banner/banner_restaurante.jpg') }}" >
+        </div>    <!-- Page Banner End -->
 
     <!-- Room Details Start -->
     <div class="room__details pt-5" style="font-size: 20px;">
