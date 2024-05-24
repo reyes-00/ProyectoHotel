@@ -15,10 +15,7 @@
 	<div class="deluxe__area pt-5">
 		<div class="container">
 			<div class="row align-items-end mb-60">
-				<div class="col-xl-12">
-					<div class="deluxe__area-title text-center">
-						<h2>Nuestra Galeria</h2>
-					</div>					
+				<div class="col-xl-12">				
 				</div>
 				
 			</div>

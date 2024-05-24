@@ -11,10 +11,7 @@
 		<div class="container" >
 			<div class="row pb-5">
 				<div class="col-xl-5 col-lg-5 lg-mb-30">
-					<div class="contact__area-title text-center">
-						<h3 class="mb-25">Contáctanos</h3>
-						
-					</div>
+					
 					<div class="contact__area-info">
 						<div class="contact__area-info-item">
 							<div class="contact__area-info-item-icon">
