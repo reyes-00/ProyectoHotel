@@ -16,7 +16,7 @@
                                 <div class="deluxe__three-item-image">
                                     <img src="{{'assets/img/todas_habitaciones/todas_sencilla.jpg'}}" alt="">
                                     <div class="deluxe__three-item-image-content">
-                                        <h4><a href="room-details.html">Sencilla</a><span>$650/Noche</span></h4>
+                                        <h4>Sencilla<span>$650/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
                                             <ul>
                                                 <li><i class="fal fa-bed-alt"></i>Queen size</li>
@@ -35,7 +35,7 @@
                                 <div class="deluxe__three-item-image">
                                     <img src="{{'assets/img/todas_habitaciones/todas_sencilla_plus.jpg'}}" alt="">
                                     <div class="deluxe__three-item-image-content">
-                                        <h4><a href="room-details.html">Sencilla Plus</a><span>$700/Noche</span></h4>
+                                        <h4>Sencilla Plus<span>$700/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
                                             <ul>
                                                 <li><i class="fal fa-bed-alt"></i>Queen size</li>
@@ -54,7 +54,7 @@
                                 <div class="deluxe__three-item-image">
                                     <img src="{{'assets/img/todas_habitaciones/todas_doble.jpg'}}" alt="">
                                     <div class="deluxe__three-item-image-content">
-                                        <h4><a href="room-details.html">Doble</a><span>$850/Noche</span></h4>
+                                        <h4>Doble<span>$850/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
                                             <ul>
                                                 <li><i class="fal fa-bed-alt"></i>2 Camas matrimoniales</li>
@@ -73,7 +73,7 @@
                                 <div class="deluxe__three-item-image">
                                     <img src="{{'assets/img/todas_habitaciones/todas_doble_plus.jpg'}}" alt="">
                                     <div class="deluxe__three-item-image-content">
-                                        <h4><a href="room-details.html">Doble Plus</a><span>$900/Noche</span></h4>
+                                        <h4>Doble Plus<span>$900/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta ">
                                             <ul>
                                                 <li><i class="fal fa-bed-alt"></i>2 Camas matrimoniales</li>
@@ -92,7 +92,7 @@
                                 <div class="deluxe__three-item-image">
                                     <img src="{{'assets/img/todas_habitaciones/todas_suite.jpg'}}" alt="">
                                     <div class="deluxe__three-item-image-content">
-                                        <h4><a href="room-details.html">Suite</a><span>$770/Noche</span></h4>
+                                        <h4>Suite<span>$770/Noche</span></h4>
                                         <div class="deluxe__three-item-image-content-meta">
                                             <ul>
                                                 <li><i class="fal fa-bed-alt"></i>Queen size</li>
