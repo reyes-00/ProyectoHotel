@@ -1,6 +1,6 @@
 <!-- Header Area Start -->
 <div class="header__sticky">
-    <div class="header__area">
+    <div class="header__area" style="padding: 0 1rem;">
         <div class="container custom__container">
             <div class="header__area-menubar">
                 <div class="header__area-menubar-left">
