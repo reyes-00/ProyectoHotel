@@ -3501,7 +3501,7 @@ Responsive Menu Css
 ========================================================================== */
 .responsive-menu {
   position: absolute;
-  top: 7px;
+  top: 15px;
   right: 0;
   width: 100%;
 }
