@@ -5,7 +5,7 @@
 	<!-- Start Meta -->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="description" content="Hotel Plaza Metepec"/>
+	<meta name="description" content="Hotel Metepec Plaza"/>
 	<meta name="keywords" content="Creative, Digital, multipage, landing, freelancer template"/>
 	<meta name="author" content="ThemeOri">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
