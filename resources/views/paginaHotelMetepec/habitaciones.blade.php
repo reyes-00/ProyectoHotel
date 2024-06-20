@@ -41,6 +41,8 @@
                                             <li><i class="fal fa-users"></i>Max. 2 personas</li>
                                         </ul>
                                     </div>
+<<<<<<< HEAD
+=======
                                 </div>
                             </a>
                         </div>
@@ -165,6 +167,7 @@
         </div>
     
 @endsection
+>>>>>>> 2ea83b25d6e57409032e2a56690c554998ec5a1c
 
                                 </div>
                             </div>
