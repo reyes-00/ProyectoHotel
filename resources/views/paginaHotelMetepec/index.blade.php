@@ -5,11 +5,7 @@
 
     <div class="services__area section-padding ">
         <div class="container" style="font-size:20px;">
-<<<<<<< HEAD
-            <h3 class="text-center ">¡Bienvenido Prueba a nuestro hotel en Metepec!</h3>
-=======
             <h3 class="text-center ">¡Bienvenido a nuestro Hotel en Metepec!</h3>
->>>>>>> 2ea83b25d6e57409032e2a56690c554998ec5a1c
             <div class="row text-center pt-2">
                 
                 <p class="pt-3">Nuestro hotel se enorgullece de su elegante diseño, fusionando la arquitectura contemporánea con toques tradicionales que reflejan la rica cultura e historia de Metepec. Cada detalle, desde nuestras amplias y confortables habitaciones hasta nuestras áreas comunes, está cuidadosamente diseñado para asegurar una estancia placentera y relajante para todos nuestros huéspedes.</p>

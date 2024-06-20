@@ -12,7 +12,7 @@
 	<!-- Title of Site -->
 	<title>Hotel Metepec Plaza</title>
 	<!-- Favicons -->
-	<link rel="icon" type="image/png" href="{{ asset('assets/img/Logo/LogoP.png') }}">
+	<link rel="icon" type="image/png" href="{{ asset('assets/img/logos/logop.png') }}">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 	<!-- Font Awesome CSS -->
