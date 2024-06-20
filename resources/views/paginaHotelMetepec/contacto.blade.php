@@ -19,8 +19,8 @@
 							</div>
 							<div class="contact__area-info-item-content">
 								<span>Telefono</span>
-								<h6><a href="">+52 722 232 42 95</a></h6>
-								<h6><a href="">+52 722 232 42 98</a></h6>
+								<h6><a href="">+52 722 232 42 (96,97,98)</a></h6>
+								<h6><a href="">+52 722 232 42 4242</a></h6>
 							</div>
 						</div>
 						<div class="contact__area-info-item">
