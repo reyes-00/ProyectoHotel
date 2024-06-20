@@ -2,7 +2,7 @@
 @section('contenido')
 <!-- Page Banner Start -->
 <div class="room__details d_padding_banner" >
-    <img src="{{ asset('assets/img/banner/banner_habitaciones.jpg') }}" >
+    <img src="{{ asset('assets/img/banner/pruebadeimagen.jpg') }}" >
 </div>	<!-- Page Banner End -->
 <!-- Page Banner End -->
 			<!-- Modern Room Area Start -->
