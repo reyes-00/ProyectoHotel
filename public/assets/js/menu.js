@@ -318,22 +318,6 @@ $( document ).ready(function() {
             ]
         }
         ,{
-            nomGeneral: 'BEBIDAS', 
-            nomClass: 'bebida', 
-            descripPlatillo:[
-                ['AGUA EMBOTELLADA','$ 20.00','500 ml'],	
-                ['AGUA EMBOTELLADA','$ 30.00','1 lt'],
-                ['REFRESCO','$ 35.00',''],
-                ['NARANJADA','$ 40.00',''],
-                ['LIMONADA','$ 40.00',''],
-                ['JARRA DE NARANJADA O LIMONADA GRANDE','$ 100.00','2 litros'],	
-                ['JARRA DE NARANJADA O LIMONADA CHICA','$ 70.00','1 litro'],
-                ['JARRA DE AGUA DE FRUTA GRANDE','$ 100.00','2 litros'],	
-                ['JARRA DE AGUA DE FRUTA CHICA','$ 70.00','1 litro'],
-                ['JARRA DE CLERICOT','$ 240.00','2 lt/375 ml de vino tinto'],
-            ]
-        }
-        ,{
             nomGeneral: 'CERVEZAS', 
             nomClass: 'bebida', 
             descripPlatillo:[
@@ -359,7 +343,7 @@ $( document ).ready(function() {
             ]
         }
         ,{
-            nomGeneral: 'MÉXICO', 
+            nomGeneral: 'VINOS DE MÉXICO', 
             nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['PEDRO DOMEQ XA','$ 160.00','VALLE DE CALAFIA B.C./Tipo de uva: Cabernet Sauvignon y Grenache/Botella de 375 ml'],
@@ -367,7 +351,7 @@ $( document ).ready(function() {
             ]
         }
         ,{
-            nomGeneral: 'ESPAÑA', 
+            nomGeneral: 'VINOS DE ESPAÑA', 
             nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['SANGRE DE TORO','$ 240.00','RESERVA/D.O. CATALUÑA/Tipo de uva: Garnacha Tinta y Cariñena/Botella de 375 ml'],
@@ -377,7 +361,7 @@ $( document ).ready(function() {
             ]
         }
         ,{
-            nomGeneral: 'CHILE', 
+            nomGeneral: 'VINOS DE CHILE', 
             nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['RESERVADO CONCHA Y TORO','$ 160.00','VALLE CENTRAL/Tipo de uva: Cabernet Sauvignon y Carmenere/Botella de 375 ml'],
@@ -387,7 +371,7 @@ $( document ).ready(function() {
             ]
         }
         ,{
-            nomGeneral: 'ARGENTINA', 
+            nomGeneral: 'VINOS DE ARGENTINA', 
             nomClass: 'vinotinto', 
             descripPlatillo:[
                 ['FINCA LAS MORAS','$ 300.00','CRIANZA/VALLE DEL PEDERNAL/Tipo de uva: Malbec Botella de 750 ml'],
@@ -395,7 +379,7 @@ $( document ).ready(function() {
             ]
         }
         ,{
-            nomGeneral: 'BLANCOS', 
+            nomGeneral: 'VINOS BLANCOS', 
             nomClass: 'vino', 
             descripPlatillo:[
                 ['DIAMANTE','$ 340.00','VINO SEMIDULCE<br>D.O. RIOJA/Tipo de uva: Viura y Malvasía<br>Botella de 750 ml'],
@@ -404,7 +388,7 @@ $( document ).ready(function() {
             ]
         }
         ,{
-            nomGeneral: 'TINTOS', 
+            nomGeneral: 'VINOS TINTOS', 
             nomClass: 'vino', 
             descripPlatillo:[
                 ['LA REDONDA TINTO RUBY','$ 250.00','VINO DE MESA DULCE<br>EZEQUIEL MONTES QRO. MEXICO<br>Botella de 750 ml'],

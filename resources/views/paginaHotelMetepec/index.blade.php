@@ -5,7 +5,7 @@
 
     <div class="services__area section-padding ">
         <div class="container" style="font-size:20px;">
-            <h3 class="text-center ">¡Bienvenido a nuestro hotel en Metepec!</h3>
+            <h3 class="text-center ">¡Bienvenido a nuestro Hotel en Metepec!</h3>
             <div class="row text-center pt-2">
                 
                 <p class="pt-3">Nuestro hotel se enorgullece de su elegante diseño, fusionando la arquitectura contemporánea con toques tradicionales que reflejan la rica cultura e historia de Metepec. Cada detalle, desde nuestras amplias y confortables habitaciones hasta nuestras áreas comunes, está cuidadosamente diseñado para asegurar una estancia placentera y relajante para todos nuestros huéspedes.</p>
@@ -120,7 +120,7 @@
                         <div class="feature__area-center-title text-center">
                             {{-- <span class="subtitle__one"></span> --}}
                             <h2>RESTAURANTE<br> LOS CANDILES</h2>
-                            <p class="text-align-justify p-2">Ya sea que estés buscando una cena, una comida de negocios o simplemente quieras disfrutar de un rapido desayuno, en el Restaurante los Candiles encontrarás el lugar perfecto. Además, nuestra carta de vinos cuidadosamente seleccionada complementará a la perfección cada bocado. </p>
+                            <p class="text-align-justify p-2">Ya sea que estés buscando una cena, una comida de negocios o simplemente quieras disfrutar de un rapido desayuno, en el Restaurante los Candiles encontrarás el lugar perfecto. Además, nuestra carta de vinos complementará a la perfección cada bocado. </p>
                             <a class="theme-border-btn" href="{{ route('restaurante') }}">Leer mas<i
                                     class="fal fa-long-arrow-right"></i></a>
                         </div>

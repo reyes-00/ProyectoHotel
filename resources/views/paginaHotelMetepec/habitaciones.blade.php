@@ -60,7 +60,7 @@
                                         <div class="deluxe__three-item-image-content-meta">
                                             <ul>
                                                 <li><i class="fal fa-bed-alt"></i>2 Camas matrimoniales</li>
-                                                <li><i class="fal fa-users"></i>Max. 5 personas</li>
+                                                <li><i class="fal fa-users"></i>Max. 4 personas</li>
                                             </ul>
                                         </div>
                                         

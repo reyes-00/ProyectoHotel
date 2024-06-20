@@ -60,7 +60,7 @@
 										</div>
 										<div class="footer__area-widget-contact-item-content">									
 											<a href="tel:+123(458)585568">
-												+52 722 232 42 95 <br>
+												+52 722 232 42 (96,97,98) <br>
 												+52 722 232 42 98</a>
 										</div>
 									
