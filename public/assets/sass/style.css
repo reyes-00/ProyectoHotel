@@ -3614,7 +3614,8 @@ Responsive Menu Css
 
 @media (max-width: 991px) {
   .d_padding_banner{
-    padding-top:5.8rem !important; 
+    padding-top:5.8rem !important; /*Cambio aqui */
+
   }
   .header__area {
     padding: 0 40px;
