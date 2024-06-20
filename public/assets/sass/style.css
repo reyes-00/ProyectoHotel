@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6,a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%; /*max-width: 100%;*/
   height: auto;
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
@@ -3614,7 +3614,7 @@ Responsive Menu Css
 
 @media (max-width: 991px) {
   .d_padding_banner{
-    padding-top: 8.3rem !important; 
+    padding-top:5.8rem !important; 
   }
   .header__area {
     padding: 0 40px;
