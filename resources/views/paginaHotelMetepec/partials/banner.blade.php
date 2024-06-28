@@ -1,4 +1,4 @@
-<style>
+{{-- <style>
   video {
     position: absolute;
     top: 0;
@@ -38,7 +38,7 @@
     border: none;
     cursor: pointer;
   }
-</style>
+</style> --}}
 
 <div class="banner__area">
   <div class="container-fluid">
