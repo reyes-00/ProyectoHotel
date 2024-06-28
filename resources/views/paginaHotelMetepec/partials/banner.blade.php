@@ -1,5 +1,5 @@
 <style>
-  video{
+  video {
     position: absolute;
     top: 0;
     left: 0;
@@ -8,35 +8,36 @@
     object-fit: cover;
   }
 
-  .capa{
+  .capa {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #1c1c1d
+    background: #1c1c1d;
     opacity: 0.5;
     mix-blend-mode: overlay;
   }
-  .video-container {
-  position: fixed;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: 80%;
-  background: black;
-  z-index: 9999;
-}
 
-#close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: white;
-  color: black;
-  border: none;
-  cursor: pointer;
-}
+  .video-container {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: black;
+    z-index: 9999;
+  }
+
+  #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
 </style>
 
 <div class="banner__area">
@@ -50,11 +51,11 @@
             <a class="video-popup d-block mx-auto" href="#"><i class="fas fa-play "></i></a>
           </div>
           <video muted autoplay loop>
-            <source src="{{ asset('assets/video/videoBannerHome.webm') }}" type="video/webm">
             <source src="{{ asset('assets/video/videoBannerHome.mp4') }}" type="video/mp4">
             <source src="{{ asset('assets/video/videoBannerHome.mov') }}" type="video/quicktime">
+            <source src="{{ asset('assets/video/videoBannerHome.webm') }}" type="video/webm">
             Tu navegador no soporta el elemento de video.
-          </video>
+          </video>          
           <div class="capa"></div>
         </div>
       </div>
@@ -64,19 +65,17 @@
 
 <script>
   document.querySelector('.video-popup').addEventListener('click', function(e) {
-  e.preventDefault();
-  var video = document.querySelector('video');
+    e.preventDefault();
+    var video = document.querySelector('video');
   
-  if (video.requestFullscreen) {
-    video.requestFullscreen();
-  } else if (video.mozRequestFullScreen) {
-    video.mozRequestFullScreen();
-  } else if (video.webkitRequestFullscreen) {
-    video.webkitRequestFullscreen();
-  } else if (video.msRequestFullscreen) {
-    video.msRequestFullscreen();
-  }
-});
-
-
+    if (video.requestFullscreen) {
+      video.requestFullscreen();
+    } else if (video.mozRequestFullScreen) {
+      video.mozRequestFullScreen();
+    } else if (video.webkitRequestFullscreen) {
+      video.webkitRequestFullscreen();
+    } else if (video.msRequestFullscreen) {
+      video.msRequestFullscreen();
+    }
+  });
 </script>
