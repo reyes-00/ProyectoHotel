@@ -6,14 +6,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Prefijos para compatibilidad con navegadores antiguos */
+    
     -webkit-object-fit: cover;
     -moz-object-fit: cover;
     -ms-object-fit: cover;
     -o-object-fit: cover;
   }
 
-  .capa {
+  /* .capa {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,14 +22,14 @@
     background: #1c1c1d;
     opacity: 0.5;
     mix-blend-mode: overlay;
-    /* Prefijos para compatibilidad con navegadores antiguos */
+   
     -webkit-mix-blend-mode: overlay;
     -moz-mix-blend-mode: overlay;
     -ms-mix-blend-mode: overlay;
     -o-mix-blend-mode: overlay;
-  }
+  } */
 
-  .video-container {
+  /* .video-container {
     position: fixed;
     top: 10%;
     left: 10%;
@@ -37,8 +37,8 @@
     height: 80%;
     background: black;
     z-index: 9999;
-    overflow: hidden; /* Asegura que el video no se salga del contenedor */
-  }
+    overflow: hidden; 
+  } */
 
   #close-btn {
     position: absolute;
