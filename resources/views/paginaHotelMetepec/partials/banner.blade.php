@@ -1,4 +1,4 @@
-{{-- <style>
+<style>
   video {
     position: absolute;
     top: 0;
@@ -6,6 +6,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* Prefijos para compatibilidad con navegadores antiguos */
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -ms-object-fit: cover;
+    -o-object-fit: cover;
   }
 
   .capa {
@@ -17,6 +22,11 @@
     background: #1c1c1d;
     opacity: 0.5;
     mix-blend-mode: overlay;
+    /* Prefijos para compatibilidad con navegadores antiguos */
+    -webkit-mix-blend-mode: overlay;
+    -moz-mix-blend-mode: overlay;
+    -ms-mix-blend-mode: overlay;
+    -o-mix-blend-mode: overlay;
   }
 
   .video-container {
@@ -27,6 +37,7 @@
     height: 80%;
     background: black;
     z-index: 9999;
+    overflow: hidden; /* Asegura que el video no se salga del contenedor */
   }
 
   #close-btn {
@@ -37,8 +48,16 @@
     color: black;
     border: none;
     cursor: pointer;
+    padding: 10px; /* Aumenta el tamaño para mejor accesibilidad */
+    font-size: 16px; /* Aumenta el tamaño del texto para mejor accesibilidad */
   }
-</style> --}}
+
+  /* Estilos adicionales para mejor compatibilidad y accesibilidad */
+  #close-btn:focus {
+    outline: 2px solid #000;
+  }
+</style>
+
 
 <div class="banner__area">
   <div class="container-fluid">
