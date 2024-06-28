@@ -39,9 +39,9 @@
 }
 </style>
 
-<div class="" >
-  <div class="container">
-    <div class="">
+<div class="banner__area" >
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-xl-12" style="display: flex; justify-content:center;">
         <div class="banner__area-title">
           {{-- <h1 style="position: relative; z-index:2;">{{ __('Hotel Metepec Plaza') }}</h1> --}}
@@ -61,21 +61,3 @@
 
 </div>
 
-<script>
-  document.querySelector('.video-popup').addEventListener('click', function(e) {
-  e.preventDefault();
-  var video = document.querySelector('video');
-  
-  if (video.requestFullscreen) {
-    video.requestFullscreen();
-  } else if (video.mozRequestFullScreen) {
-    video.mozRequestFullScreen();
-  } else if (video.webkitRequestFullscreen) {
-    video.webkitRequestFullscreen();
-  } else if (video.msRequestFullscreen) {
-    video.msRequestFullscreen();
-  }
-});
-
-
-</script>
